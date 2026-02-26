@@ -1,0 +1,41 @@
+{
+  "scriptText": "Geographic Presence",
+  "subtitle": "GULF & EAST AFRICA",
+  "mainTitle": "Regional Presence",
+  "viewAllText": "",
+  "readMoreText": "",
+  "articles": [
+    {
+      "id": 1,
+      "image": "/images/region-gulf.jpg",
+      "title": "United Arab Emirates (Head Office)",
+      "excerpt": "Dubai serves as PAG's head office and strategic coordination point for cross-border business development.",
+      "date": "Head Office",
+      "category": "UAE"
+    },
+    {
+      "id": 2,
+      "image": "/images/region-east-africa.jpg",
+      "title": "Djibouti",
+      "excerpt": "Djibouti supports PAG's regional access and coordination across East Africa trade and mobility corridors.",
+      "date": "Operating Presence",
+      "category": "Djibouti"
+    },
+    {
+      "id": 3,
+      "image": "/images/region-coordination.jpg",
+      "title": "Ethiopia",
+      "excerpt": "PAG maintains office presence in Ethiopia to support local coordination and partner engagement.",
+      "date": "Office Presence",
+      "category": "Ethiopia"
+    },
+    {
+      "id": 4,
+      "image": "/images/region-network.jpg",
+      "title": "East Africa & Gulf Trade Corridors",
+      "excerpt": "PAG operates across the East Africa and Gulf corridor, linking international partners with regional institutions and local operators.",
+      "date": "Regional Corridor",
+      "category": "Cross-Border"
+    }
+  ]
+}

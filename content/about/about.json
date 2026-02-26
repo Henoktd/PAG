@@ -1,0 +1,59 @@
+{
+  "scriptText": "Who We Are",
+  "subtitle": "INSTITUTIONAL IDENTITY",
+  "mainTitle": "About Pan Africa Group",
+  "introText": "Pan Africa Group LLC (PAG) is a Dubai-based cross-border business development and market enablement platform active across the Gulf and East Africa. We connect international partners, regional institutions, and local operators to open and advance real commercial opportunities.",
+  "timeline": [
+    { "year": "DUBAI", "event": "Head office and cross-border coordination base" },
+    { "year": "DJIBOUTI", "event": "Regional operating presence and corridor interface" },
+    { "year": "ETHIOPIA", "event": "Office presence supporting local market coordination" },
+    { "year": "TODAY", "event": "Active platform across Gulf and East Africa trade corridors" }
+  ],
+  "tabs": [
+    {
+      "id": "identity",
+      "name": "Legal Identity",
+      "icon": "History",
+      "image": "/images/about-identity.jpg",
+      "content": {
+        "title": "Flexible Commercial Platform",
+        "description": "PAG does not sit inside one product line or one industry vertical. We operate as a flexible platform that identifies opportunity, aligns stakeholders, and supports delivery through structured collaboration.",
+        "highlight": "Built to connect markets, not sell a single product"
+      }
+    },
+    {
+      "id": "positioning",
+      "name": "Non-Positioning",
+      "icon": "BookOpen",
+      "image": "/images/about-positioning.jpg",
+      "content": {
+        "title": "How PAG Creates Value",
+        "description": "We help partners enter markets, structure partnerships, coordinate sourcing pathways, and move opportunities from concept to coordinated action where local context matters.",
+        "highlight": "Entry strategy, alignment, and execution support"
+      }
+    },
+    {
+      "id": "approach",
+      "name": "Mandate Approach",
+      "icon": "Award",
+      "image": "/images/about-approach.jpg",
+      "content": {
+        "title": "Cross-Border Operating Approach",
+        "description": "Our team works across institutions and operators to keep commercial mandates practical, coordinated, and locally grounded.",
+        "highlight": "Bridge between international ambition and local execution"
+      }
+    }
+  ],
+  "openingHours": "Institutional and Commercial Engagement by Appointment",
+  "openingHoursLabel": "Engagement Window",
+  "ctaButtonText": "Review Operating Model",
+  "yearBadge": "UAE",
+  "yearBadgeLabel": "Corporate Base",
+  "quote": {
+    "prefix": "Our Role",
+    "text": "PAG connects the right partners, structures the right pathway, and helps move complex cross-border opportunities forward.",
+    "attribution": "Pan Africa Group"
+  },
+  "founderPhotoAlt": "Institutional governance and coordination session",
+  "founderPhoto": "/images/about-photo.jpg"
+}

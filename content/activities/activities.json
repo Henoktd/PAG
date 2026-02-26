@@ -1,0 +1,71 @@
+{
+  "scriptText": "Core Activities",
+  "subtitle": "",
+  "mainTitle": "How We Support Cross-Border Growth",
+  "wines": [
+    {
+      "id": "market-entry",
+      "name": "Market Entry",
+      "subtitle": "& Partnership Structuring",
+      "year": "01",
+      "image": "/images/activity-project.jpg",
+      "filter": "",
+      "glowColor": "bg-amber-900/20",
+      "description": "We help international and regional players enter new markets with the right local structure, partner model, and coordination path.",
+      "tastingNotes": "Entry planning, stakeholder mapping, and partnership structure design.",
+      "alcohol": "Gulf",
+      "temperature": "East Africa",
+      "aging": "Cross-Border"
+    },
+    {
+      "id": "trade-sourcing",
+      "name": "Strategic Trade",
+      "subtitle": "& Cross-Border Sourcing",
+      "year": "02",
+      "image": "/images/activity-sourcing.jpg",
+      "filter": "brightness(1.1) sepia(0.2)",
+      "glowColor": "bg-blue-900/20",
+      "description": "We coordinate sourcing pathways across borders by aligning suppliers, local operators, and institutional requirements.",
+      "tastingNotes": "Supplier coordination, pathway design, and transaction support.",
+      "alcohol": "Trade",
+      "temperature": "Sourcing",
+      "aging": "Coordination"
+    },
+    {
+      "id": "opportunity-development",
+      "name": "Opportunity Development",
+      "subtitle": "& Mandate Coordination",
+      "year": "03",
+      "image": "/images/activity-partnership.jpg",
+      "filter": "brightness(1.05) sepia(0.15)",
+      "glowColor": "bg-emerald-900/20",
+      "description": "We identify commercial opportunities, align the right stakeholders, and help coordinate execution support where regional context matters.",
+      "tastingNotes": "Mandate development, stakeholder alignment, and regional network enablement.",
+      "alcohol": "Opportunity",
+      "temperature": "Partnership",
+      "aging": "Delivery Support"
+    }
+  ],
+  "features": [
+    {
+      "icon": "Sparkles",
+      "title": "Market Enablement",
+      "description": "Practical support for partners entering and operating across new regional markets"
+    },
+    {
+      "icon": "Wine",
+      "title": "Cross-Border Coordination",
+      "description": "Alignment between international suppliers, institutions, and local operators"
+    },
+    {
+      "icon": "Clock",
+      "title": "Regional Network Access",
+      "description": "Built relationships across Gulf and East Africa trade and commercial corridors"
+    }
+  ],
+  "quote": {
+    "text": "PAG works as a bridge between markets, helping partners move from opportunity to coordinated action.",
+    "attribution": "Pan Africa Group",
+    "prefix": "Operating Principle"
+  }
+}

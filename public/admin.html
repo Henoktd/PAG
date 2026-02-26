@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pan Africa Group - Content Manager</title>
+  <link rel="stylesheet" href="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.css">
+  <style>
+    :root {
+      --pag-gold: #d2a855;
+      --pag-wine: #1a0f1a;
+    }
+    .nc-appHeader {
+      background: var(--pag-wine) !important;
+    }
+    .nc-appHeader-logo {
+      color: var(--pag-gold) !important;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // CMS Configuration embedded directly
+    window.CMS_MANUAL_INIT = true;
+    
+    const config = {
+      backend: {
+        name: 'git-gateway',
+        branch: 'main'
+      },
+      media_folder: 'public/images/uploads',
+      public_folder: '/images/uploads',
+      site_url: 'https://vxof466rdremy.ok.kimi.link',
+      
+      collections: [
+        {
+          name: 'hero',
+          label: 'Hero Section',
+          folder: 'content/hero',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'hero',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' },
+            { name: 'ctaButtonText', label: 'CTA Button Text', widget: 'string' },
+            { name: 'decorativeText', label: 'Decorative Text', widget: 'string' },
+            { name: 'backgroundImage', label: 'Background Image', widget: 'image' },
+            { 
+              name: 'stats', 
+              label: 'Statistics', 
+              widget: 'list',
+              fields: [
+                { name: 'value', label: 'Value', widget: 'number' },
+                { name: 'suffix', label: 'Suffix', widget: 'string' },
+                { name: 'label', label: 'Label', widget: 'string' }
+              ]
+            }
+          ]
+        },
+        {
+          name: 'about',
+          label: 'About Section',
+          folder: 'content/about',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'about',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' },
+            { name: 'introText', label: 'Introduction', widget: 'text' },
+            { name: 'ctaButtonText', label: 'CTA Button Text', widget: 'string' },
+            { name: 'yearBadge', label: 'Year Badge', widget: 'string' },
+            { name: 'yearBadgeLabel', label: 'Year Badge Label', widget: 'string' },
+            { name: 'founderPhoto', label: 'Featured Image', widget: 'image' }
+          ]
+        },
+        {
+          name: 'activities',
+          label: 'Activity Domains',
+          folder: 'content/activities',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'activities',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' }
+          ]
+        },
+        {
+          name: 'model',
+          label: 'Operating Model',
+          folder: 'content/model',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'operating-model',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' },
+            { name: 'locationTag', label: 'Location Tag', widget: 'string' }
+          ]
+        },
+        {
+          name: 'presence',
+          label: 'Regional Presence',
+          folder: 'content/presence',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'regional-presence',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' },
+            { name: 'viewAllText', label: 'View All Button', widget: 'string' }
+          ]
+        },
+        {
+          name: 'partners',
+          label: 'Operating Partners',
+          folder: 'content/partners',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'partners',
+          fields: [
+            { name: 'testimonialsScriptText', label: 'Script Text', widget: 'string' },
+            { name: 'testimonialsSubtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'testimonialsMainTitle', label: 'Main Title', widget: 'string' }
+          ]
+        },
+        {
+          name: 'governance',
+          label: 'Governance Alignment',
+          folder: 'content/governance',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'governance',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'storyTitle', label: 'Section Title', widget: 'string' },
+            { name: 'storyImage', label: 'Section Image', widget: 'image' }
+          ]
+        },
+        {
+          name: 'contact',
+          label: 'Contact Section',
+          folder: 'content/contact',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'contact',
+          fields: [
+            { name: 'scriptText', label: 'Script Text', widget: 'string' },
+            { name: 'subtitle', label: 'Subtitle', widget: 'string' },
+            { name: 'mainTitle', label: 'Main Title', widget: 'string' },
+            { name: 'introText', label: 'Introduction', widget: 'text' },
+            { name: 'contactInfoTitle', label: 'Contact Info Title', widget: 'string' },
+            { name: 'privacyNotice', label: 'Privacy Notice', widget: 'text' }
+          ]
+        },
+        {
+          name: 'footer',
+          label: 'Footer',
+          folder: 'content/footer',
+          extension: 'json',
+          format: 'json',
+          create: false,
+          slug: 'footer',
+          fields: [
+            { name: 'brandName', label: 'Brand Name', widget: 'string' },
+            { name: 'tagline', label: 'Tagline', widget: 'string' },
+            { name: 'description', label: 'Description', widget: 'text' },
+            { name: 'copyrightText', label: 'Copyright Text', widget: 'string' },
+            { name: 'icpText', label: 'Parent Company Text', widget: 'string' }
+          ]
+        }
+      ]
+    };
+    
+    CMS.init({ config });
+  </script>
+</body>
+</html>

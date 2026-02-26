@@ -1,0 +1,48 @@
+{
+  "scriptText": "How We Work",
+  "subtitle": "OPERATING MODEL SEQUENCE",
+  "mainTitle": "Operating Model",
+  "locationTag": "Cross-Border Governance Layer",
+  "slides": [
+    {
+      "image": "/images/model-origination.jpg",
+      "title": "Mandate Identification",
+      "subtitle": "Step One",
+      "area": "01",
+      "unit": "",
+      "description": "Institutional opportunities are identified and screened for legal and governance suitability."
+    },
+    {
+      "image": "/images/model-sourcing.jpg",
+      "title": "Supplier Structuring",
+      "subtitle": "Step Two",
+      "area": "02",
+      "unit": "",
+      "description": "International suppliers are evaluated for capability, compliance, and enforceable participation."
+    },
+    {
+      "image": "/images/model-structuring.jpg",
+      "title": "Contract Framework Design",
+      "subtitle": "Step Three",
+      "area": "03",
+      "unit": "",
+      "description": "PAG structures multi-jurisdiction contracts with clear obligations and risk controls."
+    },
+    {
+      "image": "/images/model-framework.jpg",
+      "title": "Independent Operator Engagement",
+      "subtitle": "Step Four",
+      "area": "04",
+      "unit": "",
+      "description": "Independent local operating partners are engaged under mandate-specific authorization."
+    },
+    {
+      "image": "/images/model-governance.jpg",
+      "title": "Governance-Bounded Oversight",
+      "subtitle": "Step Five",
+      "area": "05",
+      "unit": "",
+      "description": "PAG maintains structural oversight while execution entities manage delivery responsibilities."
+    }
+  ]
+}

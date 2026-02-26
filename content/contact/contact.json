@@ -1,0 +1,52 @@
+{
+  "scriptText": "Institutional Engagement",
+  "subtitle": "STRUCTURED MANDATE INQUIRIES",
+  "mainTitle": "Contact Pan Africa Group",
+  "introText": "For partnership discussions, market entry collaboration, sourcing pathways, or cross-border commercial opportunities, contact our team.",
+  "contactInfoTitle": "Corporate Contact",
+  "contactInfo": [
+    {
+      "icon": "MapPin",
+      "label": "Headquarters",
+      "value": "Dubai, UAE",
+      "subtext": "Pan Africa Group (PAG)"
+    },
+    {
+      "icon": "MapPin",
+      "label": "Offices",
+      "value": "Addis Ababa, Ethiopia | Djibouti",
+      "subtext": "Regional operating offices"
+    },
+    {
+      "icon": "Phone",
+      "label": "Phone",
+      "value": "+971504390182",
+      "subtext": "Institutional inquiries only"
+    },
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "value": "info@pag-global.com",
+      "subtext": "Response window: within 48 business hours"
+    }
+  ],
+  "form": {
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Work Email",
+    "emailPlaceholder": "name@organization.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+country code",
+    "visitDateLabel": "Preferred Meeting Date",
+    "visitorsLabel": "Inquiry Category",
+    "visitorsOptions": ["Market Entry", "Partnership", "Trade & Sourcing", "Opportunity Development", "Other"],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us what you're trying to achieve and which market(s) you are targeting.",
+    "submitText": "Submit Inquiry",
+    "submittingText": "Submitting...",
+    "successMessage": "Your inquiry has been submitted. Our team will respond within 48 business hours.",
+    "errorMessage": "Submission failed. Please try again or contact us directly by email."
+  },
+  "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information in accordance with applicable data protection requirements.",
+  "formEndpoint": "mailto:info@pag-global.com"
+}

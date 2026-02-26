@@ -1,0 +1,21 @@
+{
+  "scriptText": "Governance",
+  "subtitle": "GROUP-ALIGNED OVERSIGHT",
+  "storyTitle": "Governance Alignment",
+  "storyParagraphs": [
+    "PAG operates within a structured governance ecosystem aligned with group-level corporate doctrine and applicable regulatory frameworks in its jurisdictions of incorporation and operation.",
+    "This governance model supports delegation discipline, risk control, compliance oversight, and financial accountability while preserving clear separation between structuring authority and execution responsibility."
+  ],
+  "storyTimeline": [
+    { "value": "UAE", "label": "Incorporation Base" },
+    { "value": "DJI", "label": "Operating Presence" },
+    { "value": "100%", "label": "Governance-Aligned" }
+  ],
+  "storyQuote": {
+    "prefix": "Governance Principle",
+    "text": "Institutional credibility is built on enforceable structure, clear accountability boundaries, and disciplined oversight.",
+    "attribution": "Pan Africa Group"
+  },
+  "storyImage": "/images/governance-meeting.jpg",
+  "storyImageCaption": "Institutional governance oversight session"
+}

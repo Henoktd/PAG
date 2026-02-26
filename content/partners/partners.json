@@ -1,0 +1,25 @@
+{
+  "testimonialsScriptText": "Partner Ecosystem",
+  "testimonialsSubtitle": "INDEPENDENT OPERATING PARTNERS",
+  "testimonialsMainTitle": "Execution Partner Framework",
+  "testimonials": [
+    {
+      "name": "Mandate-Specific Operators",
+      "role": "Independent Local Execution Partners",
+      "text": "Where local delivery is required, PAG engages independent operators under clear scope, regulatory, and lifecycle accountability definitions.",
+      "rating": 5
+    },
+    {
+      "name": "Institutional Counterparties",
+      "role": "Government and Capital Stakeholders",
+      "text": "PAG provides a disciplined structuring layer that aligns multi-party obligations before execution begins.",
+      "rating": 5
+    },
+    {
+      "name": "International Suppliers",
+      "role": "Global Commercial Counterparties",
+      "text": "Supplier participation is framed through enforceable architecture that protects mandate integrity across jurisdictions.",
+      "rating": 5
+    }
+  ]
+}

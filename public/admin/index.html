@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pan Africa Group - Content Manager</title>
+  <link rel="stylesheet" href="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.css">
+  <style>
+    /* Custom styling for PAG branding */
+    :root {
+      --pag-gold: #d2a855;
+      --pag-wine: #1a0f1a;
+    }
+    
+    .nc-appHeader {
+      background: var(--pag-wine) !important;
+    }
+    
+    .nc-appHeader-logo {
+      color: var(--pag-gold) !important;
+    }
+    
+    .nc-entryEditor-container {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Initialize CMS
+    CMS.init();
+
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
