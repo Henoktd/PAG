@@ -4,21 +4,21 @@ export function News() {
   if (!newsConfig.mainTitle) return null;
 
   return (
-    <section id="presence" className="section-padding bg-slate-50 border-y border-slate-200">
+    <section id="presence" className="mq-section mq-inner-section bg-slate-50 border-y border-slate-200">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <span className="font-sans text-sm text-gold-700 uppercase tracking-[0.2em] mb-3 block">
+          <span className="mq-kicker">
             {newsConfig.subtitle}
           </span>
-          <h2 className="font-sans text-h2 text-slate-900 mb-3">{newsConfig.mainTitle}</h2>
-          <p className="text-slate-600 max-w-2xl mx-auto">
+          <h2 className="mq-title mb-3">{newsConfig.mainTitle}</h2>
+          <p className="mq-copy max-w-2xl mx-auto">
             Focused geographic and institutional footprint across defined jurisdictions.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {newsConfig.articles.map((item) => (
-            <article key={item.id} className="bg-white border border-slate-200 rounded-lg overflow-hidden">
+            <article key={item.id} className="mq-card overflow-hidden p-0">
               <img src={item.image} alt={item.title} className="w-full h-44 object-cover" loading="lazy" />
               <div className="p-5">
                 <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{item.category}</p>

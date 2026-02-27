@@ -1,48 +1,48 @@
 {
-  "scriptText": "How We Work",
-  "subtitle": "OPERATING MODEL SEQUENCE",
+  "scriptText": "Cross-Border Governance Layer",
+  "subtitle": "OPERATING MODEL",
   "mainTitle": "Operating Model",
   "locationTag": "Cross-Border Governance Layer",
   "slides": [
     {
-      "image": "/images/model-origination.jpg",
-      "title": "Mandate Identification",
-      "subtitle": "Step One",
+      "image": "/images/pag-1.png",
+      "title": "Step 01 - Mandate Identification",
+      "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Institutional opportunities are identified and screened for legal and governance suitability."
+      "description": "Institutional and commercial opportunities are screened for structural suitability, regulatory viability, and stakeholder alignment."
     },
     {
-      "image": "/images/model-sourcing.jpg",
-      "title": "Supplier Structuring",
-      "subtitle": "Step Two",
+      "image": "/images/pag-2.png",
+      "title": "Step 02 - Supplier & Partner Structuring",
+      "subtitle": "",
       "area": "02",
       "unit": "",
-      "description": "International suppliers are evaluated for capability, compliance, and enforceable participation."
+      "description": "International suppliers and local operators are evaluated for capability, compliance alignment, and enforceable participation within structured frameworks."
     },
     {
-      "image": "/images/model-structuring.jpg",
-      "title": "Contract Framework Design",
-      "subtitle": "Step Three",
+      "image": "/images/pag-3.png",
+      "title": "Step 03 - Contract Framework Design",
+      "subtitle": "",
       "area": "03",
       "unit": "",
-      "description": "PAG structures multi-jurisdiction contracts with clear obligations and risk controls."
+      "description": "Multi-jurisdiction commercial frameworks are structured with defined scope, performance expectations, risk allocation, and governance boundaries."
     },
     {
-      "image": "/images/model-framework.jpg",
-      "title": "Independent Operator Engagement",
-      "subtitle": "Step Four",
+      "image": "/images/pag-4.png",
+      "title": "Step 04 - Independent Operator Engagement",
+      "subtitle": "",
       "area": "04",
       "unit": "",
-      "description": "Independent local operating partners are engaged under mandate-specific authorization."
+      "description": "Where local execution is required, independent operating partners are engaged under mandate-specific authorization. PAG does not substitute execution accountability but supports structural coordination."
     },
     {
-      "image": "/images/model-governance.jpg",
-      "title": "Governance-Bounded Oversight",
-      "subtitle": "Step Five",
+      "image": "/images/pag-5.png",
+      "title": "Step 05 - Governance-Bounded Oversight",
+      "subtitle": "",
       "area": "05",
       "unit": "",
-      "description": "PAG maintains structural oversight while execution entities manage delivery responsibilities."
+      "description": "PAG maintains oversight within its defined contractual perimeter while designated operators manage delivery responsibilities."
     }
   ]
 }

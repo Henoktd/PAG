@@ -28,16 +28,20 @@
 
 @layer base {
   :root {
-    /* Brand color palette - Gold */
-    --gold-900: #2a2211;
-    --gold-800: #544322;
-    --gold-700: #7e6533;
-    --gold-600: #a88644;
-    --gold-500: #d2a855;
-    --gold-400: #dbb977;
-    --gold-300: #e4cb99;
-    --gold-200: #eddcbb;
-    --gold-100: #f6eedd;
+    /* PAG brand colors */
+    --gold-900: #232c62;
+    --gold-800: #2b3679;
+    --gold-700: #313f8d;
+    --gold-600: #364296;
+    --gold-500: #38469d; /* Primary */
+    --gold-400: #6370b5;
+    --gold-300: #8e98ce;
+    --gold-200: #b9c1e6;
+    --gold-100: #e3e7f6;
+
+    --brand-accent: #f39d4c; /* Accent */
+    --brand-neutral-dark: #5c5d5f;
+    --brand-neutral-light: #b0b2b5;
 
     /* Neutral color palette */
     --gray-900: #070707;
@@ -64,19 +68,19 @@
     --card-foreground: 220 30% 15%;
     --popover: 0 0% 5%;
     --popover-foreground: 0 0% 100%;
-    --primary: 41 54% 58%;
+    --primary: 229 48% 42%;
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 9%;
     --secondary-foreground: 0 0% 100%;
     --muted: 0 0% 14%;
     --muted-foreground: 0 0% 65%;
-    --accent: 41 54% 58%;
+    --accent: 31 87% 63%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 79% 44%;
     --destructive-foreground: 0 0% 100%;
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 41 54% 58%;
+    --ring: 229 48% 42%;
     --radius: 0.375rem;
   }
 }
@@ -102,6 +106,10 @@
     font-weight: 700;
   }
 
+  h1 {
+    color: #38469d;
+  }
+
   .font-serif {
     font-family: 'Exo2', sans-serif;
   }
@@ -120,12 +128,12 @@
   /* Button styles */
   .btn-primary {
     @apply px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300;
-    background-color: var(--gold-500);
+    background-color: var(--brand-accent);
     color: white;
   }
 
   .btn-primary:hover {
-    background-color: var(--gold-600);
+    background-color: #e58c39;
     transform: translateY(-2px);
   }
 
@@ -133,11 +141,11 @@
     @apply px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300;
     background-color: var(--gray-900);
     color: white;
-    border: 1px solid var(--gold-500);
+    border: 1px solid var(--brand-accent);
   }
 
   .btn-dark:hover {
-    background-color: var(--gold-500);
+    background-color: var(--brand-accent);
   }
 
   /* Title with decorative bar */
@@ -244,6 +252,239 @@
     animation: hero-breathe 20s ease-in-out infinite;
   }
 
+  @keyframes float-slow {
+    0% { transform: translate3d(0, 0, 0) scale(1); }
+    50% { transform: translate3d(0, -14px, 0) scale(1.03); }
+    100% { transform: translate3d(0, 0, 0) scale(1); }
+  }
+
+  @keyframes pulse-soft {
+    0% { opacity: 0.22; }
+    50% { opacity: 0.34; }
+    100% { opacity: 0.22; }
+  }
+
+  @keyframes pin-pulse {
+    0% { transform: translate(-50%, -50%) scale(0.95); opacity: 0.6; }
+    70% { transform: translate(-50%, -50%) scale(1.45); opacity: 0; }
+    100% { transform: translate(-50%, -50%) scale(1.45); opacity: 0; }
+  }
+
+  @keyframes flow-dash {
+    to { stroke-dashoffset: -120; }
+  }
+
+  @keyframes mesh-drift {
+    0% { transform: translate3d(0, 0, 0) scale(1); }
+    50% { transform: translate3d(10px, -8px, 0) scale(1.04); }
+    100% { transform: translate3d(0, 0, 0) scale(1); }
+  }
+
+  @keyframes strip-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* Macquarie-inspired editorial system */
+  .mq-section {
+    @apply py-36 md:py-40 lg:py-48;
+    min-height: 96vh;
+  }
+
+  .mq-home-overview {
+    @apply pt-10 md:pt-12 lg:pt-14 pb-20 md:pb-24 lg:pb-28;
+    min-height: auto;
+  }
+
+  .mq-inner-section {
+    @apply pt-8 md:pt-10 lg:pt-12 pb-24 md:pb-28 lg:pb-32;
+  }
+
+  .mq-kicker {
+    @apply block text-xs md:text-sm uppercase tracking-[0.22em] text-gold-700 mb-3;
+  }
+
+  .mq-title {
+    @apply font-sans font-bold text-4xl md:text-5xl leading-tight text-slate-900;
+  }
+
+  .mq-copy {
+    @apply text-slate-600 leading-relaxed text-base md:text-lg;
+  }
+
+  .mq-panel {
+    @apply bg-white border border-slate-200 rounded-lg;
+  }
+
+  .mq-card {
+    @apply bg-white border border-slate-200 rounded-lg p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .home-art-block {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .home-art-block::before,
+  .home-art-block::after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    border-radius: 999px;
+    z-index: -1;
+    filter: blur(44px);
+    animation: mesh-drift 12s ease-in-out infinite;
+  }
+
+  .home-art-block::before {
+    width: 260px;
+    height: 260px;
+    top: 10%;
+    right: -70px;
+    background: radial-gradient(circle, rgba(56, 70, 157, 0.26) 0%, rgba(56, 70, 157, 0.02) 72%);
+  }
+
+  .home-art-block::after {
+    width: 220px;
+    height: 220px;
+    bottom: -30px;
+    left: -80px;
+    background: radial-gradient(circle, rgba(243, 157, 76, 0.22) 0%, rgba(243, 157, 76, 0.02) 72%);
+    animation-delay: 1.2s;
+  }
+
+  .corridor-flow-svg {
+    overflow: visible;
+  }
+
+  .corridor-flow-line {
+    fill: none;
+    stroke: #f39d4c;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 8 10;
+    animation: flow-dash 4.2s linear infinite;
+  }
+
+  .parallax-strip-track {
+    display: flex;
+    width: max-content;
+    gap: 10px;
+    padding: 10px;
+    animation: strip-scroll 42s linear infinite;
+  }
+
+  .parallax-strip-item {
+    width: 260px;
+    height: 130px;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .site-backdrop {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .site-backdrop::before,
+  .site-backdrop::after {
+    content: '';
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(42px);
+    animation: float-slow 14s ease-in-out infinite, pulse-soft 10s ease-in-out infinite;
+  }
+
+  .site-backdrop::before {
+    width: 340px;
+    height: 340px;
+    top: 12%;
+    right: -90px;
+    background: radial-gradient(circle, rgba(243, 157, 76, 0.28) 0%, rgba(243, 157, 76, 0.02) 72%);
+  }
+
+  .site-backdrop::after {
+    width: 300px;
+    height: 300px;
+    bottom: 8%;
+    left: -100px;
+    background: radial-gradient(circle, rgba(15, 23, 42, 0.13) 0%, rgba(15, 23, 42, 0.01) 72%);
+    animation-delay: 1.2s;
+  }
+
+  .page-fade-in {
+    animation: page-fade-in 420ms ease-out both;
+  }
+
+  @keyframes page-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .corridor-map {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    border: 1px solid #cbd5e1;
+    background: #e2e8f0;
+  }
+
+  .corridor-pin {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 999px;
+    background: #0f172a;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 10px rgba(15, 23, 42, 0.25);
+    transform: translate(-50%, -50%);
+  }
+
+  .corridor-pin::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--brand-accent);
+    border-radius: 999px;
+    transform: translate(-50%, -50%);
+    animation: pin-pulse 2.2s ease-out infinite;
+  }
+
+  .corridor-label {
+    position: absolute;
+    transform: translate(10px, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #0f172a;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .corridor-path {
+    stroke: var(--brand-accent);
+    stroke-width: 3.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 8 8;
+    animation: flow-dash 4s linear infinite;
+  }
+
   /* Marquee animation */
   @keyframes marquee {
     0% {
@@ -294,6 +535,24 @@
 }
 
 @layer utilities {
+  .font-bold,
+  .font-semibold,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  b,
+  strong {
+    color: #38469d !important;
+  }
+
+  .hero-main-title,
+  .hero-main-title.font-bold {
+    color: #ffffff !important;
+  }
+
   /* Text gradient */
   .text-gradient-gold {
     background: linear-gradient(135deg, var(--gold-400), var(--gold-600));

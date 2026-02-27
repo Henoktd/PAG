@@ -1,7 +1,7 @@
 {
-  "brandName": "Pan Africa Group",
-  "tagline": "Cross-Border Business Development",
-  "description": "Dubai-based cross-border platform connecting Gulf and East Africa markets.",
+  "brandName": "Pan Africa Group LLC",
+  "tagline": "Dubai, United Arab Emirates",
+  "description": "Active across Gulf & East Africa trade corridors.",
   "socialLinks": [
     { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
   ],
@@ -9,17 +9,17 @@
     {
       "title": "Platform",
       "links": [
-        { "name": "Home", "href": "#home" },
-        { "name": "About PAG", "href": "#about" },
-        { "name": "Activity Domains", "href": "#activities" },
-        { "name": "Operating Model", "href": "#model" }
+        { "name": "Home", "href": "/" },
+        { "name": "About PAG", "href": "/about" },
+        { "name": "Activity Domains", "href": "/activity-domains" },
+        { "name": "Operating Model", "href": "/operating-model" }
       ]
     },
     {
       "title": "Engagement",
       "links": [
-        { "name": "Regional Presence", "href": "#presence" },
-        { "name": "Contact", "href": "#contact" }
+        { "name": "Regional Presence", "href": "/regional-presence" },
+        { "name": "Contact", "href": "/contact" }
       ]
     }
   ],
@@ -36,7 +36,7 @@
   "newsletterEndpoint": "mailto:info@pag-global.com",
   "copyrightText": "Pan Africa Group LLC. All rights reserved.",
   "legalLinks": ["Privacy Policy", "Terms of Use", "Compliance Notice"],
-  "icpText": "Registered in Sharjah Media City Free Zone, UAE",
+  "icpText": "Registered in Sharjah Media City Free Zone, UAE.",
   "backToTopText": "Back to top",
   "ageVerificationText": ""
 }

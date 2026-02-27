@@ -5,8 +5,8 @@
 // Content files are located in the /content folder
 // =============================================================================
 
-// Import content from JSON files (loaded via contentLoader)
-import { content } from './lib/contentLoader';
+// Import content source (local JSON fallback + optional Sanity runtime data)
+import { content, setContent, type SiteContent } from './lib/contentLoader';
 
 // -----------------------------------------------------------------------------
 // Site Config
@@ -57,12 +57,12 @@ export const navigationConfig: NavigationConfig = {
   brandSubname: "LLC",
   tagline: "Cross-Border Business Development",
   navLinks: [
-    { name: "Home", href: "#home", icon: "Home" },
-    { name: "About PAG", href: "#about", icon: "BookOpen" },
-    { name: "Activity Domains", href: "#activities", icon: "Grape" },
-    { name: "Operating Model", href: "#model", icon: "Users" },
-    { name: "Regional Presence", href: "#presence", icon: "MapPin" },
-    { name: "Contact", href: "#contact", icon: "Mail" },
+    { name: "Home", href: "/", icon: "Home" },
+    { name: "About PAG", href: "/about", icon: "BookOpen" },
+    { name: "Activity Domains", href: "/activity-domains", icon: "Grape" },
+    { name: "Operating Model", href: "/operating-model", icon: "Users" },
+    { name: "Regional Presence", href: "/regional-presence", icon: "MapPin" },
+    { name: "Contact", href: "/contact", icon: "Mail" },
   ],
   ctaButtonText: "",
 };
@@ -91,24 +91,44 @@ export interface HeroStat {
   label: string;
 }
 
+export interface HeroCapability {
+  title: string;
+  description: string;
+  image?: string;
+}
+
 export interface HeroConfig {
   scriptText: string;
   mainTitle: string;
+  subheading: string;
   ctaButtonText: string;
   ctaTarget: string;
   stats: HeroStat[];
   decorativeText: string;
   backgroundImage: string;
+  positioningTitle: string;
+  positioningParagraphs: string[];
+  coreCapabilitiesTitle: string;
+  coreCapabilities: HeroCapability[];
+  institutionalOrientationTitle: string;
+  institutionalOrientationText: string;
 }
 
 export const heroConfig: HeroConfig = {
   scriptText: content.hero.scriptText,
   mainTitle: content.hero.mainTitle,
+  subheading: content.hero.subheading,
   ctaButtonText: content.hero.ctaButtonText,
-  ctaTarget: "#activities",
+  ctaTarget: "/activity-domains",
   stats: content.hero.stats,
   decorativeText: content.hero.decorativeText,
   backgroundImage: content.hero.backgroundImage,
+  positioningTitle: content.hero.positioningTitle,
+  positioningParagraphs: content.hero.positioningParagraphs,
+  coreCapabilitiesTitle: content.hero.coreCapabilitiesTitle,
+  coreCapabilities: content.hero.coreCapabilities,
+  institutionalOrientationTitle: content.hero.institutionalOrientationTitle,
+  institutionalOrientationText: content.hero.institutionalOrientationText,
 };
 
 // -----------------------------------------------------------------------------
@@ -447,3 +467,102 @@ export interface ScrollToTopConfig {
 export const scrollToTopConfig: ScrollToTopConfig = {
   ariaLabel: "Back to top",
 };
+
+// -----------------------------------------------------------------------------
+// Runtime Content Sync (used after loading Sanity data)
+// -----------------------------------------------------------------------------
+function syncConfigsFromContent() {
+  heroConfig.scriptText = content.hero.scriptText;
+  heroConfig.mainTitle = content.hero.mainTitle;
+  heroConfig.subheading = content.hero.subheading;
+  heroConfig.ctaButtonText = content.hero.ctaButtonText;
+  heroConfig.stats = content.hero.stats;
+  heroConfig.decorativeText = content.hero.decorativeText;
+  heroConfig.backgroundImage = content.hero.backgroundImage;
+  heroConfig.positioningTitle = content.hero.positioningTitle;
+  heroConfig.positioningParagraphs = content.hero.positioningParagraphs;
+  heroConfig.coreCapabilitiesTitle = content.hero.coreCapabilitiesTitle;
+  heroConfig.coreCapabilities = content.hero.coreCapabilities;
+  heroConfig.institutionalOrientationTitle = content.hero.institutionalOrientationTitle;
+  heroConfig.institutionalOrientationText = content.hero.institutionalOrientationText;
+
+  wineShowcaseConfig.scriptText = content.activities.scriptText;
+  wineShowcaseConfig.subtitle = content.activities.subtitle;
+  wineShowcaseConfig.mainTitle = content.activities.mainTitle;
+  wineShowcaseConfig.wines = content.activities.wines;
+  wineShowcaseConfig.features = content.activities.features;
+  wineShowcaseConfig.quote = content.activities.quote;
+
+  wineryCarouselConfig.scriptText = content.model.scriptText;
+  wineryCarouselConfig.subtitle = content.model.subtitle;
+  wineryCarouselConfig.mainTitle = content.model.mainTitle;
+  wineryCarouselConfig.locationTag = content.model.locationTag;
+  wineryCarouselConfig.slides = content.model.slides;
+
+  museumConfig.scriptText = content.about.scriptText;
+  museumConfig.subtitle = content.about.subtitle;
+  museumConfig.mainTitle = content.about.mainTitle;
+  museumConfig.introText = content.about.introText;
+  museumConfig.timeline = content.about.timeline;
+  museumConfig.tabs = content.about.tabs;
+  museumConfig.openingHours = content.about.openingHours;
+  museumConfig.openingHoursLabel = content.about.openingHoursLabel;
+  museumConfig.ctaButtonText = content.about.ctaButtonText;
+  museumConfig.yearBadge = content.about.yearBadge;
+  museumConfig.yearBadgeLabel = content.about.yearBadgeLabel;
+  museumConfig.quote = content.about.quote;
+  museumConfig.founderPhotoAlt = content.about.founderPhotoAlt;
+  museumConfig.founderPhoto = content.about.founderPhoto;
+
+  newsConfig.scriptText = content.presence.scriptText;
+  newsConfig.subtitle = content.presence.subtitle;
+  newsConfig.mainTitle = content.presence.mainTitle;
+  newsConfig.viewAllText = content.presence.viewAllText;
+  newsConfig.readMoreText = content.presence.readMoreText;
+  newsConfig.articles = content.presence.articles;
+  newsConfig.testimonialsScriptText = content.partners.testimonialsScriptText;
+  newsConfig.testimonialsSubtitle = content.partners.testimonialsSubtitle;
+  newsConfig.testimonialsMainTitle = content.partners.testimonialsMainTitle;
+  newsConfig.testimonials = content.partners.testimonials;
+  newsConfig.storyScriptText = content.governance.scriptText;
+  newsConfig.storySubtitle = content.governance.subtitle;
+  newsConfig.storyTitle = content.governance.storyTitle;
+  newsConfig.storyParagraphs = content.governance.storyParagraphs;
+  newsConfig.storyTimeline = content.governance.storyTimeline;
+  newsConfig.storyQuote = content.governance.storyQuote;
+  newsConfig.storyImage = content.governance.storyImage;
+  newsConfig.storyImageCaption = content.governance.storyImageCaption;
+
+  contactFormConfig.scriptText = content.contact.scriptText;
+  contactFormConfig.subtitle = content.contact.subtitle;
+  contactFormConfig.mainTitle = content.contact.mainTitle;
+  contactFormConfig.introText = content.contact.introText;
+  contactFormConfig.contactInfoTitle = content.contact.contactInfoTitle;
+  contactFormConfig.contactInfo = content.contact.contactInfo;
+  contactFormConfig.form = content.contact.form;
+  contactFormConfig.privacyNotice = content.contact.privacyNotice;
+  contactFormConfig.formEndpoint = content.contact.formEndpoint;
+
+  footerConfig.brandName = content.footer.brandName;
+  footerConfig.tagline = content.footer.tagline;
+  footerConfig.description = content.footer.description;
+  footerConfig.socialLinks = content.footer.socialLinks;
+  footerConfig.linkGroups = content.footer.linkGroups;
+  footerConfig.contactItems = content.footer.contactItems;
+  footerConfig.newsletterLabel = content.footer.newsletterLabel;
+  footerConfig.newsletterPlaceholder = content.footer.newsletterPlaceholder;
+  footerConfig.newsletterButtonText = content.footer.newsletterButtonText;
+  footerConfig.newsletterSuccessText = content.footer.newsletterSuccessText;
+  footerConfig.newsletterErrorText = content.footer.newsletterErrorText;
+  footerConfig.newsletterEndpoint = content.footer.newsletterEndpoint;
+  footerConfig.copyrightText = content.footer.copyrightText;
+  footerConfig.legalLinks = content.footer.legalLinks;
+  footerConfig.icpText = content.footer.icpText;
+  footerConfig.backToTopText = content.footer.backToTopText;
+  footerConfig.ageVerificationText = content.footer.ageVerificationText;
+}
+
+export function applyContent(nextContent: Partial<SiteContent>) {
+  setContent(nextContent);
+  syncConfigsFromContent();
+}

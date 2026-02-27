@@ -1,8 +1,5 @@
-// Content Loader Utility
-// Loads content from JSON files for CMS integration
-
-// Import all content JSON files
-import heroContent from '../../content/hero/hero.json';
+// Import all local fallback JSON files
+import homeContent from '../../content/home/home.json';
 import aboutContent from '../../content/about/about.json';
 import activitiesContent from '../../content/activities/activities.json';
 import modelContent from '../../content/model/operating-model.json';
@@ -12,9 +9,8 @@ import governanceContent from '../../content/governance/governance.json';
 import contactContent from '../../content/contact/contact.json';
 import footerContent from '../../content/footer/footer.json';
 
-// Export loaded content
-export const content = {
-  hero: heroContent,
+export const defaultContent = {
+  hero: homeContent,
   about: aboutContent,
   activities: activitiesContent,
   model: modelContent,
@@ -25,23 +21,27 @@ export const content = {
   footer: footerContent,
 };
 
-// Type definitions for content
-export type HeroContent = typeof heroContent;
-export type AboutContent = typeof aboutContent;
-export type ActivitiesContent = typeof activitiesContent;
-export type ModelContent = typeof modelContent;
-export type PresenceContent = typeof presenceContent;
-export type PartnersContent = typeof partnersContent;
-export type GovernanceContent = typeof governanceContent;
-export type ContactContent = typeof contactContent;
-export type FooterContent = typeof footerContent;
+export type SiteContent = typeof defaultContent;
 
-// Helper function to get content by key
-export function getContent<T>(key: keyof typeof content): T {
-  return content[key] as T;
-}
+// Mutable content source used by the website configuration.
+// Starts from local JSON and can be replaced/augmented by Sanity at runtime.
+export let content: SiteContent = { ...defaultContent };
 
-// Function to merge content with defaults
-export function mergeWithDefaults<T>(loadedContent: Partial<T>, defaults: T): T {
-  return { ...defaults, ...loadedContent };
+export function setContent(nextContent: Partial<SiteContent>) {
+  const mergeSection = <K extends keyof SiteContent>(key: K): SiteContent[K] => ({
+    ...defaultContent[key],
+    ...(nextContent[key] ?? {}),
+  });
+
+  content = {
+    hero: mergeSection('hero'),
+    about: mergeSection('about'),
+    activities: mergeSection('activities'),
+    model: mergeSection('model'),
+    presence: mergeSection('presence'),
+    partners: mergeSection('partners'),
+    governance: mergeSection('governance'),
+    contact: mergeSection('contact'),
+    footer: mergeSection('footer'),
+  };
 }

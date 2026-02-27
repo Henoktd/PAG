@@ -1,46 +1,46 @@
 {
-  "scriptText": "Who We Are",
+  "scriptText": "Institutional Identity",
   "subtitle": "INSTITUTIONAL IDENTITY",
   "mainTitle": "About Pan Africa Group",
-  "introText": "Pan Africa Group LLC (PAG) is a Dubai-based cross-border business development and market enablement platform active across the Gulf and East Africa. We connect international partners, regional institutions, and local operators to open and advance real commercial opportunities.",
+  "introText": "Pan Africa Group LLC (PAG) is a legally incorporated limited liability company registered in the United Arab Emirates, with operating presence across the Gulf-East Africa corridor. The company functions as a cross-border commercial platform, aligning opportunity, capital, partners, and execution pathways within structured frameworks.",
   "timeline": [
-    { "year": "DUBAI", "event": "Head office and cross-border coordination base" },
-    { "year": "DJIBOUTI", "event": "Regional operating presence and corridor interface" },
-    { "year": "ETHIOPIA", "event": "Office presence supporting local market coordination" },
-    { "year": "TODAY", "event": "Active platform across Gulf and East Africa trade corridors" }
+    { "year": "UAE", "event": "Applicable UAE regulatory frameworks" },
+    { "year": "JURISDICTIONS", "event": "Relevant commercial regulations in jurisdictions of operation" },
+    { "year": "CONTRACTS", "event": "Defined contractual and compliance structures" },
+    { "year": "POSTURE", "event": "Disciplined, mandate-based cross-border engagement model" }
   ],
   "tabs": [
     {
-      "id": "identity",
-      "name": "Legal Identity",
+      "id": "classification",
+      "name": "Platform Classification",
       "icon": "History",
-      "image": "/images/about-identity.jpg",
+      "image": "/images/pag-2.png",
       "content": {
-        "title": "Flexible Commercial Platform",
-        "description": "PAG does not sit inside one product line or one industry vertical. We operate as a flexible platform that identifies opportunity, aligns stakeholders, and supports delivery through structured collaboration.",
-        "highlight": "Built to connect markets, not sell a single product"
+        "title": "Structured Coordination Platform",
+        "description": "PAG is not a product company and does not operate as a regulated vertical execution entity. It identifies opportunity, aligns stakeholders, designs commercial pathways, and supports mandate advancement through structured collaboration.",
+        "highlight": "Where regulated technical execution is required, PAG works alongside designated independent operating entities."
       }
     },
     {
-      "id": "positioning",
-      "name": "Non-Positioning",
+      "id": "multi-sector",
+      "name": "Flexible, Multi-Sector Engagement",
       "icon": "BookOpen",
-      "image": "/images/about-positioning.jpg",
+      "image": "/images/pag-3.png",
       "content": {
-        "title": "How PAG Creates Value",
-        "description": "We help partners enter markets, structure partnerships, coordinate sourcing pathways, and move opportunities from concept to coordinated action where local context matters.",
-        "highlight": "Entry strategy, alignment, and execution support"
+        "title": "Mandates Structured Per Opportunity",
+        "description": "PAG does not sit within one product line or industry vertical. Engagements may span infrastructure, government-linked initiatives, strategic trade corridors, mobility systems, industrial partnerships, and technology-enabled platforms.",
+        "highlight": "Each mandate is structured independently within defined commercial and jurisdictional parameters."
       }
     },
     {
-      "id": "approach",
-      "name": "Mandate Approach",
+      "id": "governance",
+      "name": "Governance & Compliance Posture",
       "icon": "Award",
-      "image": "/images/about-approach.jpg",
+      "image": "/images/pag-4.png",
       "content": {
-        "title": "Cross-Border Operating Approach",
-        "description": "Our team works across institutions and operators to keep commercial mandates practical, coordinated, and locally grounded.",
-        "highlight": "Bridge between international ambition and local execution"
+        "title": "Defined Compliance Structure",
+        "description": "PAG operates in accordance with applicable UAE regulatory frameworks, relevant commercial regulations in jurisdictions of operation, and defined contractual and compliance structures.",
+        "highlight": "Disciplined, mandate-based approach to cross-border commercial engagement."
       }
     }
   ],
@@ -55,5 +55,5 @@
     "attribution": "Pan Africa Group"
   },
   "founderPhotoAlt": "Institutional governance and coordination session",
-  "founderPhoto": "/images/about-photo.jpg"
+  "founderPhoto": "/images/pag-1.png"
 }

@@ -4,9 +4,18 @@ import { footerConfig } from '../config';
 export function Footer() {
   if (!footerConfig.brandName) return null;
 
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) element.scrollIntoView({ behavior: 'smooth' });
+  const goTo = (href: string) => {
+    if (href.startsWith('#')) {
+      const element = document.querySelector(href);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
+    const current = window.location.pathname.replace(/\/+$/, '') || '/';
+    const target = href.replace(/\/+$/, '') || '/';
+    if (current !== target) {
+      window.history.pushState({}, '', href);
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
   };
 
   const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -20,7 +29,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-3">
               <img src="/brand/pag-logo-horizontal.png" alt="PAG logo" className="h-9 w-auto object-contain" />
-              <span className="font-sans font-semibold text-slate-900 text-lg">{footerConfig.brandName}</span>
+              <span className="font-sans font-semibold text-[#38469D] text-lg">{footerConfig.brandName}</span>
             </div>
             <p className="text-slate-600 text-sm mb-5 max-w-md">{footerConfig.description}</p>
             <p className="text-xs text-gold-700 uppercase tracking-[0.14em]">{footerConfig.tagline}</p>
@@ -34,7 +43,7 @@ export function Footer() {
                   {group.links.map((link) => (
                     <li key={link.name}>
                       <button
-                        onClick={() => scrollToSection(link.href)}
+                        onClick={() => goTo(link.href)}
                         className="text-sm text-slate-600 hover:text-gold-700 transition-colors"
                       >
                         {link.name}

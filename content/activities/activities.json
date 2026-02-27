@@ -1,32 +1,32 @@
 {
-  "scriptText": "Core Activities",
-  "subtitle": "",
-  "mainTitle": "How We Support Cross-Border Growth",
+  "scriptText": "Activity Domains",
+  "subtitle": "REPRESENTATIVE MANDATE CATEGORIES",
+  "mainTitle": "Representative Mandate Categories",
   "wines": [
     {
       "id": "market-entry",
-      "name": "Market Entry",
-      "subtitle": "& Partnership Structuring",
+      "name": "Market Entry Setup",
+      "subtitle": "",
       "year": "01",
-      "image": "/images/activity-project.jpg",
+      "image": "/images/pag-5.png",
       "filter": "",
       "glowColor": "bg-amber-900/20",
-      "description": "We help international and regional players enter new markets with the right local structure, partner model, and coordination path.",
-      "tastingNotes": "Entry planning, stakeholder mapping, and partnership structure design.",
+      "description": "Cross-border partner alignment and structured operating pathway design for regulated-sector entry.",
+      "tastingNotes": "",
       "alcohol": "Gulf",
       "temperature": "East Africa",
       "aging": "Cross-Border"
     },
     {
       "id": "trade-sourcing",
-      "name": "Strategic Trade",
-      "subtitle": "& Cross-Border Sourcing",
+      "name": "Trade & Sourcing Corridor",
+      "subtitle": "",
       "year": "02",
-      "image": "/images/activity-sourcing.jpg",
+      "image": "/images/pag-1.png",
       "filter": "brightness(1.1) sepia(0.2)",
       "glowColor": "bg-blue-900/20",
-      "description": "We coordinate sourcing pathways across borders by aligning suppliers, local operators, and institutional requirements.",
-      "tastingNotes": "Supplier coordination, pathway design, and transaction support.",
+      "description": "Supplier coordination across Gulf-East Africa linkages with institutional counterpart alignment.",
+      "tastingNotes": "",
       "alcohol": "Trade",
       "temperature": "Sourcing",
       "aging": "Coordination"
@@ -34,13 +34,13 @@
     {
       "id": "opportunity-development",
       "name": "Opportunity Development",
-      "subtitle": "& Mandate Coordination",
+      "subtitle": "",
       "year": "03",
-      "image": "/images/activity-partnership.jpg",
+      "image": "/images/pag-2.png",
       "filter": "brightness(1.05) sepia(0.15)",
       "glowColor": "bg-emerald-900/20",
-      "description": "We identify commercial opportunities, align the right stakeholders, and help coordinate execution support where regional context matters.",
-      "tastingNotes": "Mandate development, stakeholder alignment, and regional network enablement.",
+      "description": "Commercial opportunity framing with multi-party coordination support through local execution context.",
+      "tastingNotes": "",
       "alcohol": "Opportunity",
       "temperature": "Partnership",
       "aging": "Delivery Support"
@@ -49,18 +49,18 @@
   "features": [
     {
       "icon": "Sparkles",
-      "title": "Market Enablement",
-      "description": "Practical support for partners entering and operating across new regional markets"
+      "title": "Cross-Border Design",
+      "description": "Structured engagement architecture for multi-party mandates."
     },
     {
       "icon": "Wine",
-      "title": "Cross-Border Coordination",
-      "description": "Alignment between international suppliers, institutions, and local operators"
+      "title": "Institutional Alignment",
+      "description": "Counterparty and delivery alignment within defined commercial frameworks."
     },
     {
       "icon": "Clock",
-      "title": "Regional Network Access",
-      "description": "Built relationships across Gulf and East Africa trade and commercial corridors"
+      "title": "Mandate Coordination",
+      "description": "Execution pathway support where local context and governance boundaries matter."
     }
   ],
   "quote": {

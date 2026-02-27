@@ -50,9 +50,18 @@ export function Hero({ isReady }: { isReady: boolean }) {
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); clearTimeout(t4); };
   }, [isReady]);
 
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) element.scrollIntoView({ behavior: 'smooth' });
+  const goTo = (href: string) => {
+    if (href.startsWith('#')) {
+      const element = document.querySelector(href);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
+    const current = window.location.pathname.replace(/\/+$/, '') || '/';
+    const target = href.replace(/\/+$/, '') || '/';
+    if (current !== target) {
+      window.history.pushState({}, '', href);
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
   };
 
   return (
@@ -89,7 +98,7 @@ export function Hero({ isReady }: { isReady: boolean }) {
         )}
 
         {/* Main Title */}
-        <h1 className={`font-sans font-bold text-4xl md:text-5xl lg:text-[4rem] text-white leading-[1.12] transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s' }}>
+        <h1 className={`hero-main-title font-sans font-bold text-4xl md:text-5xl lg:text-[4rem] text-white leading-[1.12] transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s' }}>
           {heroConfig.mainTitle}
         </h1>
 
@@ -97,7 +106,7 @@ export function Hero({ isReady }: { isReady: boolean }) {
         {heroConfig.ctaButtonText && (
           <div className={`mt-10 transition-all duration-700 ease-out ${phase >= 3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
             <button
-              onClick={() => scrollToSection(heroConfig.ctaTarget || '#wines')}
+              onClick={() => goTo(heroConfig.ctaTarget || '/activity-domains')}
               className="btn-primary rounded-sm inline-flex items-center gap-2 group"
               aria-label={heroConfig.ctaButtonText}
             >

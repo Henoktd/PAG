@@ -1,8 +1,8 @@
 {
-  "scriptText": "Institutional Engagement",
+  "scriptText": "Structured Mandate Inquiries",
   "subtitle": "STRUCTURED MANDATE INQUIRIES",
-  "mainTitle": "Contact Pan Africa Group",
-  "introText": "For partnership discussions, market entry collaboration, sourcing pathways, or cross-border commercial opportunities, contact our team.",
+  "mainTitle": "Contact",
+  "introText": "For partnership discussions, structured market entry initiatives, sourcing pathway coordination, or cross-border commercial mandates, contact our team.",
   "contactInfoTitle": "Corporate Contact",
   "contactInfo": [
     {
@@ -13,9 +13,9 @@
     },
     {
       "icon": "MapPin",
-      "label": "Offices",
+      "label": "Regional Offices",
       "value": "Addis Ababa, Ethiopia | Djibouti",
-      "subtext": "Regional operating offices"
+      "subtext": ""
     },
     {
       "icon": "Phone",
@@ -27,7 +27,7 @@
       "icon": "Mail",
       "label": "Email",
       "value": "info@pag-global.com",
-      "subtext": "Response window: within 48 business hours"
+      "subtext": "Institutional inquiries only"
     }
   ],
   "form": {

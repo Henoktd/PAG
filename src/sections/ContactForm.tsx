@@ -26,16 +26,22 @@ export function ContactForm() {
   };
 
   return (
-    <section id="contact" className="section-padding">
+    <section id="contact" className="mq-section mq-inner-section">
       <div className="container-custom">
         <div className="text-center mb-10">
-          <span className="font-sans text-sm text-gold-700 uppercase tracking-[0.2em] mb-3 block">{contactFormConfig.subtitle}</span>
-          <h2 className="font-sans text-h2 text-slate-900 mb-3">{contactFormConfig.mainTitle}</h2>
-          <p className="text-slate-600 max-w-2xl mx-auto">{contactFormConfig.introText}</p>
+          <span className="mq-kicker">{contactFormConfig.subtitle}</span>
+          <h2 className="mq-title mb-3">{contactFormConfig.mainTitle}</h2>
+          <p className="mq-copy max-w-2xl mx-auto">{contactFormConfig.introText}</p>
         </div>
 
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="lg:col-span-2 bg-white border border-slate-200 rounded-lg p-6">
+          <div className="lg:col-span-2 mq-panel p-6">
+            <img
+              src="/images/pag-6.png"
+              alt="Structured mandate discussions"
+              className="w-full h-44 object-cover rounded-md mb-5"
+              loading="lazy"
+            />
             <h3 className="font-sans text-lg font-semibold text-slate-900 mb-4">{contactFormConfig.contactInfoTitle}</h3>
             <div className="space-y-4">
               {contactFormConfig.contactInfo.map((item) => {
@@ -54,7 +60,7 @@ export function ContactForm() {
             </div>
           </div>
 
-          <form onSubmit={submit} className="lg:col-span-3 bg-white border border-slate-200 rounded-lg p-6 space-y-4">
+          <form onSubmit={submit} className="lg:col-span-3 mq-panel p-6 space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
               <input
                 required
