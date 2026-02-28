@@ -1,19 +1,23 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Home, BookOpen, Users, Mail, Grape, MapPin } from 'lucide-react';
 import { navigationConfig } from '../config';
+import { getNavLabel, t, type LanguageCode, useLanguage } from '../lib/i18n';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Home, BookOpen, Users, Mail, Grape, MapPin,
 };
 
 export function Navigation() {
-  if (!navigationConfig.brandName) return null;
+  const isConfigured = Boolean(navigationConfig.brandName);
+  const { language, setLanguage } = useLanguage();
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
+    if (!isConfigured) return;
+
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 100);
       const scrollTop = window.scrollY;
@@ -24,14 +28,16 @@ export function Navigation() {
     handleScroll();
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isConfigured]);
 
   useEffect(() => {
+    if (!isConfigured) return;
+
     document.body.style.overflow = isMobileMenuOpen ? 'hidden' : '';
     return () => {
       document.body.style.overflow = '';
     };
-  }, [isMobileMenuOpen]);
+  }, [isConfigured, isMobileMenuOpen]);
 
   const goTo = (href: string) => {
     const current = window.location.pathname.replace(/\/+$/, '') || '/';
@@ -43,8 +49,15 @@ export function Navigation() {
     setIsMobileMenuOpen(false);
   };
 
-  const navLinks = navigationConfig.navLinks;
+  const navLinks = isConfigured
+    ? navigationConfig.navLinks.map((link) => ({
+      ...link,
+      name: getNavLabel(language, link.href, link.name),
+    }))
+    : [];
   const pathname = (window.location.pathname.replace(/\/+$/, '') || '/');
+
+  if (!isConfigured) return null;
 
   return (
     <nav
@@ -74,10 +87,22 @@ export function Navigation() {
                 pathname === (link.href.replace(/\/+$/, '') || '/') ? 'text-[#f39d4c] font-semibold' : 'text-slate-700 hover:text-[#f39d4c]'
               }`}
               role="menuitem"
+              aria-current={pathname === (link.href.replace(/\/+$/, '') || '/') ? 'page' : undefined}
             >
               {link.name}
             </button>
           ))}
+          <label className="sr-only" htmlFor="language-selector-desktop">{t(language, 'language')}</label>
+          <select
+            id="language-selector-desktop"
+            value={language}
+            onChange={(event) => setLanguage(event.target.value as LanguageCode)}
+            className="text-xs border border-slate-300 rounded-sm bg-white px-2 py-1 text-slate-700 focus:outline-none focus:ring-2 focus:ring-[#f39d4c]"
+            aria-label={t(language, 'language')}
+          >
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
         </div>
 
         <button
@@ -98,6 +123,19 @@ export function Navigation() {
         aria-hidden={!isMobileMenuOpen}
       >
         <div className="container-custom py-8 flex flex-col gap-2">
+          <div className="mb-2">
+            <label className="sr-only" htmlFor="language-selector-mobile">{t(language, 'language')}</label>
+            <select
+              id="language-selector-mobile"
+              value={language}
+              onChange={(event) => setLanguage(event.target.value as LanguageCode)}
+              className="w-full text-sm border border-slate-300 rounded-sm bg-white px-3 py-2 text-slate-700 focus:outline-none focus:ring-2 focus:ring-[#f39d4c]"
+              aria-label={t(language, 'language')}
+            >
+              <option value="en">English (EN)</option>
+              <option value="ar">Arabic (AR)</option>
+            </select>
+          </div>
           {navLinks.map((link, index) => {
             const IconComponent = iconMap[link.icon];
             return (

@@ -1,16 +1,18 @@
 import { useEffect, useRef, useState } from 'react';
 import { heroConfig } from '../config';
+import { t, useLanguage } from '../lib/i18n';
 
 export function HomeOverview() {
-  if (!heroConfig.subheading && heroConfig.positioningParagraphs.length === 0) return null;
+  const { language } = useLanguage();
+  const isConfigured = Boolean(heroConfig.subheading) || heroConfig.positioningParagraphs.length > 0;
   const cardsRef = useRef<HTMLDivElement | null>(null);
   const [cardsVisible, setCardsVisible] = useState(false);
   const [activeMandate, setActiveMandate] = useState(0);
 
   const mandateFeed = [
-    'Market-entry structuring pathway active for East Africa institutional counterpart alignment.',
-    'Cross-border sourcing corridor coordination sequence validated for Gulf to Horn route.',
-    'Multi-party mandate architecture in progress with governance-bounded oversight model.',
+    'Market-entry pathway active for East Africa counterpart alignment.',
+    'Sourcing coordination sequence validated for Gulf to Horn routes.',
+    'Multi-party mandate architecture progressing under defined governance oversight.',
   ];
   const stripImages = [
     '/images/region-gulf.jpg',
@@ -30,6 +32,8 @@ export function HomeOverview() {
   };
 
   useEffect(() => {
+    if (!isConfigured) return;
+
     const node = cardsRef.current;
     if (!node) return;
 
@@ -47,15 +51,19 @@ export function HomeOverview() {
 
     observer.observe(node);
     return () => observer.disconnect();
-  }, []);
+  }, [isConfigured]);
 
   useEffect(() => {
+    if (!isConfigured) return;
+
     const timer = window.setInterval(() => {
       setActiveMandate((prev) => (prev + 1) % mandateFeed.length);
     }, 3200);
 
     return () => window.clearInterval(timer);
-  }, [mandateFeed.length]);
+  }, [isConfigured, mandateFeed.length]);
+
+  if (!isConfigured) return null;
 
   return (
     <section className="mq-home-overview">
@@ -116,17 +124,17 @@ export function HomeOverview() {
 
         <div className="home-art-block mt-8 grid lg:grid-cols-[1.2fr_0.8fr] gap-4">
           <div className="rounded-lg border border-[#38469D]/20 bg-gradient-to-br from-[#38469D] to-[#2d397f] p-6 text-white">
-            <p className="text-xs uppercase tracking-[0.2em] text-[#F39D4C] mb-3">Corridor Pulse</p>
-            <h3 className="font-sans font-bold text-2xl mb-3 !text-white">Live Gulf-East Africa Flow</h3>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#F39D4C] mb-3">{t(language, 'corridorPulse')}</p>
+            <h3 className="font-sans font-bold text-2xl mb-3 !text-white">{t(language, 'liveFlow')}</h3>
             <p className="text-white/80 text-sm mb-6">
-              A real-time style visual feed of PAG’s corridor architecture from UAE coordination to East Africa execution lanes.
+              {t(language, 'flowCopy')}
             </p>
 
             <div className="grid sm:grid-cols-3 gap-3">
               {['Dubai, UAE', 'Djibouti', 'Addis Ababa'].map((point, idx) => (
                 <div key={point} className="rounded-md bg-white/10 border border-white/20 p-3 relative overflow-hidden">
                   <span className="absolute top-2 right-2 inline-flex h-2 w-2 rounded-full bg-[#F39D4C] animate-pulse" />
-                  <p className="text-[11px] uppercase tracking-[0.14em] text-white/70">Node {idx + 1}</p>
+                  <p className="text-[11px] uppercase tracking-[0.14em] text-white/70">{t(language, 'node')} {idx + 1}</p>
                   <p className="text-sm font-semibold !text-white">{point}</p>
                 </div>
               ))}
@@ -140,17 +148,17 @@ export function HomeOverview() {
 
             <div className="mt-5 flex flex-wrap gap-2">
               <button onClick={() => goTo('/activity-domains')} className="px-4 py-2 rounded-sm bg-[#F39D4C] text-white text-sm font-semibold hover:brightness-95 transition">
-                Explore Activity Domains
+                {t(language, 'exploreDomains')}
               </button>
               <button onClick={() => goTo('/contact')} className="px-4 py-2 rounded-sm border border-white/40 text-white text-sm font-semibold hover:bg-white/10 transition">
-                Start Institutional Inquiry
+                {t(language, 'startInquiry')}
               </button>
             </div>
           </div>
 
           <div className="mq-panel p-6">
-            <p className="text-xs uppercase tracking-[0.18em] text-[#F39D4C] mb-3">Mandate Feed</p>
-            <h3 className="mq-title text-2xl md:text-3xl mb-4">Current Structuring Signals</h3>
+            <p className="text-xs uppercase tracking-[0.18em] text-[#F39D4C] mb-3">{t(language, 'mandateFeed')}</p>
+            <h3 className="mq-title text-2xl md:text-3xl mb-4">{t(language, 'structuringSignals')}</h3>
             <div className="space-y-3">
               {mandateFeed.map((item, idx) => (
                 <div
@@ -172,7 +180,7 @@ export function HomeOverview() {
           <div className="parallax-strip-track">
             {[...stripImages, ...stripImages].map((src, idx) => (
               <div key={`${src}-${idx}`} className="parallax-strip-item">
-                <img src={src} alt="PAG corridor visual" className="w-full h-full object-cover" loading="lazy" />
+                <img src={src} alt={t(language, 'corridorVisualAlt')} className="w-full h-full object-cover" loading="lazy" />
               </div>
             ))}
           </div>

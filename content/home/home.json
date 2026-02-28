@@ -1,13 +1,13 @@
 {
   "scriptText": "Pan Africa Group (PAG)",
-  "mainTitle": "Pan Africa Group (PAG) Connecting Gulf and East Africa Markets",
-  "subheading": "Pan Africa Group LLC (PAG) is a Dubai-based cross-border platform operating across the Gulf and East Africa. We structure partnerships, coordinate sourcing pathways, and align institutional counterparties within defined regulatory and commercial frameworks.",
+  "mainTitle": "Pan Africa Group (PAG) | Gulf-East Africa Commercial Platform",
+  "subheading": "Pan Africa Group LLC (PAG) is a Dubai-based commercial platform serving Gulf-East Africa mandates. We align partners, coordinate sourcing pathways, and support delivery within defined regulatory and contractual boundaries.",
   "ctaButtonText": "See How We Work",
   "decorativeText": "",
   "backgroundImage": "/images/hero-banner.jpg",
   "positioningTitle": "Positioning Statement",
   "positioningParagraphs": [
-    "PAG connects international partners, regional institutions, and independent local operators to advance structured commercial mandates across infrastructure, trade, mobility, technology, and industrial sectors.",
+    "PAG connects international partners, regional institutions, and independent local operators across infrastructure, trade, mobility, technology, and industrial mandates.",
     "We do not operate as a product company.",
     "We do not position ourselves around a single vertical.",
     "We operate as a disciplined commercial architecture layer between markets."
@@ -16,22 +16,22 @@
   "coreCapabilities": [
     {
       "title": "Market Entry & Partnership Structuring",
-      "description": "Supporting international entities entering East Africa through structured local positioning, partner alignment, and commercial pathway design.",
+      "description": "Supporting international entities entering East Africa through local positioning, partner alignment, and commercial pathway design.",
       "image": "/images/pag-5.png"
     },
     {
       "title": "Strategic Trade & Cross-Border Sourcing",
-      "description": "Coordinating supplier relationships and sourcing frameworks across Gulf-East Africa corridors.",
+      "description": "Coordinating supplier relationships and sourcing programs across Gulf-East Africa corridors.",
       "image": "/images/pag-2.png"
     },
     {
       "title": "Opportunity Development & Mandate Coordination",
-      "description": "Identifying commercially viable mandates and aligning multi-party stakeholders within defined operating structures.",
+      "description": "Identifying viable mandates and aligning multi-party stakeholders within clear operating structures.",
       "image": "/images/pag-4.png"
     }
   ],
   "institutionalOrientationTitle": "Institutional Orientation",
-  "institutionalOrientationText": "PAG operates within a structured governance environment aligned with its jurisdictions of incorporation and operation. For structured mandate discussions and institutional collaboration, contact our corporate office.",
+  "institutionalOrientationText": "PAG operates within a governance environment aligned with its jurisdictions of incorporation and operation. For mandate discussions and institutional collaboration, contact our corporate office.",
   "stats": [
     { "value": 3, "suffix": "", "label": "Office Locations" },
     { "value": 4, "suffix": "", "label": "Core Activities" },

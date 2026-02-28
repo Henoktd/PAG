@@ -1,24 +1,26 @@
 import { ArrowRight } from 'lucide-react';
-import { wineShowcaseConfig } from '../config';
+import { activityDomainsConfig } from '../config';
 import { CorridorMap } from '../components/CorridorMap';
+import { t, useLanguage } from '../lib/i18n';
 
 export function WineShowcase() {
-  if (!wineShowcaseConfig.mainTitle || wineShowcaseConfig.wines.length === 0) return null;
+  const { language } = useLanguage();
+  if (!activityDomainsConfig.mainTitle || activityDomainsConfig.domains.length === 0) return null;
 
-  const items = wineShowcaseConfig.wines.slice(0, 3);
+  const items = activityDomainsConfig.domains.slice(0, 3);
 
   return (
     <section id="activities" className="mq-section mq-inner-section">
       <div className="container-custom">
         <div className="text-center mb-12">
-          {wineShowcaseConfig.subtitle && (
+          {activityDomainsConfig.subtitle && (
             <span className="mq-kicker">
-              {wineShowcaseConfig.subtitle}
+              {activityDomainsConfig.subtitle}
             </span>
           )}
-          <h2 className="mq-title mb-3">{wineShowcaseConfig.mainTitle}</h2>
+          <h2 className="mq-title mb-3">{activityDomainsConfig.mainTitle}</h2>
           <p className="mq-copy max-w-2xl mx-auto">
-            Focused platform capabilities supporting institutional mandates across the UAE-East Africa corridor.
+            {t(language, 'activityIntro')}
           </p>
         </div>
 
@@ -37,7 +39,14 @@ export function WineShowcase() {
                 {item.name} {item.subtitle}
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">{item.description}</p>
-              <p className="text-slate-500 text-sm leading-relaxed">{item.tastingNotes}</p>
+              {item.detail && <p className="text-slate-500 text-sm leading-relaxed mb-3">{item.detail}</p>}
+              {item.focusAreas.length > 0 && (
+                <ul className="text-xs text-slate-600 space-y-1">
+                  {item.focusAreas.map((focusArea) => (
+                    <li key={focusArea}>- {focusArea}</li>
+                  ))}
+                </ul>
+              )}
             </article>
           ))}
         </div>
@@ -45,10 +54,10 @@ export function WineShowcase() {
         <div className="mt-10 mq-panel p-6">
           <div className="flex flex-col lg:flex-row gap-6 items-start">
             <div className="flex-1 w-full">
-              <p className="mq-kicker !mb-2">Corridor Coverage Map</p>
-              <h3 className="font-sans text-2xl font-semibold text-slate-900 mb-4">Gulf-East Africa Operating Areas</h3>
+              <p className="mq-kicker !mb-2">{t(language, 'corridorMapKicker')}</p>
+              <h3 className="font-sans text-2xl font-semibold text-slate-900 mb-4">{t(language, 'operatingAreas')}</h3>
               <p className="mq-copy text-base mb-5">
-                Visual reference of PAG focus points across the UAE, Djibouti, and Ethiopia, with corridor linkage across Gulf-East Africa routes.
+                Corridor map used to support mandate scoping, partner coordination, and execution sequencing discussions.
               </p>
 
               <CorridorMap />
@@ -69,7 +78,7 @@ export function WineShowcase() {
             className="btn-primary rounded-sm inline-flex items-center gap-2"
             aria-label="Institutional Contact"
           >
-            Institutional Contact
+            {t(language, 'contactCta')}
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

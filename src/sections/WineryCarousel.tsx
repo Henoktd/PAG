@@ -14,20 +14,36 @@ export function WineryCarousel() {
           <p className="mq-copy">{wineryCarouselConfig.locationTag}</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-          {wineryCarouselConfig.slides.map((slide) => (
-            <article key={slide.area} className="mq-card p-5">
-              {slide.image && (
-                <img
-                  src={slide.image}
-                  alt={slide.title}
-                  className="w-full h-28 object-cover rounded-md mb-3"
-                  loading="lazy"
+        <div className="max-w-5xl mx-auto">
+          {wineryCarouselConfig.slides.map((slide, index) => (
+            <article key={slide.area || `${slide.title}-${index}`} className="relative pl-16 pb-8 last:pb-0">
+              {index < wineryCarouselConfig.slides.length - 1 && (
+                <span
+                  className="absolute left-7 top-12 bottom-0 w-px bg-slate-300"
+                  aria-hidden="true"
                 />
               )}
-              <p className="text-gold-700 text-xs uppercase tracking-[0.15em] mb-2">Step {slide.area}</p>
-              <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">{slide.title}</h3>
-              <p className="text-slate-600 text-sm leading-relaxed">{slide.description}</p>
+
+              <div className="absolute left-3 top-4 h-7 w-7 rounded-full bg-[#38469D] border-4 border-white shadow-sm" aria-hidden="true">
+              </div>
+
+              <div className="mq-card p-5 md:p-6">
+                <div className="grid md:grid-cols-[220px_1fr] gap-5 md:gap-6 items-start">
+                  {slide.image && (
+                    <img
+                      src={slide.image}
+                      alt={slide.title}
+                      className="w-full h-36 md:h-32 object-cover rounded-md"
+                      loading="lazy"
+                    />
+                  )}
+
+                  <div>
+                    <h3 className="font-sans text-lg md:text-xl font-semibold text-slate-900 mb-2">{slide.title}</h3>
+                    <p className="text-slate-600 text-sm md:text-[15px] leading-relaxed">{slide.description}</p>
+                  </div>
+                </div>
+              </div>
             </article>
           ))}
         </div>

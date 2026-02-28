@@ -6,43 +6,43 @@
   "slides": [
     {
       "image": "/images/pag-1.png",
-      "title": "Step 01 - Mandate Identification",
+      "title": "Mandate Identification",
       "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Institutional and commercial opportunities are screened for structural suitability, regulatory viability, and stakeholder alignment."
+      "description": "Institutional and commercial opportunities are screened for structural suitability, regulatory viability, and stakeholder alignment. Only mandates with clear ownership boundaries, feasible delivery pathways, and governance compatibility proceed to structuring."
     },
     {
       "image": "/images/pag-2.png",
-      "title": "Step 02 - Supplier & Partner Structuring",
+      "title": "Supplier & Partner Structuring",
       "subtitle": "",
       "area": "02",
       "unit": "",
-      "description": "International suppliers and local operators are evaluated for capability, compliance alignment, and enforceable participation within structured frameworks."
+      "description": "International suppliers and local operators are evaluated for capability, compliance fit, and enforceable participation. Assessment includes track record review, jurisdictional fit, delivery readiness, and commitment to reporting obligations."
     },
     {
       "image": "/images/pag-3.png",
-      "title": "Step 03 - Contract Framework Design",
+      "title": "Contract Framework Design",
       "subtitle": "",
       "area": "03",
       "unit": "",
-      "description": "Multi-jurisdiction commercial frameworks are structured with defined scope, performance expectations, risk allocation, and governance boundaries."
+      "description": "Multi-jurisdiction commercial frameworks are defined with clear scope, performance expectations, risk allocation, and governance boundaries. Contract architecture is designed to preserve execution accountability while enabling coordinated multi-party delivery."
     },
     {
       "image": "/images/pag-4.png",
-      "title": "Step 04 - Independent Operator Engagement",
+      "title": "Independent Operator Engagement",
       "subtitle": "",
       "area": "04",
       "unit": "",
-      "description": "Where local execution is required, independent operating partners are engaged under mandate-specific authorization. PAG does not substitute execution accountability but supports structural coordination."
+      "description": "Where local execution is required, independent operating partners are engaged under mandate-specific authorization. PAG does not substitute execution accountability and does not act as operational proxy for regulated technical functions."
     },
     {
       "image": "/images/pag-5.png",
-      "title": "Step 05 - Governance-Bounded Oversight",
+      "title": "Governance-Bounded Oversight",
       "subtitle": "",
       "area": "05",
       "unit": "",
-      "description": "PAG maintains oversight within its defined contractual perimeter while designated operators manage delivery responsibilities."
+      "description": "PAG maintains oversight within its contractual perimeter while designated operators manage delivery responsibilities. Governance checkpoints track compliance posture, milestone adherence, risk escalation, and corrective action continuity."
     }
   ]
 }

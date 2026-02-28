@@ -1,0 +1,52 @@
+{
+  "scriptText": "استفسارات التفويض",
+  "subtitle": "استفسارات التفويض المؤسسي",
+  "mainTitle": "اتصل بنا",
+  "introText": "للنقاشات المتعلقة بالشراكات أو دخول السوق أو تنسيق التوريد أو التفويضات التجارية، يرجى التواصل مع فريقنا.",
+  "contactInfoTitle": "التواصل المؤسسي",
+  "contactInfo": [
+    {
+      "icon": "MapPin",
+      "label": "المقر الرئيسي",
+      "value": "دبي، الإمارات العربية المتحدة",
+      "subtext": "Pan Africa Group (PAG)"
+    },
+    {
+      "icon": "MapPin",
+      "label": "المكاتب الإقليمية",
+      "value": "أديس أبابا، إثيوبيا | جيبوتي",
+      "subtext": ""
+    },
+    {
+      "icon": "Phone",
+      "label": "الهاتف",
+      "value": "+971504390182",
+      "subtext": "ساعات العمل: من الإثنين إلى الجمعة"
+    },
+    {
+      "icon": "Mail",
+      "label": "البريد الإلكتروني",
+      "value": "info@pag-global.com",
+      "subtext": "قناة الاستفسارات الأساسية"
+    }
+  ],
+  "form": {
+    "nameLabel": "الاسم الكامل",
+    "namePlaceholder": "اكتب اسمك الكامل",
+    "emailLabel": "البريد الإلكتروني للعمل",
+    "emailPlaceholder": "name@organization.com",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "+رمز الدولة",
+    "visitDateLabel": "موعد الاجتماع المفضل",
+    "visitorsLabel": "فئة الاستفسار",
+    "visitorsOptions": ["دخول السوق", "شراكة", "التجارة والتوريد", "تطوير الفرص", "أخرى"],
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "أخبرنا بهدفك والأسواق المستهدفة.",
+    "submitText": "إرسال الاستفسار",
+    "submittingText": "جارٍ الإرسال...",
+    "successMessage": "تم استلام استفسارك. سيقوم فريقنا بالرد خلال 48 ساعة عمل.",
+    "errorMessage": "تعذر الإرسال. يرجى المحاولة مرة أخرى أو التواصل عبر البريد الإلكتروني."
+  },
+  "privacyNotice": "بإرسال هذا النموذج، فإنك توافق على التعامل السري مع المعلومات وفق متطلبات حماية البيانات المعمول بها.",
+  "formEndpoint": "/api/contact"
+}

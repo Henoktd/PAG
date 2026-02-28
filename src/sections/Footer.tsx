@@ -1,7 +1,9 @@
 import { ArrowUp, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { footerConfig } from '../config';
+import { t, useLanguage } from '../lib/i18n';
 
 export function Footer() {
+  const { language } = useLanguage();
   if (!footerConfig.brandName) return null;
 
   const goTo = (href: string) => {
@@ -56,7 +58,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold text-slate-900 mb-3">Contact</p>
+            <p className="text-sm font-semibold text-slate-900 mb-3">{t(language, 'footerContact')}</p>
             <div className="space-y-2">
               {footerConfig.contactItems.map((item, idx) => {
                 const Icon = iconMap[item.icon];

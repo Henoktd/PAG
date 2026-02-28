@@ -125,6 +125,24 @@
 }
 
 @layer components {
+  .skip-link {
+    position: absolute;
+    left: 0.75rem;
+    top: -3rem;
+    z-index: 1000;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 0.625rem 0.875rem;
+    border-radius: 0.25rem;
+    transition: top 160ms ease-in-out;
+  }
+
+  .skip-link:focus {
+    top: 0.75rem;
+    outline: 2px solid #f39d4c;
+    outline-offset: 2px;
+  }
+
   /* Button styles */
   .btn-primary {
     @apply px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300;

@@ -2,12 +2,12 @@
   "scriptText": "Institutional Identity",
   "subtitle": "INSTITUTIONAL IDENTITY",
   "mainTitle": "About Pan Africa Group",
-  "introText": "Pan Africa Group LLC (PAG) is a legally incorporated limited liability company registered in the United Arab Emirates, with operating presence across the Gulf-East Africa corridor. The company functions as a cross-border commercial platform, aligning opportunity, capital, partners, and execution pathways within structured frameworks.",
+  "introText": "Pan Africa Group LLC (PAG) is a UAE-incorporated limited liability company with operating presence across the Gulf-East Africa corridor. The company aligns opportunity, capital, partners, and delivery pathways within clear commercial frameworks. PAG's role is to define mandate architecture early, align accountable stakeholders, and maintain execution discipline through the life of each engagement.",
   "timeline": [
     { "year": "UAE", "event": "Applicable UAE regulatory frameworks" },
     { "year": "JURISDICTIONS", "event": "Relevant commercial regulations in jurisdictions of operation" },
     { "year": "CONTRACTS", "event": "Defined contractual and compliance structures" },
-    { "year": "POSTURE", "event": "Disciplined, mandate-based cross-border engagement model" }
+    { "year": "POSTURE", "event": "Disciplined, mandate-based regional engagement model" }
   ],
   "tabs": [
     {
@@ -17,7 +17,7 @@
       "image": "/images/pag-2.png",
       "content": {
         "title": "Structured Coordination Platform",
-        "description": "PAG is not a product company and does not operate as a regulated vertical execution entity. It identifies opportunity, aligns stakeholders, designs commercial pathways, and supports mandate advancement through structured collaboration.",
+        "description": "PAG is not a product company and does not operate as a regulated vertical execution entity. It identifies opportunities, aligns stakeholders, designs commercial pathways, and advances mandates through coordinated engagement. This positioning allows PAG to focus on mandate integrity, contractual clarity, and institutional counterpart alignment.",
         "highlight": "Where regulated technical execution is required, PAG works alongside designated independent operating entities."
       }
     },
@@ -27,9 +27,9 @@
       "icon": "BookOpen",
       "image": "/images/pag-3.png",
       "content": {
-        "title": "Mandates Structured Per Opportunity",
-        "description": "PAG does not sit within one product line or industry vertical. Engagements may span infrastructure, government-linked initiatives, strategic trade corridors, mobility systems, industrial partnerships, and technology-enabled platforms.",
-        "highlight": "Each mandate is structured independently within defined commercial and jurisdictional parameters."
+        "title": "Mandates Defined Per Opportunity",
+        "description": "PAG does not sit within one product line or industry vertical. Engagements may span infrastructure, government-linked initiatives, strategic trade corridors, mobility systems, industrial partnerships, and technology-enabled platforms. Sector participation is determined by mandate fit, regulatory feasibility, and availability of qualified execution partners.",
+        "highlight": "Each mandate is defined independently within commercial and jurisdictional parameters."
       }
     },
     {
@@ -39,8 +39,8 @@
       "image": "/images/pag-4.png",
       "content": {
         "title": "Defined Compliance Structure",
-        "description": "PAG operates in accordance with applicable UAE regulatory frameworks, relevant commercial regulations in jurisdictions of operation, and defined contractual and compliance structures.",
-        "highlight": "Disciplined, mandate-based approach to cross-border commercial engagement."
+        "description": "PAG operates in accordance with applicable UAE regulatory frameworks, relevant commercial regulations in jurisdictions of operation, and defined contractual compliance structures. Governance controls include role clarity, documented approvals, counterparty vetting, and reporting discipline across the mandate lifecycle.",
+        "highlight": "Disciplined, mandate-based approach to regional commercial engagement."
       }
     }
   ],
@@ -51,7 +51,7 @@
   "yearBadgeLabel": "Corporate Base",
   "quote": {
     "prefix": "Our Role",
-    "text": "PAG connects the right partners, structures the right pathway, and helps move complex cross-border opportunities forward.",
+    "text": "PAG aligns the right partners, defines the right pathway, and advances complex regional opportunities with clear accountability and delivery discipline.",
     "attribution": "Pan Africa Group"
   },
   "founderPhotoAlt": "Institutional governance and coordination session",

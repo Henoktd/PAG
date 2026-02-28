@@ -25,8 +25,7 @@ function useCountUp(target: number, duration = 2000, start = false) {
 }
 
 export function Hero({ isReady }: { isReady: boolean }) {
-  // Null check: if config is empty, render nothing
-  if (!heroConfig.mainTitle) return null;
+  const isConfigured = Boolean(heroConfig.mainTitle);
 
   const [phase, setPhase] = useState(0);
   // phase 0: hidden, 1: bg visible, 2: title, 3: cta, 4: stats counting
@@ -41,14 +40,16 @@ export function Hero({ isReady }: { isReady: boolean }) {
   const counts = [count0, count1, count2];
 
   useEffect(() => {
-    if (!isReady) return;
+    if (!isConfigured || !isReady) return;
     // Stagger: bg -> title -> cta -> stats
     const t1 = setTimeout(() => setPhase(1), 100);   // bg reveal
     const t2 = setTimeout(() => setPhase(2), 800);   // title
     const t3 = setTimeout(() => setPhase(3), 1400);  // cta
     const t4 = setTimeout(() => setPhase(4), 2000);  // stats
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); clearTimeout(t4); };
-  }, [isReady]);
+  }, [isConfigured, isReady]);
+
+  if (!isConfigured) return null;
 
   const goTo = (href: string) => {
     if (href.startsWith('#')) {

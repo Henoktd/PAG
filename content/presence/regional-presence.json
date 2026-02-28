@@ -9,7 +9,7 @@
       "id": 1,
       "image": "/images/pag-1.png",
       "title": "United Arab Emirates",
-      "excerpt": "Head office and cross-border coordination base supporting structured commercial engagement.",
+      "excerpt": "Head office and regional coordination base for commercial engagement.",
       "date": "Head Office",
       "category": "UAE"
     },
@@ -17,7 +17,7 @@
       "id": 2,
       "image": "/images/pag-2.png",
       "title": "Djibouti",
-      "excerpt": "Regional operating presence facilitating corridor alignment and institutional interface.",
+      "excerpt": "Operating presence supporting corridor alignment and institutional interface.",
       "date": "Operating Presence",
       "category": "Djibouti"
     },
@@ -25,7 +25,7 @@
       "id": 3,
       "image": "/images/pag-3.png",
       "title": "Ethiopia",
-      "excerpt": "Office presence supporting local coordination and stakeholder engagement within defined mandates.",
+      "excerpt": "Office presence supporting local coordination and stakeholder engagement.",
       "date": "Office Presence",
       "category": "Ethiopia"
     },
@@ -33,7 +33,7 @@
       "id": 4,
       "image": "/images/pag-4.png",
       "title": "Gulf-East Africa Trade Corridor",
-      "excerpt": "PAG aligns international partners with regional institutions and independent local operators across structured cross-border pathways.",
+      "excerpt": "PAG aligns international partners with regional institutions and independent local operators across defined cross-border pathways.",
       "date": "Regional Corridor",
       "category": "Cross-Border"
     }

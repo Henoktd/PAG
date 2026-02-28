@@ -1,6 +1,8 @@
 import { newsConfig } from '../config';
+import { t, useLanguage } from '../lib/i18n';
 
 export function News() {
+  const { language } = useLanguage();
   if (!newsConfig.mainTitle) return null;
 
   return (
@@ -12,7 +14,7 @@ export function News() {
           </span>
           <h2 className="mq-title mb-3">{newsConfig.mainTitle}</h2>
           <p className="mq-copy max-w-2xl mx-auto">
-            Focused geographic and institutional footprint across defined jurisdictions.
+            {t(language, 'presenceIntro')}
           </p>
         </div>
 
@@ -30,7 +32,7 @@ export function News() {
         </div>
 
         <div className="mt-14 bg-white border border-slate-200 rounded-lg p-6 lg:p-8">
-          <p className="text-sm text-gold-700 uppercase tracking-[0.2em] mb-5 text-center">Trusted Across Partner Networks</p>
+          <p className="text-sm text-gold-700 uppercase tracking-[0.2em] mb-5 text-center">{t(language, 'trustedNetworks')}</p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
             {['Government', 'Infrastructure', 'Trade', 'Mobility', 'Industrial', 'Technology'].map((label) => (
               <div key={label} className="h-12 rounded-md border border-slate-200 bg-slate-50 flex items-center justify-center text-xs font-semibold text-slate-700 uppercase tracking-[0.08em]">
@@ -42,19 +44,19 @@ export function News() {
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Representative Mandate</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
             <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Market Entry Setup</h3>
-            <p className="text-slate-600 text-sm">Cross-border partner alignment and local operating pathway setup for a regulated-sector market entry.</p>
+            <p className="text-slate-600 text-sm">Partner alignment and local pathway setup for regulated-sector market entry.</p>
           </article>
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Representative Mandate</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
             <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Trade & Sourcing Corridor</h3>
             <p className="text-slate-600 text-sm">Supplier coordination across Gulf-East Africa links with institution-facing counterpart alignment.</p>
           </article>
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Representative Mandate</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
             <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Opportunity Development</h3>
-            <p className="text-slate-600 text-sm">Commercial opportunity framing with multi-party coordination support through local execution context.</p>
+            <p className="text-slate-600 text-sm">Commercial opportunity framing with multi-party coordination through local execution context.</p>
           </article>
         </div>
 

@@ -132,49 +132,63 @@ export const heroConfig: HeroConfig = {
 };
 
 // -----------------------------------------------------------------------------
-// Wine Showcase Config (repurposed for Activity Domains - Loaded from CMS)
+// Activity Domains Config (Loaded from CMS)
 // -----------------------------------------------------------------------------
-export interface Wine {
+export interface ActivityDomain {
   id: string;
   name: string;
   subtitle: string;
-  year: string;
   image: string;
-  filter: string;
-  glowColor: string;
   description: string;
-  tastingNotes: string;
-  alcohol: string;
-  temperature: string;
-  aging: string;
+  detail: string;
+  focusAreas: string[];
 }
 
-export interface WineFeature {
+export interface ActivityFeature {
   icon: string;
   title: string;
   description: string;
 }
 
-export interface WineQuote {
+export interface ActivityQuote {
   text: string;
   attribution: string;
   prefix: string;
 }
 
-export interface WineShowcaseConfig {
+export interface ActivityDomainsConfig {
   scriptText: string;
   subtitle: string;
   mainTitle: string;
-  wines: Wine[];
-  features: WineFeature[];
-  quote: WineQuote;
+  domains: ActivityDomain[];
+  features: ActivityFeature[];
+  quote: ActivityQuote;
 }
 
-export const wineShowcaseConfig: WineShowcaseConfig = {
+function getActivityDomains(): ActivityDomain[] {
+  const activities = content.activities as unknown as {
+    domains?: Array<Record<string, unknown>>;
+    wines?: Array<Record<string, unknown>>;
+  };
+  const items = activities.domains ?? activities.wines ?? [];
+  return items.map((item, index) => ({
+    id: String(item.id ?? `domain-${index + 1}`),
+    name: String(item.name ?? ''),
+    subtitle: String(item.subtitle ?? ''),
+    image: String(item.image ?? ''),
+    description: String(item.description ?? ''),
+    detail: String(item.detail ?? item.tastingNotes ?? ''),
+    focusAreas: Array.isArray(item.focusAreas)
+      ? item.focusAreas.map((entry) => String(entry))
+      : [],
+  }));
+}
+
+export const activityDomainsConfig: ActivityDomainsConfig = {
   scriptText: content.activities.scriptText,
   subtitle: content.activities.subtitle,
   mainTitle: content.activities.mainTitle,
-  wines: content.activities.wines,
+  domains: getActivityDomains(),
   features: content.activities.features,
   quote: content.activities.quote,
 };
@@ -486,12 +500,12 @@ function syncConfigsFromContent() {
   heroConfig.institutionalOrientationTitle = content.hero.institutionalOrientationTitle;
   heroConfig.institutionalOrientationText = content.hero.institutionalOrientationText;
 
-  wineShowcaseConfig.scriptText = content.activities.scriptText;
-  wineShowcaseConfig.subtitle = content.activities.subtitle;
-  wineShowcaseConfig.mainTitle = content.activities.mainTitle;
-  wineShowcaseConfig.wines = content.activities.wines;
-  wineShowcaseConfig.features = content.activities.features;
-  wineShowcaseConfig.quote = content.activities.quote;
+  activityDomainsConfig.scriptText = content.activities.scriptText;
+  activityDomainsConfig.subtitle = content.activities.subtitle;
+  activityDomainsConfig.mainTitle = content.activities.mainTitle;
+  activityDomainsConfig.domains = getActivityDomains();
+  activityDomainsConfig.features = content.activities.features;
+  activityDomainsConfig.quote = content.activities.quote;
 
   wineryCarouselConfig.scriptText = content.model.scriptText;
   wineryCarouselConfig.subtitle = content.model.subtitle;

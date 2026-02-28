@@ -3,17 +3,20 @@
   "subtitle": "GROUP-ALIGNED OVERSIGHT",
   "storyTitle": "Governance Alignment",
   "storyParagraphs": [
-    "PAG operates within a structured governance ecosystem aligned with group-level corporate doctrine and applicable regulatory frameworks in its jurisdictions of incorporation and operation.",
-    "This governance model supports delegation discipline, risk control, compliance oversight, and financial accountability while preserving clear separation between structuring authority and execution responsibility."
+    "PAG operates within a governance ecosystem aligned with group-level corporate doctrine and applicable regulatory frameworks in its jurisdictions of incorporation and operation.",
+    "This governance model supports delegation discipline, risk control, compliance oversight, and financial accountability while preserving clear separation between structuring authority and execution responsibility.",
+    "Mandate governance is supported by documented approval pathways, contractual obligation mapping, counterparty due diligence checkpoints, and escalation protocols for delivery or compliance deviations.",
+    "Execution oversight is bounded by defined authority limits: PAG coordinates mandate structure, partner alignment, and governance continuity, while designated operators retain direct delivery accountability within their assigned scopes."
   ],
   "storyTimeline": [
     { "value": "UAE", "label": "Incorporation Base" },
     { "value": "DJI", "label": "Operating Presence" },
+    { "value": "ETH", "label": "Office Presence" },
     { "value": "100%", "label": "Governance-Aligned" }
   ],
   "storyQuote": {
     "prefix": "Governance Principle",
-    "text": "Institutional credibility is built on enforceable structure, clear accountability boundaries, and disciplined oversight.",
+    "text": "Institutional credibility is sustained through enforceable structure, clear accountability boundaries, and disciplined oversight across every mandate phase.",
     "attribution": "Pan Africa Group"
   },
   "storyImage": "/images/governance-meeting.jpg",

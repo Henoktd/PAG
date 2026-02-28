@@ -1,0 +1,42 @@
+{
+  "brandName": "Pan Africa Group LLC",
+  "tagline": "دبي، الإمارات العربية المتحدة",
+  "description": "تعمل عبر الممرات التجارية بين الخليج وشرق أفريقيا.",
+  "socialLinks": [
+    { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
+  ],
+  "linkGroups": [
+    {
+      "title": "المنصة",
+      "links": [
+        { "name": "الرئيسية", "href": "/" },
+        { "name": "عن PAG", "href": "/about" },
+        { "name": "مجالات النشاط", "href": "/activity-domains" },
+        { "name": "نموذج التشغيل", "href": "/operating-model" }
+      ]
+    },
+    {
+      "title": "الانخراط",
+      "links": [
+        { "name": "الحضور الإقليمي", "href": "/regional-presence" },
+        { "name": "اتصل بنا", "href": "/contact" }
+      ]
+    }
+  ],
+  "contactItems": [
+    { "icon": "Mail", "text": "info@pag-global.com" },
+    { "icon": "Phone", "text": "+971504390182" },
+    { "icon": "MapPin", "text": "المقر: دبي، الإمارات | المكاتب: أديس أبابا، إثيوبيا | جيبوتي" }
+  ],
+  "newsletterLabel": "تحديثات مؤسسية",
+  "newsletterPlaceholder": "البريد الإلكتروني للعمل",
+  "newsletterButtonText": "اشتراك",
+  "newsletterSuccessText": "تم استلام الاشتراك. شكرًا لك.",
+  "newsletterErrorText": "تعذر الاشتراك حاليًا. يرجى المحاولة لاحقًا.",
+  "newsletterEndpoint": "mailto:info@pag-global.com",
+  "copyrightText": "Pan Africa Group LLC. جميع الحقوق محفوظة.",
+  "legalLinks": ["سياسة الخصوصية", "شروط الاستخدام", "إشعار الامتثال"],
+  "icpText": "مسجلة في مدينة الشارقة للإعلام - الإمارات.",
+  "backToTopText": "العودة للأعلى",
+  "ageVerificationText": ""
+}

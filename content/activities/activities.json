@@ -2,60 +2,45 @@
   "scriptText": "Activity Domains",
   "subtitle": "REPRESENTATIVE MANDATE CATEGORIES",
   "mainTitle": "Representative Mandate Categories",
-  "wines": [
+  "domains": [
     {
       "id": "market-entry",
       "name": "Market Entry Setup",
       "subtitle": "",
-      "year": "01",
       "image": "/images/pag-5.png",
-      "filter": "",
-      "glowColor": "bg-amber-900/20",
-      "description": "Cross-border partner alignment and structured operating pathway design for regulated-sector entry.",
-      "tastingNotes": "",
-      "alcohol": "Gulf",
-      "temperature": "East Africa",
-      "aging": "Cross-Border"
+      "description": "Partner alignment and operating pathway design for regulated-sector market entry.",
+      "detail": "Counterparty engagement for market-entry mandates across defined jurisdictions.",
+      "focusAreas": ["Regulatory pathway mapping", "Counterparty alignment", "Mandate definition"]
     },
     {
       "id": "trade-sourcing",
       "name": "Trade & Sourcing Corridor",
       "subtitle": "",
-      "year": "02",
       "image": "/images/pag-1.png",
-      "filter": "brightness(1.1) sepia(0.2)",
-      "glowColor": "bg-blue-900/20",
       "description": "Supplier coordination across Gulf-East Africa linkages with institutional counterpart alignment.",
-      "tastingNotes": "",
-      "alcohol": "Trade",
-      "temperature": "Sourcing",
-      "aging": "Coordination"
+      "detail": "Corridor planning and partner synchronization across sourcing, contracting, and delivery checkpoints.",
+      "focusAreas": ["Supplier qualification", "Cross-border contracting", "Delivery oversight"]
     },
     {
       "id": "opportunity-development",
       "name": "Opportunity Development",
       "subtitle": "",
-      "year": "03",
       "image": "/images/pag-2.png",
-      "filter": "brightness(1.05) sepia(0.15)",
-      "glowColor": "bg-emerald-900/20",
-      "description": "Commercial opportunity framing with multi-party coordination support through local execution context.",
-      "tastingNotes": "",
-      "alcohol": "Opportunity",
-      "temperature": "Partnership",
-      "aging": "Delivery Support"
+      "description": "Commercial opportunity framing with multi-party coordination in local execution contexts.",
+      "detail": "Opportunity qualification and institutional pathway definition before execution launch.",
+      "focusAreas": ["Commercial structuring", "Institutional engagement", "Execution readiness"]
     }
   ],
   "features": [
     {
       "icon": "Sparkles",
       "title": "Cross-Border Design",
-      "description": "Structured engagement architecture for multi-party mandates."
+      "description": "Engagement architecture for multi-party mandates."
     },
     {
       "icon": "Wine",
       "title": "Institutional Alignment",
-      "description": "Counterparty and delivery alignment within defined commercial frameworks."
+      "description": "Counterparty and delivery alignment within clear commercial frameworks."
     },
     {
       "icon": "Clock",
@@ -64,7 +49,7 @@
     }
   ],
   "quote": {
-    "text": "PAG works as a bridge between markets, helping partners move from opportunity to coordinated action.",
+    "text": "PAG bridges markets by turning qualified opportunities into coordinated action.",
     "attribution": "Pan Africa Group",
     "prefix": "Operating Principle"
   }

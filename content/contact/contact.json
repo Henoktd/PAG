@@ -2,7 +2,7 @@
   "scriptText": "Structured Mandate Inquiries",
   "subtitle": "STRUCTURED MANDATE INQUIRIES",
   "mainTitle": "Contact",
-  "introText": "For partnership discussions, structured market entry initiatives, sourcing pathway coordination, or cross-border commercial mandates, contact our team.",
+  "introText": "For partnership discussions, market-entry initiatives, sourcing coordination, or commercial mandates, contact our team.",
   "contactInfoTitle": "Corporate Contact",
   "contactInfo": [
     {
@@ -21,13 +21,13 @@
       "icon": "Phone",
       "label": "Phone",
       "value": "+971504390182",
-      "subtext": "Institutional inquiries only"
+      "subtext": "Business hours: Monday to Friday"
     },
     {
       "icon": "Mail",
       "label": "Email",
       "value": "info@pag-global.com",
-      "subtext": "Institutional inquiries only"
+      "subtext": "Primary inquiry channel"
     }
   ],
   "form": {
@@ -48,5 +48,5 @@
     "errorMessage": "Submission failed. Please try again or contact us directly by email."
   },
   "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information in accordance with applicable data protection requirements.",
-  "formEndpoint": "mailto:info@pag-global.com"
+  "formEndpoint": "/api/contact"
 }

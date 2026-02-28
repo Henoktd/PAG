@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import { Navigation } from './sections/Navigation';
 import { Hero } from './sections/Hero';
 import { WineShowcase } from './sections/WineShowcase';
@@ -12,6 +12,8 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { applyContent } from './config';
 import { fetchSanityContent } from './lib/sanity';
 import { HomeOverview } from './sections/HomeOverview';
+import { LanguageContext, type LanguageCode } from './lib/i18n';
+import { getActiveLanguage, setActiveLanguage } from './lib/contentLoader';
 
 function App() {
   const [isLoading, setIsLoading] = useState(() => {
@@ -22,6 +24,14 @@ function App() {
     }
   });
   const [, setContentVersion] = useState(0);
+  const [language, setLanguage] = useState<LanguageCode>(() => {
+    try {
+      const saved = localStorage.getItem('pag_language');
+      return saved === 'ar' ? 'ar' : getActiveLanguage();
+    } catch {
+      return getActiveLanguage();
+    }
+  });
   const normalizePath = (path: string) => path.replace(/\/+$/, '') || '/';
   const [pathname, setPathname] = useState(normalizePath(window.location.pathname));
 
@@ -35,9 +45,24 @@ function App() {
   }, []);
 
   useEffect(() => {
+    setActiveLanguage(language);
+    applyContent({});
+
+    try {
+      localStorage.setItem('pag_language', language);
+    } catch {
+      // Ignore storage errors
+    }
+
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
+  }, [language]);
+
+  useEffect(() => {
     let mounted = true;
 
     const loadCmsContent = async () => {
+      if (language !== 'en') return;
       const remoteContent = await fetchSanityContent();
       if (mounted && remoteContent) {
         applyContent(remoteContent);
@@ -50,7 +75,7 @@ function App() {
     return () => {
       mounted = false;
     };
-  }, []);
+  }, [language]);
 
   useEffect(() => {
     const onPopState = () => setPathname(normalizePath(window.location.pathname));
@@ -82,22 +107,28 @@ function App() {
     }
   };
 
+  const languageContextValue = useMemo(() => ({
+    language,
+    setLanguage,
+  }), [language]);
+
   return (
-    <>
+    <LanguageContext.Provider value={languageContextValue}>
       {isLoading && <Preloader onComplete={handlePreloaderComplete} />}
 
       <div className={`min-h-screen bg-[#f6f8fb] ${isLoading ? 'overflow-hidden max-h-screen' : ''}`}>
+        <a href="#main-content" className="skip-link">Skip to main content</a>
         <div className="site-backdrop" />
         <Navigation />
 
-        <main className="pt-20 md:pt-24 min-h-[calc(100vh+240px)] page-fade-in relative z-10">
+        <main id="main-content" tabIndex={-1} className="pt-20 md:pt-24 min-h-[calc(100vh+240px)] page-fade-in relative z-10">
           {renderPage()}
         </main>
 
         <Footer />
         <ScrollToTop />
       </div>
-    </>
+    </LanguageContext.Provider>
   );
 }
 

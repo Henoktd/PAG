@@ -2,22 +2,25 @@ import { useState, useEffect } from 'react';
 import { preloaderConfig } from '../config';
 
 export function Preloader({ onComplete }: { onComplete: () => void }) {
-  // Null check: if config is empty, complete immediately
-  if (!preloaderConfig.brandName) {
-    useEffect(() => { onComplete(); }, [onComplete]);
-    return null;
-  }
+  const isConfigured = Boolean(preloaderConfig.brandName);
 
   const [phase, setPhase] = useState<'loading' | 'fading'>('loading');
 
   useEffect(() => {
+    if (!isConfigured) {
+      onComplete();
+      return;
+    }
+
     const fadeTimer = setTimeout(() => setPhase('fading'), 2200);
     const completeTimer = setTimeout(() => onComplete(), 2800);
     return () => {
       clearTimeout(fadeTimer);
       clearTimeout(completeTimer);
     };
-  }, [onComplete]);
+  }, [isConfigured, onComplete]);
+
+  if (!isConfigured) return null;
 
   return (
     <div

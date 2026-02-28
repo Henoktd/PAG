@@ -3,18 +3,21 @@ import { ArrowUp } from 'lucide-react';
 import { scrollToTopConfig } from '../config';
 
 export function ScrollToTop() {
-  // Null check: if config is empty, render nothing
-  if (!scrollToTopConfig.ariaLabel) return null;
+  const isConfigured = Boolean(scrollToTopConfig.ariaLabel);
 
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    if (!isConfigured) return;
+
     const handleScroll = () => {
       setIsVisible(window.scrollY > 600);
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isConfigured]);
+
+  if (!isConfigured) return null;
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
