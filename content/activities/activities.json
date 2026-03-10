@@ -1,56 +1,65 @@
 {
-  "scriptText": "Activity Domains",
-  "subtitle": "REPRESENTATIVE MANDATE CATEGORIES",
-  "mainTitle": "Representative Mandate Categories",
+  "scriptText": "Areas of Operation",
+  "subtitle": "STRATEGIC DOMAINS",
+  "mainTitle": "Areas of Operation",
   "domains": [
     {
-      "id": "market-entry",
-      "name": "Market Entry Setup",
+      "id": "financial-access",
+      "name": "Financial Access & Digital Distribution",
       "subtitle": "",
-      "image": "/images/pag-5.png",
-      "description": "Partner alignment and operating pathway design for regulated-sector market entry.",
-      "detail": "Counterparty engagement for market-entry mandates across defined jurisdictions.",
-      "focusAreas": ["Regulatory pathway mapping", "Counterparty alignment", "Mandate definition"]
+      "image": "/images/smart-card-readers.jpg",
+      "description": "Infrastructure supporting digital financial access and regulated digital product ecosystems.",
+      "detail": "These platforms support institutions and operators seeking to expand financial access through secure and scalable distribution systems.",
+      "focusAreas": ["Digital financial access infrastructure", "Secure payment distribution systems", "Digital voucher and airtime ecosystems", "Financial service enablement platforms"]
     },
     {
-      "id": "trade-sourcing",
-      "name": "Trade & Sourcing Corridor",
+      "id": "security-identity",
+      "name": "Security, Identity & Government Systems",
       "subtitle": "",
-      "image": "/images/pag-1.png",
-      "description": "Supplier coordination across Gulf-East Africa linkages with institutional counterpart alignment.",
-      "detail": "Corridor planning and partner synchronization across sourcing, contracting, and delivery checkpoints.",
-      "focusAreas": ["Supplier qualification", "Cross-border contracting", "Delivery oversight"]
+      "image": "/images/biometric-device.jpg",
+      "description": "Deployment of mission-critical systems used by governments and regulated institutions.",
+      "detail": "These systems operate in environments where reliability, compliance, and security are essential.",
+      "focusAreas": ["Biometric identity platforms", "Authentication and verification systems", "Government digital infrastructure", "Regulatory and enforcement technologies"]
     },
     {
-      "id": "opportunity-development",
-      "name": "Opportunity Development",
+      "id": "smart-mobility",
+      "name": "Smart Mobility & Autonomous Platforms",
       "subtitle": "",
-      "image": "/images/pag-2.png",
-      "description": "Commercial opportunity framing with multi-party coordination in local execution contexts.",
-      "detail": "Opportunity qualification and institutional pathway definition before execution launch.",
-      "focusAreas": ["Commercial structuring", "Institutional engagement", "Execution readiness"]
+      "image": "/images/smart-fleet-scooter.jpg",
+      "description": "Development and deployment of advanced mobility and autonomous technology platforms.",
+      "detail": "These platforms support emerging mobility solutions within controlled regulatory environments.",
+      "focusAreas": ["Institutional drone platforms", "Smart fleet systems", "Autonomous mobility infrastructure", "Regulated mobility programs"]
+    },
+    {
+      "id": "procurement-supply",
+      "name": "Mission-Critical Procurement & Supply Chain Enablement",
+      "subtitle": "",
+      "image": "/images/supply-chain-port.jpg",
+      "description": "Procurement and supply chain coordination for specialized equipment and technology systems.",
+      "detail": "The focus is not commodity trading, but complex deployments where supply reliability, compliance, and coordinated logistics are essential.",
+      "focusAreas": ["Sourcing specialized equipment for infrastructure programs", "Coordinating international supplier relationships", "Managing logistics for regulated technology systems", "Supporting procurement needs of partner platforms and affiliated companies"]
     }
   ],
   "features": [
     {
       "icon": "Sparkles",
-      "title": "Cross-Border Design",
-      "description": "Engagement architecture for multi-party mandates."
+      "title": "Cross-Border Program Design",
+      "description": "Coordinated architecture across institutions, providers, and regional operators."
     },
     {
       "icon": "Wine",
-      "title": "Institutional Alignment",
-      "description": "Counterparty and delivery alignment within clear commercial frameworks."
+      "title": "Mission-Critical Deployment Focus",
+      "description": "Designed for reliability, compliance, and long-term operational continuity."
     },
     {
       "icon": "Clock",
-      "title": "Mandate Coordination",
-      "description": "Execution pathway support where local context and governance boundaries matter."
+      "title": "Supply Chain Reliability",
+      "description": "International sourcing and logistics coordination for complex regulated systems."
     }
   ],
   "quote": {
-    "text": "PAG bridges markets by turning qualified opportunities into coordinated action.",
+    "text": "PAG connects global capabilities with regional implementation capacity.",
     "attribution": "Pan Africa Group",
-    "prefix": "Operating Principle"
+    "prefix": "Strategic Role"
   }
 }

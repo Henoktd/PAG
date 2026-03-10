@@ -7,7 +7,15 @@ export function WineShowcase() {
   const { language } = useLanguage();
   if (!activityDomainsConfig.mainTitle || activityDomainsConfig.domains.length === 0) return null;
 
-  const items = activityDomainsConfig.domains.slice(0, 3);
+  const items = activityDomainsConfig.domains;
+  const goTo = (href: string) => {
+    const current = window.location.pathname.replace(/\/+$/, '') || '/';
+    const target = href.replace(/\/+$/, '') || '/';
+    if (current !== target) {
+      window.history.pushState({}, '', href);
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
+  };
 
   return (
     <section id="activities" className="mq-section mq-inner-section">
@@ -24,16 +32,26 @@ export function WineShowcase() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {items.map((item) => (
             <article key={item.id} className="mq-card">
               {item.image && (
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="w-full h-44 object-cover rounded-md mb-4"
-                  loading="lazy"
-                />
+                <div className="relative mb-4">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-44 object-cover rounded-md"
+                    loading="lazy"
+                  />
+                  {item.id === 'smart-mobility' && (
+                    <img
+                      src="/images/drone-platform.jpg"
+                      alt="Drone platform"
+                      className="absolute bottom-2 right-2 w-24 h-16 object-cover rounded-sm border-2 border-white shadow-md"
+                      loading="lazy"
+                    />
+                  )}
+                </div>
               )}
               <h3 className="font-sans text-xl font-semibold text-slate-900 mb-2">
                 {item.name} {item.subtitle}
@@ -47,6 +65,12 @@ export function WineShowcase() {
                   ))}
                 </ul>
               )}
+              <button
+                onClick={() => goTo(`/areas-of-operation/${item.id}`)}
+                className="mt-4 text-sm font-semibold text-[#38469D] hover:text-[#F39D4C] transition-colors"
+              >
+                View Domain
+              </button>
             </article>
           ))}
         </div>

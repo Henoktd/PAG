@@ -1,48 +1,48 @@
 {
-  "scriptText": "Cross-Border Governance Layer",
-  "subtitle": "OPERATING MODEL",
-  "mainTitle": "Operating Model",
-  "locationTag": "Cross-Border Governance Layer",
+  "scriptText": "Initiatives",
+  "subtitle": "PROGRAM PORTFOLIO",
+  "mainTitle": "Initiatives",
+  "locationTag": "Infrastructure, technology, and operational platform development",
   "slides": [
     {
-      "image": "/images/pag-1.png",
-      "title": "Mandate Identification",
+      "image": "/images/model-origination.jpg",
+      "title": "Digital Infrastructure Programs",
       "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Institutional and commercial opportunities are screened for structural suitability, regulatory viability, and stakeholder alignment. Only mandates with clear ownership boundaries, feasible delivery pathways, and governance compatibility proceed to structuring."
+      "description": "Programs enabling digital financial infrastructure, secure distribution systems, and institution-facing technology platforms."
     },
     {
-      "image": "/images/pag-2.png",
-      "title": "Supplier & Partner Structuring",
+      "image": "/images/activity-project.jpg",
+      "title": "Mobility Platforms",
       "subtitle": "",
       "area": "02",
       "unit": "",
-      "description": "International suppliers and local operators are evaluated for capability, compliance fit, and enforceable participation. Assessment includes track record review, jurisdictional fit, delivery readiness, and commitment to reporting obligations."
+      "description": "Regulated mobility initiatives including smart fleet systems and autonomous platforms in controlled operating environments."
     },
     {
-      "image": "/images/pag-3.png",
-      "title": "Contract Framework Design",
+      "image": "/images/model-governance.jpg",
+      "title": "Government Technology Initiatives",
       "subtitle": "",
       "area": "03",
       "unit": "",
-      "description": "Multi-jurisdiction commercial frameworks are defined with clear scope, performance expectations, risk allocation, and governance boundaries. Contract architecture is designed to preserve execution accountability while enabling coordinated multi-party delivery."
+      "description": "Mission-critical government systems focused on identity, verification, enforcement technology, and secure operational architecture."
     },
     {
-      "image": "/images/pag-4.png",
-      "title": "Independent Operator Engagement",
+      "image": "/images/model-structuring.jpg",
+      "title": "Industrial Infrastructure Development",
       "subtitle": "",
       "area": "04",
       "unit": "",
-      "description": "Where local execution is required, independent operating partners are engaged under mandate-specific authorization. PAG does not substitute execution accountability and does not act as operational proxy for regulated technical functions."
+      "description": "Infrastructure programs requiring cross-border procurement, supplier coordination, and sustained institutional delivery capability."
     },
     {
-      "image": "/images/pag-5.png",
-      "title": "Governance-Bounded Oversight",
+      "image": "/images/model-sourcing.jpg",
+      "title": "Cross-Border Program Structuring",
       "subtitle": "",
       "area": "05",
       "unit": "",
-      "description": "PAG maintains oversight within its contractual perimeter while designated operators manage delivery responsibilities. Governance checkpoints track compliance posture, milestone adherence, risk escalation, and corrective action continuity."
+      "description": "Initiatives developed through partnerships between international technology providers, institutions, and regional operators."
     }
   ]
 }

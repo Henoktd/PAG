@@ -1,7 +1,7 @@
 {
   "brandName": "Pan Africa Group LLC",
-  "tagline": "Dubai, United Arab Emirates",
-  "description": "Operating across Gulf and East Africa commercial corridors.",
+  "tagline": "Cross-Border Infrastructure & Technology Platform",
+  "description": "Pan Africa Group connects global capabilities with regional implementation across emerging markets.",
   "socialLinks": [
     { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
   ],
@@ -11,32 +11,31 @@
       "links": [
         { "name": "Home", "href": "/" },
         { "name": "About PAG", "href": "/about" },
-        { "name": "Activity Domains", "href": "/activity-domains" },
-        { "name": "Operating Model", "href": "/operating-model" }
+        { "name": "Areas of Operation", "href": "/areas-of-operation" },
+        { "name": "Partnerships", "href": "/partnerships" }
       ]
     },
     {
-      "title": "Engagement",
+      "title": "Programs",
       "links": [
-        { "name": "Regional Presence", "href": "/regional-presence" },
+        { "name": "Initiatives", "href": "/initiatives" },
         { "name": "Contact", "href": "/contact" }
       ]
     }
   ],
   "contactItems": [
-    { "icon": "Mail", "text": "info@pag-global.com" },
-    { "icon": "Phone", "text": "+971504390182" },
-    { "icon": "MapPin", "text": "Headquarters: Dubai, UAE | Offices: Addis Ababa, Ethiopia | Djibouti" }
+    { "icon": "Mail", "text": "info@pag-platform.com" },
+    { "icon": "MapPin", "text": "Dubai - United Arab Emirates | Djibouti - East Africa" }
   ],
   "newsletterLabel": "Institutional Updates",
   "newsletterPlaceholder": "Work email address",
   "newsletterButtonText": "Subscribe",
   "newsletterSuccessText": "Subscription received. Thank you.",
   "newsletterErrorText": "Unable to subscribe at this time. Please try again.",
-  "newsletterEndpoint": "mailto:info@pag-global.com",
+  "newsletterEndpoint": "mailto:info@pag-platform.com",
   "copyrightText": "Pan Africa Group LLC. All rights reserved.",
   "legalLinks": ["Privacy Policy", "Terms of Use", "Compliance Notice"],
-  "icpText": "Registered in Sharjah Media City Free Zone, UAE.",
+  "icpText": "Pan Africa Group LLC.",
   "backToTopText": "Back to top",
   "ageVerificationText": ""
 }

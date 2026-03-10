@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Drone and smart fleet mobility devices">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1a4a"/>
+      <stop offset="100%" stop-color="#243274"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+  <rect x="200" y="150" width="800" height="500" rx="30" fill="#101a4a" stroke="#6472ba" stroke-width="4"/>
+  <g fill="none" stroke="#F39D4C" stroke-width="10" stroke-linecap="round">
+    <circle cx="420" cy="250" r="58"/>
+    <circle cx="780" cy="250" r="58"/>
+    <circle cx="420" cy="470" r="58"/>
+    <circle cx="780" cy="470" r="58"/>
+  </g>
+  <rect x="500" y="290" width="200" height="140" rx="20" fill="#1b2a73" stroke="#90a0df" stroke-width="4"/>
+  <path d="M500 360H460M700 360H740M600 290V250M600 430V470" stroke="#9aa9e4" stroke-width="8" stroke-linecap="round"/>
+  <rect x="290" y="560" width="620" height="8" rx="4" fill="#4c59a7"/>
+  <circle cx="380" cy="575" r="46" fill="#111a48" stroke="#F39D4C" stroke-width="10"/>
+  <circle cx="820" cy="575" r="46" fill="#111a48" stroke="#F39D4C" stroke-width="10"/>
+  <path d="M380 575h440" stroke="#F39D4C" stroke-width="12" stroke-linecap="round"/>
+  <rect x="560" y="500" width="140" height="70" rx="12" fill="#22307a" stroke="#8fa0de" stroke-width="3"/>
+  <rect x="540" y="480" width="120" height="20" rx="8" fill="#f8c187"/>
+</svg>

@@ -21,10 +21,10 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  title: "Pan Africa Group LLC | Cross-Border Business Development Platform",
-  description: "Pan Africa Group LLC (PAG) is a Dubai-based cross-border business development and market enablement platform connecting Gulf and East Africa markets.",
+  title: "Pan Africa Group LLC | Cross-Border Infrastructure & Technology Platform",
+  description: "Pan Africa Group LLC (PAG) is an international infrastructure and technology platform connecting global capabilities with regional implementation in emerging markets.",
   language: "en",
-  keywords: "Pan Africa Group, PAG, cross-border structuring, institutional sourcing, contract architecture, UAE, Djibouti, East Africa corridor",
+  keywords: "Pan Africa Group, PAG, cross-border infrastructure, technology platform, institutional partnerships, emerging markets, supply chain enablement",
   ogImage: "/images/og-image.jpg",
   canonical: "https://panafricagroup.com",
 };
@@ -55,13 +55,13 @@ export interface NavigationConfig {
 export const navigationConfig: NavigationConfig = {
   brandName: "Pan Africa Group",
   brandSubname: "LLC",
-  tagline: "Cross-Border Business Development",
+  tagline: "Infrastructure & Technology Platform",
   navLinks: [
     { name: "Home", href: "/", icon: "Home" },
     { name: "About PAG", href: "/about", icon: "BookOpen" },
-    { name: "Activity Domains", href: "/activity-domains", icon: "Grape" },
-    { name: "Operating Model", href: "/operating-model", icon: "Users" },
-    { name: "Regional Presence", href: "/regional-presence", icon: "MapPin" },
+    { name: "Areas of Operation", href: "/areas-of-operation", icon: "Grape" },
+    { name: "Partnerships", href: "/partnerships", icon: "Users" },
+    { name: "Initiatives", href: "/initiatives", icon: "MapPin" },
     { name: "Contact", href: "/contact", icon: "Mail" },
   ],
   ctaButtonText: "",
@@ -119,7 +119,7 @@ export const heroConfig: HeroConfig = {
   mainTitle: content.hero.mainTitle,
   subheading: content.hero.subheading,
   ctaButtonText: content.hero.ctaButtonText,
-  ctaTarget: "/activity-domains",
+  ctaTarget: "/areas-of-operation",
   stats: content.hero.stats,
   decorativeText: content.hero.decorativeText,
   backgroundImage: content.hero.backgroundImage,
@@ -356,6 +356,37 @@ export const newsConfig: NewsConfig = {
 };
 
 // -----------------------------------------------------------------------------
+// Insights Config (Loaded from CMS)
+// -----------------------------------------------------------------------------
+export interface InsightPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  topic: string;
+  publishedAt: string;
+  image: string;
+  slug: string;
+}
+
+export interface InsightsConfig {
+  scriptText: string;
+  subtitle: string;
+  mainTitle: string;
+  introText: string;
+  viewAllText: string;
+  posts: InsightPost[];
+}
+
+export const insightsConfig: InsightsConfig = {
+  scriptText: content.insights.scriptText,
+  subtitle: content.insights.subtitle,
+  mainTitle: content.insights.mainTitle,
+  introText: content.insights.introText,
+  viewAllText: content.insights.viewAllText,
+  posts: content.insights.posts,
+};
+
+// -----------------------------------------------------------------------------
 // Contact Form Config (Loaded from CMS)
 // -----------------------------------------------------------------------------
 export interface ContactInfoItem {
@@ -546,6 +577,13 @@ function syncConfigsFromContent() {
   newsConfig.storyQuote = content.governance.storyQuote;
   newsConfig.storyImage = content.governance.storyImage;
   newsConfig.storyImageCaption = content.governance.storyImageCaption;
+
+  insightsConfig.scriptText = content.insights.scriptText;
+  insightsConfig.subtitle = content.insights.subtitle;
+  insightsConfig.mainTitle = content.insights.mainTitle;
+  insightsConfig.introText = content.insights.introText;
+  insightsConfig.viewAllText = content.insights.viewAllText;
+  insightsConfig.posts = content.insights.posts;
 
   contactFormConfig.scriptText = content.contact.scriptText;
   contactFormConfig.subtitle = content.contact.subtitle;

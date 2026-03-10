@@ -8,6 +8,7 @@ import partnersContent from '../../content/partners/partners.json';
 import governanceContent from '../../content/governance/governance.json';
 import contactContent from '../../content/contact/contact.json';
 import footerContent from '../../content/footer/footer.json';
+import insightsContent from '../../content/insights/insights.json';
 import arHomeContent from '../../content/i18n/ar/home/home.json';
 import arAboutContent from '../../content/i18n/ar/about/about.json';
 import arActivitiesContent from '../../content/i18n/ar/activities/activities.json';
@@ -17,6 +18,7 @@ import arPartnersContent from '../../content/i18n/ar/partners/partners.json';
 import arGovernanceContent from '../../content/i18n/ar/governance/governance.json';
 import arContactContent from '../../content/i18n/ar/contact/contact.json';
 import arFooterContent from '../../content/i18n/ar/footer/footer.json';
+import arInsightsContent from '../../content/i18n/ar/insights/insights.json';
 import type { LanguageCode } from './i18n';
 
 const englishContent = {
@@ -29,6 +31,7 @@ const englishContent = {
   governance: governanceContent,
   contact: contactContent,
   footer: footerContent,
+  insights: insightsContent,
 };
 
 const arabicContent = {
@@ -41,6 +44,7 @@ const arabicContent = {
   governance: arGovernanceContent,
   contact: arContactContent,
   footer: arFooterContent,
+  insights: arInsightsContent,
 };
 
 const contentByLanguage = {
@@ -83,5 +87,6 @@ export function setContent(nextContent: Partial<SiteContent>) {
     governance: mergeSection('governance'),
     contact: mergeSection('contact'),
     footer: mergeSection('footer'),
+    insights: mergeSection('insights'),
   };
 }

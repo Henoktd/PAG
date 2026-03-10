@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Digital payment and access devices">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1b4f"/>
+      <stop offset="100%" stop-color="#38469D"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F39D4C"/>
+      <stop offset="100%" stop-color="#d97d2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="170" y="140" width="520" height="520" rx="36" fill="#14215d" stroke="#6f7bc2" stroke-width="4"/>
+  <rect x="250" y="220" width="360" height="250" rx="18" fill="#0e1743" stroke="#92a0dc" stroke-width="3"/>
+  <rect x="285" y="255" width="120" height="80" rx="8" fill="#F39D4C"/>
+  <rect x="430" y="255" width="145" height="18" rx="9" fill="#8e98ce"/>
+  <rect x="430" y="285" width="145" height="14" rx="7" fill="#6370b5"/>
+  <rect x="285" y="365" width="290" height="70" rx="10" fill="#1e2e7f"/>
+  <rect x="735" y="220" width="290" height="180" rx="16" fill="url(#card)"/>
+  <rect x="760" y="255" width="95" height="60" rx="6" fill="#ffe0bf"/>
+  <rect x="880" y="255" width="120" height="12" rx="6" fill="#fff1df"/>
+  <rect x="880" y="278" width="120" height="10" rx="5" fill="#ffe8d0"/>
+  <circle cx="905" cy="340" r="30" fill="#ffe8d0"/>
+  <circle cx="940" cy="340" r="30" fill="#ffd9b3"/>
+  <path d="M820 520a120 120 0 0 1 240 0" fill="none" stroke="#F39D4C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M850 520a90 90 0 0 1 180 0" fill="none" stroke="#f8c187" stroke-width="8" stroke-linecap="round"/>
+  <path d="M885 520a55 55 0 0 1 110 0" fill="none" stroke="#ffe2c0" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,32 +1,26 @@
 {
-  "scriptText": "Structured Mandate Inquiries",
-  "subtitle": "STRUCTURED MANDATE INQUIRIES",
+  "scriptText": "Contact",
+  "subtitle": "INSTITUTIONAL INQUIRIES",
   "mainTitle": "Contact",
-  "introText": "For partnership discussions, market-entry initiatives, sourcing coordination, or commercial mandates, contact our team.",
+  "introText": "For institutional inquiries and partnership discussions, contact Pan Africa Group LLC.",
   "contactInfoTitle": "Corporate Contact",
   "contactInfo": [
     {
       "icon": "MapPin",
-      "label": "Headquarters",
-      "value": "Dubai, UAE",
-      "subtext": "Pan Africa Group (PAG)"
+      "label": "Location",
+      "value": "Dubai - United Arab Emirates",
+      "subtext": "Pan Africa Group LLC"
     },
     {
       "icon": "MapPin",
-      "label": "Regional Offices",
-      "value": "Addis Ababa, Ethiopia | Djibouti",
+      "label": "Regional Presence",
+      "value": "Djibouti - East Africa",
       "subtext": ""
-    },
-    {
-      "icon": "Phone",
-      "label": "Phone",
-      "value": "+971504390182",
-      "subtext": "Business hours: Monday to Friday"
     },
     {
       "icon": "Mail",
       "label": "Email",
-      "value": "info@pag-global.com",
+      "value": "info@pag-platform.com",
       "subtext": "Primary inquiry channel"
     }
   ],
@@ -39,14 +33,14 @@
     "phonePlaceholder": "+country code",
     "visitDateLabel": "Preferred Meeting Date",
     "visitorsLabel": "Inquiry Category",
-    "visitorsOptions": ["Market Entry", "Partnership", "Trade & Sourcing", "Opportunity Development", "Other"],
+    "visitorsOptions": ["Partnership Discussion", "Infrastructure Program", "Technology Initiative", "Supply Chain Enablement", "Other"],
     "messageLabel": "Message",
-    "messagePlaceholder": "Tell us what you're trying to achieve and which market(s) you are targeting.",
+    "messagePlaceholder": "Share your institutional objective and the partnership or initiative scope.",
     "submitText": "Submit Inquiry",
     "submittingText": "Submitting...",
-    "successMessage": "Your inquiry has been submitted. Our team will respond within 48 business hours.",
+    "successMessage": "Your inquiry has been submitted. Our team will follow up shortly.",
     "errorMessage": "Submission failed. Please try again or contact us directly by email."
   },
-  "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information in accordance with applicable data protection requirements.",
+  "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information.",
   "formEndpoint": "/api/contact"
 }

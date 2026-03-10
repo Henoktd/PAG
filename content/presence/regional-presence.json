@@ -1,41 +1,41 @@
 {
-  "scriptText": "Focused Geographic Footprint",
-  "subtitle": "GULF-EAST AFRICA TRADE CORRIDOR",
-  "mainTitle": "Regional Presence",
+  "scriptText": "Partnerships",
+  "subtitle": "INSTITUTIONAL ECOSYSTEM",
+  "mainTitle": "Partnerships",
   "viewAllText": "",
   "readMoreText": "",
   "articles": [
     {
       "id": 1,
-      "image": "/images/pag-1.png",
-      "title": "United Arab Emirates",
-      "excerpt": "Head office and regional coordination base for commercial engagement.",
-      "date": "Head Office",
-      "category": "UAE"
+      "image": "/images/region-network.jpg",
+      "title": "Global Technology Providers",
+      "excerpt": "Partners providing infrastructure and technology capability for institutional initiatives.",
+      "date": "",
+      "category": "Technology"
     },
     {
       "id": 2,
-      "image": "/images/pag-2.png",
-      "title": "Djibouti",
-      "excerpt": "Operating presence supporting corridor alignment and institutional interface.",
-      "date": "Operating Presence",
-      "category": "Djibouti"
+      "image": "/images/region-gulf.jpg",
+      "title": "Institutional Clients",
+      "excerpt": "Governments and institutions requiring complex cross-border coordination for program delivery.",
+      "date": "",
+      "category": "Institutional"
     },
     {
       "id": 3,
-      "image": "/images/pag-3.png",
-      "title": "Ethiopia",
-      "excerpt": "Office presence supporting local coordination and stakeholder engagement.",
-      "date": "Office Presence",
-      "category": "Ethiopia"
+      "image": "/images/region-east-africa.jpg",
+      "title": "Infrastructure Developers",
+      "excerpt": "Partners supporting deployment of systems and assets requiring multi-party execution models.",
+      "date": "",
+      "category": "Infrastructure"
     },
     {
       "id": 4,
-      "image": "/images/pag-4.png",
-      "title": "Gulf-East Africa Trade Corridor",
-      "excerpt": "PAG aligns international partners with regional institutions and independent local operators across defined cross-border pathways.",
-      "date": "Regional Corridor",
-      "category": "Cross-Border"
+      "image": "/images/region-coordination.jpg",
+      "title": "Regional Execution Partners",
+      "excerpt": "In-market operators with institutional relationships and implementation capacity, including Sino Africa in key African markets.",
+      "date": "",
+      "category": "Regional"
     }
   ]
 }

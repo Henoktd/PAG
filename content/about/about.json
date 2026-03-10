@@ -1,59 +1,59 @@
 {
-  "scriptText": "Institutional Identity",
-  "subtitle": "INSTITUTIONAL IDENTITY",
+  "scriptText": "About PAG",
+  "subtitle": "CROSS-BORDER PLATFORM",
   "mainTitle": "About Pan Africa Group",
-  "introText": "Pan Africa Group LLC (PAG) is a UAE-incorporated limited liability company with operating presence across the Gulf-East Africa corridor. The company aligns opportunity, capital, partners, and delivery pathways within clear commercial frameworks. PAG's role is to define mandate architecture early, align accountable stakeholders, and maintain execution discipline through the life of each engagement.",
+  "introText": "Pan Africa Group LLC is a cross-border infrastructure and technology platform focused on developing institutional initiatives across emerging markets. Operating between international technology providers and regional markets, the company works with governments, institutions, and partners to structure programs that require coordinated partnerships and reliable supply chains.",
   "timeline": [
-    { "year": "UAE", "event": "Applicable UAE regulatory frameworks" },
-    { "year": "JURISDICTIONS", "event": "Relevant commercial regulations in jurisdictions of operation" },
-    { "year": "CONTRACTS", "event": "Defined contractual and compliance structures" },
-    { "year": "POSTURE", "event": "Disciplined, mandate-based regional engagement model" }
+    { "year": "POSITIONING", "event": "International platform connecting global capability and regional execution capacity." },
+    { "year": "FOCUS", "event": "Infrastructure, technology deployment, and long-term operational sustainability." },
+    { "year": "MODEL", "event": "Structured partnerships, coordinated supply chains, and institutional program development." },
+    { "year": "ORIENTATION", "event": "Platform role, not contractor or general trading posture." }
   ],
   "tabs": [
     {
       "id": "classification",
-      "name": "Platform Classification",
+      "name": "Platform Role",
       "icon": "History",
-      "image": "/images/pag-2.png",
+      "image": "/images/about-positioning.jpg",
       "content": {
-        "title": "Structured Coordination Platform",
-        "description": "PAG is not a product company and does not operate as a regulated vertical execution entity. It identifies opportunities, aligns stakeholders, designs commercial pathways, and advances mandates through coordinated engagement. This positioning allows PAG to focus on mandate integrity, contractual clarity, and institutional counterpart alignment.",
-        "highlight": "Where regulated technical execution is required, PAG works alongside designated independent operating entities."
+        "title": "International Platform Role",
+        "description": "PAG coordinates partnerships and supply architecture across borders, connecting global partners with regional implementation capability.",
+        "highlight": "The company is positioned as a platform rather than a contractor."
       }
     },
     {
       "id": "multi-sector",
-      "name": "Flexible, Multi-Sector Engagement",
+      "name": "Institutional Coordination",
       "icon": "BookOpen",
-      "image": "/images/pag-3.png",
+      "image": "/images/about-approach.jpg",
       "content": {
-        "title": "Mandates Defined Per Opportunity",
-        "description": "PAG does not sit within one product line or industry vertical. Engagements may span infrastructure, government-linked initiatives, strategic trade corridors, mobility systems, industrial partnerships, and technology-enabled platforms. Sector participation is determined by mandate fit, regulatory feasibility, and availability of qualified execution partners.",
-        "highlight": "Each mandate is defined independently within commercial and jurisdictional parameters."
+        "title": "Multi-Stakeholder Program Structuring",
+        "description": "Many initiatives require coordination between governments, technology providers, infrastructure developers, finance partners, and operators. PAG is built for that integration challenge.",
+        "highlight": "The platform aligns institutions and execution partners around clear operating structures."
       }
     },
     {
       "id": "governance",
-      "name": "Governance & Compliance Posture",
+      "name": "Regional Partnerships",
       "icon": "Award",
-      "image": "/images/pag-4.png",
+      "image": "/images/about-identity.jpg",
       "content": {
-        "title": "Defined Compliance Structure",
-        "description": "PAG operates in accordance with applicable UAE regulatory frameworks, relevant commercial regulations in jurisdictions of operation, and defined contractual compliance structures. Governance controls include role clarity, documented approvals, counterparty vetting, and reporting discipline across the mandate lifecycle.",
-        "highlight": "Disciplined, mandate-based approach to regional commercial engagement."
+        "title": "Africa Partner Model",
+        "description": "PAG works with regional partners in local markets. In Africa, PAG collaborates with Sino Africa for institutional engagement and operational implementation.",
+        "highlight": "This model combines international platform coordination with strong local execution capacity."
       }
     }
   ],
-  "openingHours": "Institutional and Commercial Engagement by Appointment",
-  "openingHoursLabel": "Engagement Window",
-  "ctaButtonText": "Review Operating Model",
+  "openingHours": "Institutional Engagement by Appointment",
+  "openingHoursLabel": "Engagement",
+  "ctaButtonText": "Explore Initiatives",
   "yearBadge": "UAE",
   "yearBadgeLabel": "Corporate Base",
   "quote": {
-    "prefix": "Our Role",
-    "text": "PAG aligns the right partners, defines the right pathway, and advances complex regional opportunities with clear accountability and delivery discipline.",
+    "prefix": "Institutional Narrative",
+    "text": "PAG focuses on initiatives that create durable operational platforms capable of functioning over time.",
     "attribution": "Pan Africa Group"
   },
-  "founderPhotoAlt": "Institutional governance and coordination session",
-  "founderPhoto": "/images/pag-1.png"
+  "founderPhotoAlt": "Infrastructure and institutional coordination",
+  "founderPhoto": "/images/about-photo.jpg"
 }

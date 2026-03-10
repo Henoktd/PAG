@@ -1,0 +1,36 @@
+{
+  "scriptText": "الرؤى",
+  "subtitle": "وجهات نظر",
+  "mainTitle": "الرؤى",
+  "introText": "رؤى حول تطوير البنية التحتية والمنصات التقنية الناشئة وتطوير المشاريع العابرة للحدود والشراكات المؤسسية.",
+  "viewAllText": "عرض جميع الرؤى",
+  "posts": [
+    {
+      "id": "insight-1",
+      "title": "تطوير البنية التحتية في الأسواق الناشئة",
+      "excerpt": "كيف تحسن نماذج التنسيق المؤسسي نتائج تسليم البنية التحتية على المدى الطويل عبر الأسواق الناشئة.",
+      "topic": "البنية التحتية",
+      "publishedAt": "2026-03-01",
+      "image": "/images/model-framework.jpg",
+      "slug": "infrastructure-development-emerging-markets"
+    },
+    {
+      "id": "insight-2",
+      "title": "المنصات التقنية في البيئات المنظمة",
+      "excerpt": "مبادئ أساسية لنشر الأنظمة التقنية الحيوية ضمن متطلبات الامتثال والحوكمة الصارمة.",
+      "topic": "التكنولوجيا",
+      "publishedAt": "2026-02-20",
+      "image": "/images/model-governance.jpg",
+      "slug": "technology-platforms-regulated-environments"
+    },
+    {
+      "id": "insight-3",
+      "title": "هيكلة المشاريع العابرة للحدود",
+      "excerpt": "أطر عملية لمواءمة الحكومات ومزودي التكنولوجيا والمشغلين الإقليميين حول مسؤوليات تنفيذ واضحة.",
+      "topic": "الشراكات",
+      "publishedAt": "2026-02-10",
+      "image": "/images/model-structuring.jpg",
+      "slug": "cross-border-project-structuring"
+    }
+  ]
+}

@@ -14,6 +14,8 @@ import { fetchSanityContent } from './lib/sanity';
 import { HomeOverview } from './sections/HomeOverview';
 import { LanguageContext, type LanguageCode } from './lib/i18n';
 import { getActiveLanguage, setActiveLanguage } from './lib/contentLoader';
+import { HomepageHighlights } from './sections/HomepageHighlights';
+import { AreaDomainDetail } from './sections/AreaDomainDetail';
 
 function App() {
   const [isLoading, setIsLoading] = useState(() => {
@@ -84,22 +86,39 @@ function App() {
   }, []);
 
   const renderPage = () => {
+    if (pathname.startsWith('/areas-of-operation/')) {
+      const slug = pathname.replace('/areas-of-operation/', '');
+      return <AreaDomainDetail slug={slug} />;
+    }
+
     switch (pathname) {
       case '/':
         return (
           <>
             <Hero isReady={!isLoading} />
             <HomeOverview />
+            <HomepageHighlights />
           </>
         );
       case '/about':
         return <Museum />;
+      case '/areas-of-operation':
       case '/activity-domains':
         return <WineShowcase />;
-      case '/operating-model':
-        return <WineryCarousel />;
+      case '/partnerships':
       case '/regional-presence':
         return <News />;
+      case '/initiatives':
+      case '/operating-model':
+        return <WineryCarousel />;
+      case '/insights':
+        return (
+          <>
+            <Hero isReady={!isLoading} />
+            <HomeOverview />
+            <HomepageHighlights />
+          </>
+        );
       case '/contact':
         return <ContactForm />;
       default:

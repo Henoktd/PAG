@@ -27,6 +27,7 @@ The frontend fetches one published document per type:
 - `activities`
 - `model`
 - `presence`
+- `insights`
 - `contact`
 - `footer`
 
@@ -34,6 +35,7 @@ Optional:
 
 - `partners`
 - `governance`
+- `insightPost` (repeatable posts, ordered by `publishedAt`)
 
 Each document can be either:
 
@@ -77,4 +79,3 @@ npm run build
 ```
 2. Upload files from `app/dist` to your cPanel public web root.
 3. Add the same `VITE_SANITY_*` variables during build time (locally/CI before deploying `dist`).
-

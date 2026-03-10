@@ -44,19 +44,19 @@ export function News() {
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Market Entry Setup</h3>
-            <p className="text-slate-600 text-sm">Partner alignment and local pathway setup for regulated-sector market entry.</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
+            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Global Technology Providers</h3>
+            <p className="text-slate-600 text-sm">Technology partners supporting secure, scalable, and mission-critical program architectures.</p>
           </article>
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Trade & Sourcing Corridor</h3>
-            <p className="text-slate-600 text-sm">Supplier coordination across Gulf-East Africa links with institution-facing counterpart alignment.</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
+            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Institutional Clients</h3>
+            <p className="text-slate-600 text-sm">Government and institutional stakeholders requiring coordinated deployment models across markets.</p>
           </article>
           <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{t(language, 'mandateType')}</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Opportunity Development</h3>
-            <p className="text-slate-600 text-sm">Commercial opportunity framing with multi-party coordination through local execution context.</p>
+            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
+            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Regional Execution Partners</h3>
+            <p className="text-slate-600 text-sm">In-market partners enabling local engagement, operational implementation, and program continuity.</p>
           </article>
         </div>
 

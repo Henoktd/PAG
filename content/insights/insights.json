@@ -1,0 +1,36 @@
+{
+  "scriptText": "Insights",
+  "subtitle": "PERSPECTIVES",
+  "mainTitle": "Insights",
+  "introText": "Perspectives on infrastructure development, emerging technology platforms, cross-border project development, and institutional partnerships.",
+  "viewAllText": "View all insights",
+  "posts": [
+    {
+      "id": "insight-1",
+      "title": "Infrastructure Development in Emerging Markets",
+      "excerpt": "How institutional coordination models improve long-term infrastructure delivery outcomes across emerging markets.",
+      "topic": "Infrastructure",
+      "publishedAt": "2026-03-01",
+      "image": "/images/model-framework.jpg",
+      "slug": "infrastructure-development-emerging-markets"
+    },
+    {
+      "id": "insight-2",
+      "title": "Technology Platforms in Regulated Environments",
+      "excerpt": "Key design principles for deploying mission-critical technology systems under strict compliance and governance requirements.",
+      "topic": "Technology",
+      "publishedAt": "2026-02-20",
+      "image": "/images/model-governance.jpg",
+      "slug": "technology-platforms-regulated-environments"
+    },
+    {
+      "id": "insight-3",
+      "title": "Cross-Border Project Structuring",
+      "excerpt": "Practical frameworks for aligning governments, technology providers, and regional operators around clear execution responsibilities.",
+      "topic": "Partnerships",
+      "publishedAt": "2026-02-10",
+      "image": "/images/model-structuring.jpg",
+      "slug": "cross-border-project-structuring"
+    }
+  ]
+}

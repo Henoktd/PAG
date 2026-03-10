@@ -107,7 +107,7 @@ export function Hero({ isReady }: { isReady: boolean }) {
         {heroConfig.ctaButtonText && (
           <div className={`mt-10 transition-all duration-700 ease-out ${phase >= 3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
             <button
-              onClick={() => goTo(heroConfig.ctaTarget || '/activity-domains')}
+              onClick={() => goTo(heroConfig.ctaTarget || '/areas-of-operation')}
               className="btn-primary rounded-sm inline-flex items-center gap-2 group"
               aria-label={heroConfig.ctaButtonText}
             >
