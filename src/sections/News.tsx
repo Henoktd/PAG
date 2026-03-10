@@ -1,6 +1,31 @@
 import { newsConfig } from '../config';
 import { t, useLanguage } from '../lib/i18n';
 
+function withSinoAfricaLink(text: string) {
+  const token = 'Sino Africa';
+  if (!text.includes(token)) return text;
+  const parts = text.split(token);
+  return (
+    <>
+      {parts.map((part, index) => (
+        <span key={`${part}-${index}`}>
+          {part}
+          {index < parts.length - 1 && (
+            <a
+              href="https://www.sinoafricatrading.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#38469D] underline underline-offset-2 hover:text-[#F39D4C]"
+            >
+              {token}
+            </a>
+          )}
+        </span>
+      ))}
+    </>
+  );
+}
+
 export function News() {
   const { language } = useLanguage();
   if (!newsConfig.mainTitle) return null;
@@ -25,7 +50,7 @@ export function News() {
               <div className="p-5">
                 <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{item.category}</p>
                 <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{item.excerpt}</p>
+                <p className="text-slate-600 text-sm leading-relaxed">{withSinoAfricaLink(item.excerpt)}</p>
               </div>
             </article>
           ))}

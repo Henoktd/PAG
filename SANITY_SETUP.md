@@ -71,6 +71,12 @@ npm run dev
 
 If Sanity env vars are missing or content is unavailable, the site uses local `content/*.json` automatically.
 
+## 6) Add content in Studio
+
+- Single-instance sections (Home Hero, About, Areas, Initiatives, Partnerships, Insights Section, Contact, Footer) are organized in the Studio sidebar.
+- Add repeatable entries under `Insight Posts`.
+- Publish changes to make them visible on the website.
+
 ## 5) Deploy on cPanel
 
 1. Build:

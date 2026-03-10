@@ -1,5 +1,30 @@
 import { museumConfig } from '../config';
 
+function withSinoAfricaLink(text: string) {
+  const token = 'Sino Africa';
+  if (!text.includes(token)) return text;
+  const parts = text.split(token);
+  return (
+    <>
+      {parts.map((part, index) => (
+        <span key={`${part}-${index}`}>
+          {part}
+          {index < parts.length - 1 && (
+            <a
+              href="https://www.sinoafricatrading.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#38469D] underline underline-offset-2 hover:text-[#F39D4C]"
+            >
+              {token}
+            </a>
+          )}
+        </span>
+      ))}
+    </>
+  );
+}
+
 export function Museum() {
   if (!museumConfig.mainTitle) return null;
 
@@ -18,7 +43,7 @@ export function Museum() {
               {museumConfig.tabs.slice(0, 3).map((tab) => (
                 <div key={tab.id} className="mq-card">
                   <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">{tab.content.title}</h3>
-                  <p className="text-slate-600 text-sm leading-relaxed">{tab.content.description}</p>
+                  <p className="text-slate-600 text-sm leading-relaxed">{withSinoAfricaLink(tab.content.description)}</p>
                 </div>
               ))}
             </div>

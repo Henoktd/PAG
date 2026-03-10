@@ -1,6 +1,31 @@
 import { heroConfig } from '../config';
 import { useLanguage } from '../lib/i18n';
 
+function withSinoAfricaLink(text: string) {
+  const token = 'Sino Africa';
+  if (!text.includes(token)) return text;
+  const parts = text.split(token);
+  return (
+    <>
+      {parts.map((part, index) => (
+        <span key={`${part}-${index}`}>
+          {part}
+          {index < parts.length - 1 && (
+            <a
+              href="https://www.sinoafricatrading.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#38469D] underline underline-offset-2 hover:text-[#F39D4C]"
+            >
+              {token}
+            </a>
+          )}
+        </span>
+      ))}
+    </>
+  );
+}
+
 export function HomeOverview() {
   useLanguage();
   const isConfigured = Boolean(heroConfig.subheading) || heroConfig.positioningParagraphs.length > 0;
@@ -61,7 +86,7 @@ export function HomeOverview() {
             {heroConfig.institutionalOrientationTitle && (
               <h3 className="mq-title text-2xl md:text-3xl mb-4">{heroConfig.institutionalOrientationTitle}</h3>
             )}
-            <p className="mq-copy text-base">{heroConfig.institutionalOrientationText}</p>
+            <p className="mq-copy text-base">{withSinoAfricaLink(heroConfig.institutionalOrientationText)}</p>
           </div>
         )}
 
