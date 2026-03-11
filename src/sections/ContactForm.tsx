@@ -21,9 +21,12 @@ export function ContactForm() {
 
   if (!isConfigured) return null;
 
-  const endpoint = contactFormConfig.formEndpoint.startsWith('mailto:')
-    ? '/api/contact'
-    : (contactFormConfig.formEndpoint || '/api/contact');
+  const configuredEndpoint = contactFormConfig.formEndpoint || '';
+  const endpoint = configuredEndpoint.startsWith('mailto:')
+    ? '/api/contact.php'
+    : (configuredEndpoint === '/api/contact'
+        ? '/api/contact.php'
+        : (configuredEndpoint || '/api/contact.php'));
 
   const submit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

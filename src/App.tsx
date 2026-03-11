@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useMemo } from 'react';
+import { useState, useCallback, useEffect, useMemo, useLayoutEffect } from 'react';
 import { Navigation } from './sections/Navigation';
 import { Hero } from './sections/Hero';
 import { WineShowcase } from './sections/WineShowcase';
@@ -84,6 +84,18 @@ function App() {
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
+
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [pathname]);
 
   const renderPage = () => {
     if (pathname.startsWith('/areas-of-operation/')) {

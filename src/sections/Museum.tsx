@@ -31,7 +31,7 @@ export function Museum() {
   return (
     <section id="about" className="mq-section mq-inner-section">
       <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-10 items-start">
+        <div>
           <div>
             <span className="mq-kicker">
               {museumConfig.subtitle}
@@ -49,7 +49,7 @@ export function Museum() {
             </div>
           </div>
 
-          <div className="mq-panel p-6">
+          <div className="mq-panel p-6 mt-8">
             {museumConfig.founderPhoto && (
               <img
                 src={museumConfig.founderPhoto}

@@ -20,7 +20,7 @@
     {
       "icon": "Mail",
       "label": "Email",
-      "value": "info@pag-platform.com",
+      "value": "info@pag-global.com",
       "subtext": "Primary inquiry channel"
     }
   ],
@@ -42,5 +42,5 @@
     "errorMessage": "Submission failed. Please try again or contact us directly by email."
   },
   "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information.",
-  "formEndpoint": "/api/contact"
+  "formEndpoint": "/api/contact.php"
 }
