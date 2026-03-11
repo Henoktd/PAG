@@ -1,5 +1,11 @@
 # Villa Template
 
+## PAG Handover Documentation
+
+- Handover: `docs/HANDOVER.md`
+- CMS editing: `docs/CMS_EDITOR_GUIDE.md`
+- Contact email operations: `docs/EMAIL_DELIVERY_RUNBOOK.md`
+
 A luxury wine estate / winery website template featuring elegant animations, a dark theme with gold accents, and a comprehensive section-based layout.
 
 ## Features
