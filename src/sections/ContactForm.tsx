@@ -50,12 +50,16 @@ export function ContactForm() {
         body: JSON.stringify(formData),
       });
 
-      const payload = await response.json().catch(() => ({}));
-      if (!response.ok) {
+      const contentType = response.headers.get('content-type') || '';
+      const payload = contentType.includes('application/json')
+        ? await response.json().catch(() => null)
+        : null;
+
+      if (!response.ok || !payload || typeof payload.message !== 'string' || payload.message.length === 0) {
         throw new Error(
           typeof payload?.message === 'string' && payload.message.length > 0
             ? payload.message
-            : contactFormConfig.form.errorMessage
+            : 'Contact endpoint is not reachable. Please try again in a moment.'
         );
       }
 

@@ -14,6 +14,27 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+$config = [];
+$configPath = rtrim((string)($_SERVER['DOCUMENT_ROOT'] ?? ''), '/\\') . '/../contact-config.php';
+if ($configPath !== '/../contact-config.php' && is_readable($configPath)) {
+    $loaded = include $configPath;
+    if (is_array($loaded)) {
+        $config = $loaded;
+    }
+}
+
+function config_value(string $key, array $config, string $default = ''): string {
+    $env = getenv($key);
+    if ($env !== false && trim((string)$env) !== '') {
+        return trim((string)$env);
+    }
+    $cfg = $config[$key] ?? '';
+    if (is_string($cfg) && trim($cfg) !== '') {
+        return trim($cfg);
+    }
+    return $default;
+}
+
 $raw = file_get_contents('php://input');
 $data = json_decode($raw ?: '{}', true);
 
@@ -82,12 +103,54 @@ $body = "Name: {$name}\n"
     . "Message:\n{$message}\n";
 
 $headers = [];
+$headers[] = 'To: ' . $to;
 $headers[] = 'From: Pan Africa Group <info@pag-global.com>';
 $headers[] = 'Reply-To: ' . $email;
 $headers[] = 'Content-Type: text/plain; charset=UTF-8';
 $headers[] = 'X-Mailer: PHP/' . phpversion();
 
-$sent = @mail($to, $subject, $body, implode("\r\n", $headers));
+$resendApiKey = config_value('CONTACT_RESEND_API_KEY', $config);
+$fromAddress = config_value('CONTACT_FROM_EMAIL', $config, 'info@pag-global.com');
+$fallbackEnabled = strtolower(config_value('CONTACT_FALLBACK_MAIL', $config, 'true')) !== 'false';
+
+$sent = false;
+
+if ($resendApiKey !== '' && function_exists('curl_init')) {
+    $payload = [
+        'from' => "Pan Africa Group <{$fromAddress}>",
+        'to' => [$to],
+        'reply_to' => $email,
+        'subject' => $subject,
+        'text' => $body,
+    ];
+
+    $ch = curl_init('https://api.resend.com/emails');
+    curl_setopt_array($ch, [
+        CURLOPT_POST => true,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 15,
+        CURLOPT_HTTPHEADER => [
+            'Authorization: Bearer ' . $resendApiKey,
+            'Content-Type: application/json',
+        ],
+        CURLOPT_POSTFIELDS => json_encode($payload),
+    ]);
+
+    $responseBody = curl_exec($ch);
+    $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    $responseJson = json_decode((string)$responseBody, true);
+    $sent = ($httpCode >= 200 && $httpCode < 300)
+        && is_array($responseJson)
+        && isset($responseJson['id']);
+}
+
+if (!$sent && $fallbackEnabled) {
+    // Force a valid envelope sender for Exim/cPanel routing.
+    $envelopeSender = '-f info@pag-global.com';
+    $sent = @mail($to, $subject, $body, implode("\r\n", $headers), $envelopeSender);
+}
 
 if (!$sent) {
     http_response_code(500);
