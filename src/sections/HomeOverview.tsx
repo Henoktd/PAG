@@ -90,14 +90,6 @@ export function HomeOverview() {
           </div>
         )}
 
-        <div className="mt-8 rounded-lg border border-slate-200 overflow-hidden">
-          <img
-            src="/images/international-partnership.jpg"
-            alt="Regional collaboration infrastructure network"
-            className="w-full h-64 md:h-80 object-cover"
-            loading="lazy"
-          />
-        </div>
       </div>
     </section>
   );

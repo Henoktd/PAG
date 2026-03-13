@@ -57,17 +57,10 @@ export function WineShowcase() {
                 {item.name} {item.subtitle}
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">{item.description}</p>
-              {item.detail && <p className="text-slate-500 text-sm leading-relaxed mb-3">{item.detail}</p>}
-              {item.focusAreas.length > 0 && (
-                <ul className="text-xs text-slate-600 space-y-1">
-                  {item.focusAreas.map((focusArea) => (
-                    <li key={focusArea}>- {focusArea}</li>
-                  ))}
-                </ul>
-              )}
+              {item.detail && <p className="text-slate-500 text-sm leading-relaxed mb-4">{item.detail}</p>}
               <button
                 onClick={() => goTo(`/areas-of-operation/${item.id}`)}
-                className="mt-4 text-sm font-semibold text-[#38469D] hover:text-[#F39D4C] transition-colors"
+                className="text-sm font-semibold text-[#38469D] hover:text-[#F39D4C] transition-colors"
               >
                 View Domain
               </button>
