@@ -7,7 +7,7 @@
       "id": "financial-access",
       "name": "Financial Access & Digital Distribution",
       "subtitle": "",
-      "image": "/images/smart-card-readers.jpg",
+      "image": "/images/digital-finance.webp",
       "description": "Infrastructure supporting digital financial access and regulated digital product ecosystems.",
       "detail": "These platforms support institutions and operators seeking to expand financial access through secure and scalable distribution systems.",
       "focusAreas": ["Digital financial access infrastructure", "Secure payment distribution systems", "Digital voucher and airtime ecosystems", "Financial service enablement platforms"]
@@ -16,7 +16,7 @@
       "id": "security-identity",
       "name": "Security, Identity & Government Systems",
       "subtitle": "",
-      "image": "/images/biometric-device.jpg",
+      "image": "/images/security-systems.webp",
       "description": "Deployment of mission-critical systems used by governments and regulated institutions.",
       "detail": "These systems operate in environments where reliability, compliance, and security are essential.",
       "focusAreas": ["Biometric identity platforms", "Authentication and verification systems", "Government digital infrastructure", "Regulatory and enforcement technologies"]
@@ -25,7 +25,7 @@
       "id": "smart-mobility",
       "name": "Smart Mobility & Autonomous Platforms",
       "subtitle": "",
-      "image": "/images/smart-fleet-scooter.jpg",
+      "image": "/images/smart-mobility.png",
       "description": "Development and deployment of advanced mobility and autonomous technology platforms.",
       "detail": "These platforms support emerging mobility solutions within controlled regulatory environments.",
       "focusAreas": ["Institutional drone platforms", "Smart fleet systems", "Autonomous mobility infrastructure", "Regulated mobility programs"]
@@ -34,7 +34,7 @@
       "id": "procurement-supply",
       "name": "Mission-Critical Procurement & Supply Chain Enablement",
       "subtitle": "",
-      "image": "/images/supply-chain-port.jpg",
+      "image": "/images/procurement.jpg",
       "description": "Procurement and supply chain coordination for specialized equipment and technology systems.",
       "detail": "The focus is not commodity trading, but complex deployments where supply reliability, compliance, and coordinated logistics are essential.",
       "focusAreas": ["Sourcing specialized equipment for infrastructure programs", "Coordinating international supplier relationships", "Managing logistics for regulated technology systems", "Supporting procurement needs of partner platforms and affiliated companies"]
@@ -63,3 +63,4 @@
     "prefix": "Strategic Role"
   }
 }
+

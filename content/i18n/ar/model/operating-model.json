@@ -5,7 +5,7 @@
   "locationTag": "تطوير البنية التحتية والتكنولوجيا والمنصات التشغيلية",
   "slides": [
     {
-      "image": "/images/model-origination.jpg",
+      "image": "/images/digital-infrastructure-programs.webp",
       "title": "برامج البنية التحتية الرقمية",
       "subtitle": "",
       "area": "01",
@@ -13,7 +13,7 @@
       "description": "برامج تمكّن البنية التحتية المالية الرقمية وأنظمة التوزيع الآمن والمنصات التقنية الموجهة للمؤسسات."
     },
     {
-      "image": "/images/activity-project.jpg",
+      "image": "/images/smart-mobility.png",
       "title": "منصات التنقل",
       "subtitle": "",
       "area": "02",
@@ -21,7 +21,7 @@
       "description": "مبادرات تنقل منظمة تشمل أنظمة الأساطيل الذكية والمنصات الذاتية في بيئات تشغيل محكومة."
     },
     {
-      "image": "/images/model-governance.jpg",
+      "image": "/images/gov-tech-initiatives.jpg",
       "title": "مبادرات التكنولوجيا الحكومية",
       "subtitle": "",
       "area": "03",
@@ -29,7 +29,7 @@
       "description": "أنظمة حكومية حيوية تركز على الهوية والتحقق وتقنيات الإنفاذ والهياكل التشغيلية الآمنة."
     },
     {
-      "image": "/images/model-structuring.jpg",
+      "image": "/images/international-partnership.jpg",
       "title": "تطوير البنية التحتية الصناعية",
       "subtitle": "",
       "area": "04",
@@ -37,7 +37,7 @@
       "description": "برامج بنية تحتية تتطلب مشتريات عابرة للحدود وتنسيق الموردين وقدرة مؤسسية مستدامة على التسليم."
     },
     {
-      "image": "/images/model-sourcing.jpg",
+      "image": "/images/partnership-restructuring.jpg",
       "title": "هيكلة البرامج العابرة للحدود",
       "subtitle": "",
       "area": "05",
@@ -46,3 +46,4 @@
     }
   ]
 }
+

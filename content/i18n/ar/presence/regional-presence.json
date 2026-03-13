@@ -7,7 +7,7 @@
   "articles": [
     {
       "id": 1,
-      "image": "/images/region-network.jpg",
+      "image": "/images/global-tech.webp",
       "title": "مزودو التكنولوجيا العالميون",
       "excerpt": "شركاء يقدمون قدرات البنية التحتية والتكنولوجيا للمبادرات المؤسسية.",
       "date": "",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "image": "/images/region-gulf.jpg",
+      "image": "/images/institutional-clients.jpg",
       "title": "العملاء المؤسسيون",
       "excerpt": "حكومات ومؤسسات تحتاج إلى تنسيق عابر للحدود لتنفيذ البرامج.",
       "date": "",
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "image": "/images/region-east-africa.jpg",
+      "image": "/images/infrastructure-developers.webp",
       "title": "مطورو البنية التحتية",
       "excerpt": "شركاء يدعمون نشر الأنظمة والأصول التي تتطلب نماذج تنفيذ متعددة الأطراف.",
       "date": "",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "image": "/images/region-coordination.jpg",
+      "image": "/images/regional-collaboration.webp",
       "title": "شركاء التنفيذ الإقليميون",
       "excerpt": "مشغلون في السوق بقدرات تنفيذية وعلاقات مؤسسية، بما في ذلك Sino Africa في أسواق أفريقية رئيسية.",
       "date": "",
@@ -39,3 +39,4 @@
     }
   ]
 }
+

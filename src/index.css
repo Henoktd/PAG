@@ -95,10 +95,12 @@
   }
 
   body {
-    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Exo2", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--page-bg);
     color: #0f172a;
     overflow-x: hidden;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -305,8 +307,8 @@
 
   /* Macquarie-inspired editorial system */
   .mq-section {
-    @apply py-36 md:py-40 lg:py-48;
-    min-height: 96vh;
+    @apply py-24 md:py-32 lg:py-40;
+    min-height: 84vh;
   }
 
   .mq-home-overview {
@@ -315,7 +317,7 @@
   }
 
   .mq-inner-section {
-    @apply pt-8 md:pt-10 lg:pt-12 pb-24 md:pb-28 lg:pb-32;
+    @apply pt-6 md:pt-8 lg:pt-10 pb-20 md:pb-24 lg:pb-28;
   }
 
   .mq-kicker {
@@ -323,19 +325,26 @@
   }
 
   .mq-title {
-    @apply font-sans font-bold text-4xl md:text-5xl leading-tight text-slate-900;
+    @apply font-sans font-bold text-3xl md:text-5xl leading-[1.12] text-slate-900;
+    text-wrap: balance;
   }
 
   .mq-copy {
     @apply text-slate-600 leading-relaxed text-base md:text-lg;
+    text-wrap: pretty;
   }
 
   .mq-panel {
-    @apply bg-white border border-slate-200 rounded-lg;
+    @apply bg-white border border-slate-200 rounded-xl shadow-sm;
   }
 
   .mq-card {
-    @apply bg-white border border-slate-200 rounded-lg p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+    @apply bg-white border border-slate-200 rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .mq-card img,
+  .mq-panel img {
+    border-radius: 0.6rem;
   }
 
   .home-art-block {
@@ -550,11 +559,23 @@
   .preloader-line {
     animation: preloader-line 2s ease-in-out forwards;
   }
+
+  @media (max-width: 768px) {
+    .mq-section {
+      min-height: auto;
+    }
+
+    .mq-title {
+      letter-spacing: -0.02em;
+    }
+
+    .mq-card {
+      padding: 1.15rem;
+    }
+  }
 }
 
 @layer utilities {
-  .font-bold,
-  .font-semibold,
   h1,
   h2,
   h3,

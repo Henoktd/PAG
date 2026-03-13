@@ -5,7 +5,7 @@
   "locationTag": "Infrastructure, technology, and operational platform development",
   "slides": [
     {
-      "image": "/images/model-origination.jpg",
+      "image": "/images/digital-infrastructure-programs.webp",
       "title": "Digital Infrastructure Programs",
       "subtitle": "",
       "area": "01",
@@ -13,7 +13,7 @@
       "description": "Programs enabling digital financial infrastructure, secure distribution systems, and institution-facing technology platforms."
     },
     {
-      "image": "/images/activity-project.jpg",
+      "image": "/images/smart-mobility.png",
       "title": "Mobility Platforms",
       "subtitle": "",
       "area": "02",
@@ -21,7 +21,7 @@
       "description": "Regulated mobility initiatives including smart fleet systems and autonomous platforms in controlled operating environments."
     },
     {
-      "image": "/images/model-governance.jpg",
+      "image": "/images/gov-tech-initiatives.jpg",
       "title": "Government Technology Initiatives",
       "subtitle": "",
       "area": "03",
@@ -29,7 +29,7 @@
       "description": "Mission-critical government systems focused on identity, verification, enforcement technology, and secure operational architecture."
     },
     {
-      "image": "/images/model-structuring.jpg",
+      "image": "/images/international-partnership.jpg",
       "title": "Industrial Infrastructure Development",
       "subtitle": "",
       "area": "04",
@@ -37,7 +37,7 @@
       "description": "Infrastructure programs requiring cross-border procurement, supplier coordination, and sustained institutional delivery capability."
     },
     {
-      "image": "/images/model-sourcing.jpg",
+      "image": "/images/partnership-restructuring.jpg",
       "title": "Cross-Border Program Structuring",
       "subtitle": "",
       "area": "05",
@@ -46,3 +46,4 @@
     }
   ]
 }
+

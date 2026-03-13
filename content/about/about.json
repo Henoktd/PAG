@@ -14,7 +14,7 @@
       "id": "classification",
       "name": "Platform Role",
       "icon": "History",
-      "image": "/images/about-positioning.jpg",
+      "image": "/images/partnership-restructuring.jpg",
       "content": {
         "title": "International Platform Role",
         "description": "PAG coordinates partnerships and supply architecture across borders, connecting global partners with regional implementation capability.",
@@ -25,7 +25,7 @@
       "id": "multi-sector",
       "name": "Institutional Coordination",
       "icon": "BookOpen",
-      "image": "/images/about-approach.jpg",
+      "image": "/images/system-deployment.avif",
       "content": {
         "title": "Multi-Stakeholder Program Structuring",
         "description": "Many initiatives require coordination between governments, technology providers, infrastructure developers, finance partners, and operators. PAG is built for that integration challenge.",
@@ -36,7 +36,7 @@
       "id": "governance",
       "name": "Regional Partnerships",
       "icon": "Award",
-      "image": "/images/about-identity.jpg",
+      "image": "/images/regional-collaboration.webp",
       "content": {
         "title": "Africa Partner Model",
         "description": "PAG works with regional partners in local markets. In Africa, PAG collaborates with Sino Africa for institutional engagement and operational implementation.",
@@ -57,3 +57,4 @@
   "founderPhotoAlt": "Infrastructure and institutional coordination",
   "founderPhoto": "/images/about-hero.avif"
 }
+

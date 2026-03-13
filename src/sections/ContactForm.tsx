@@ -97,7 +97,7 @@ export function ContactForm() {
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 mq-panel p-6">
             <img
-              src="/images/pag-6.png"
+              src="/images/contact-page.webp"
               alt="Structured mandate discussions"
               className="w-full h-44 object-cover rounded-md mb-5"
               loading="lazy"

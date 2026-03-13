@@ -16,17 +16,17 @@
     {
       "title": "International Partnership Structuring",
       "description": "PAG structures international partnerships and cross-border programs linking global technology and infrastructure providers with regional execution platforms.",
-      "image": "/images/model-structuring.jpg"
+      "image": "/images/international-partnership.jpg"
     },
     {
       "title": "Infrastructure and Technology Deployment Support",
       "description": "The platform coordinates institutional stakeholders to support deployment of mission-critical infrastructure and technology initiatives.",
-      "image": "/images/model-framework.jpg"
+      "image": "/images/tech-deployment.jpg"
     },
     {
       "title": "Procurement and Supply Chain Enablement",
       "description": "PAG facilitates reliable procurement and coordinated supply chains for complex, regulated deployments.",
-      "image": "/images/activity-sourcing.jpg"
+      "image": "/images/supply-chain.jpg"
     }
   ],
   "institutionalOrientationTitle": "Regional Collaboration",
@@ -37,3 +37,4 @@
     { "value": 1, "suffix": "+", "label": "Regional Partners" }
   ]
 }
+

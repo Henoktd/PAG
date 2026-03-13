@@ -92,7 +92,7 @@ export function HomeOverview() {
 
         <div className="mt-8 rounded-lg border border-slate-200 overflow-hidden">
           <img
-            src="/images/region-network.jpg"
+            src="/images/regional-collaboration.webp"
             alt="Regional collaboration infrastructure network"
             className="w-full h-64 md:h-80 object-cover"
             loading="lazy"

@@ -99,7 +99,7 @@ export function Hero({ isReady }: { isReady: boolean }) {
         )}
 
         {/* Main Title */}
-        <h1 className={`hero-main-title font-sans font-bold text-4xl md:text-5xl lg:text-[4rem] text-white leading-[1.12] transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s' }}>
+        <h1 className={`hero-main-title font-sans font-bold text-4xl md:text-5xl lg:text-[4rem] text-white leading-[1.08] max-w-5xl mx-auto tracking-[-0.02em] transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s' }}>
           {heroConfig.mainTitle}
         </h1>
 
@@ -120,11 +120,11 @@ export function Hero({ isReady }: { isReady: boolean }) {
 
       {/* Stats with count-up */}
       {heroConfig.stats.length > 0 && (
-        <div className={`absolute bottom-16 left-0 right-0 z-10 transition-all duration-1000 ease-out ${phase >= 4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+        <div className={`absolute bottom-8 md:bottom-14 left-0 right-0 z-10 transition-all duration-1000 ease-out ${phase >= 4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           <div className="container-custom">
             <div className="grid gap-4 max-w-3xl mx-auto" style={{ gridTemplateColumns: `repeat(${heroConfig.stats.length}, minmax(0, 1fr))` }}>
               {heroConfig.stats.map((stat, index) => (
-                <div key={index} className={`text-center bg-black/25 backdrop-blur-sm rounded-md py-3 ${index > 0 && index < heroConfig.stats.length ? 'border-l border-white/20' : ''}`}>
+                <div key={index} className={`text-center bg-black/30 border border-white/15 backdrop-blur-sm rounded-lg py-3 ${index > 0 && index < heroConfig.stats.length ? 'border-l border-white/20' : ''}`}>
                   <div className="font-sans text-2xl md:text-3xl font-bold text-gold-300 mb-1 tabular-nums">
                     {counts[index]}{stat.suffix}
                   </div>

@@ -7,7 +7,7 @@
   "articles": [
     {
       "id": 1,
-      "image": "/images/region-network.jpg",
+      "image": "/images/global-tech.webp",
       "title": "Global Technology Providers",
       "excerpt": "Partners providing infrastructure and technology capability for institutional initiatives.",
       "date": "",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "image": "/images/region-gulf.jpg",
+      "image": "/images/institutional-clients.jpg",
       "title": "Institutional Clients",
       "excerpt": "Governments and institutions requiring complex cross-border coordination for program delivery.",
       "date": "",
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "image": "/images/region-east-africa.jpg",
+      "image": "/images/infrastructure-developers.webp",
       "title": "Infrastructure Developers",
       "excerpt": "Partners supporting deployment of systems and assets requiring multi-party execution models.",
       "date": "",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "image": "/images/region-coordination.jpg",
+      "image": "/images/regional-collaboration.webp",
       "title": "Regional Execution Partners",
       "excerpt": "In-market operators with institutional relationships and implementation capacity, including Sino Africa in key African markets.",
       "date": "",
@@ -39,3 +39,4 @@
     }
   ]
 }
+

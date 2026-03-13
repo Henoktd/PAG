@@ -14,7 +14,7 @@
       "id": "classification",
       "name": "دور المنصة",
       "icon": "History",
-      "image": "/images/about-positioning.jpg",
+      "image": "/images/partnership-restructuring.jpg",
       "content": {
         "title": "دور منصة دولية",
         "description": "تنسق PAG الشراكات وهياكل الإمداد عبر الحدود، وتربط الشركاء العالميين بقدرات التنفيذ الإقليمية.",
@@ -25,7 +25,7 @@
       "id": "multi-sector",
       "name": "التنسيق المؤسسي",
       "icon": "BookOpen",
-      "image": "/images/about-approach.jpg",
+      "image": "/images/system-deployment.avif",
       "content": {
         "title": "هيكلة البرامج متعددة الأطراف",
         "description": "تتطلب العديد من المبادرات تنسيقاً بين الحكومات ومزودي التكنولوجيا ومطوري البنية التحتية والشركاء الماليين والمشغلين. وقد تأسست PAG لمعالجة هذا التحدي التكاملية.",
@@ -36,7 +36,7 @@
       "id": "governance",
       "name": "الشراكات الإقليمية",
       "icon": "Award",
-      "image": "/images/about-identity.jpg",
+      "image": "/images/regional-collaboration.webp",
       "content": {
         "title": "نموذج الشريك في أفريقيا",
         "description": "تتعاون PAG مع شركاء إقليميين في الأسواق المحلية. وفي أفريقيا، تتعاون PAG مع Sino Africa للتواصل المؤسسي والتنفيذ التشغيلي.",
@@ -57,3 +57,4 @@
   "founderPhotoAlt": "تنسيق مؤسسي وبنية تحتية",
   "founderPhoto": "/images/about-hero.avif"
 }
+

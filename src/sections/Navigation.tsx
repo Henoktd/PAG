@@ -63,7 +63,7 @@ export function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md py-3 border-b border-slate-200'
+          ? 'bg-white/95 backdrop-blur-md py-3 border-b border-slate-200 shadow-[0_6px_24px_rgba(15,23,42,0.08)]'
           : 'bg-white/80 backdrop-blur-sm py-4 border-b border-slate-200/70'
       }`}
       role="navigation"
@@ -83,8 +83,10 @@ export function Navigation() {
             <button
               key={link.name}
               onClick={() => goTo(link.href)}
-              className={`text-sm transition-colors duration-300 py-2 ${
-                pathname === (link.href.replace(/\/+$/, '') || '/') ? 'text-[#f39d4c] font-semibold' : 'text-slate-700 hover:text-[#f39d4c]'
+              className={`relative text-sm transition-colors duration-300 py-2 ${
+                pathname === (link.href.replace(/\/+$/, '') || '/')
+                  ? 'text-[#38469D] font-semibold after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-[#f39d4c] after:content-[""]'
+                  : 'text-slate-700 hover:text-[#f39d4c]'
               }`}
               role="menuitem"
               aria-current={pathname === (link.href.replace(/\/+$/, '') || '/') ? 'page' : undefined}

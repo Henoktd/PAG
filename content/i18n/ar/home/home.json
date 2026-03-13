@@ -16,17 +16,17 @@
     {
       "title": "هيكلة الشراكات الدولية",
       "description": "تقوم PAG بهيكلة الشراكات الدولية والبرامج العابرة للحدود التي تربط مقدمي التكنولوجيا والبنية التحتية العالميين بقدرات التنفيذ الإقليمية.",
-      "image": "/images/model-structuring.jpg"
+      "image": "/images/international-partnership.jpg"
     },
     {
       "title": "دعم نشر البنية التحتية والتكنولوجيا",
       "description": "تنسّق المنصة أصحاب المصلحة المؤسسيين لدعم نشر مبادرات البنية التحتية والتكنولوجيا ذات الأهمية الحرجة.",
-      "image": "/images/model-framework.jpg"
+      "image": "/images/tech-deployment.jpg"
     },
     {
       "title": "تمكين المشتريات وسلاسل الإمداد",
       "description": "تسهّل PAG المشتريات الموثوقة وسلاسل الإمداد المنسقة لعمليات النشر المعقدة والمنظمة.",
-      "image": "/images/activity-sourcing.jpg"
+      "image": "/images/supply-chain.jpg"
     }
   ],
   "institutionalOrientationTitle": "التعاون الإقليمي",
@@ -37,3 +37,4 @@
     { "value": 1, "suffix": "+", "label": "الشركاء الإقليميون" }
   ]
 }
+
