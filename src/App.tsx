@@ -17,6 +17,8 @@ import { getActiveLanguage, setActiveLanguage } from './lib/contentLoader';
 import { HomepageHighlights } from './sections/HomepageHighlights';
 import { AreaDomainDetail } from './sections/AreaDomainDetail';
 
+const ENABLE_SANITY_RUNTIME = import.meta.env.VITE_ENABLE_SANITY === 'true';
+
 function App() {
   const [isLoading, setIsLoading] = useState(() => {
     try {
@@ -64,7 +66,7 @@ function App() {
     let mounted = true;
 
     const loadCmsContent = async () => {
-      if (language !== 'en') return;
+      if (!ENABLE_SANITY_RUNTIME || language !== 'en') return;
       const remoteContent = await fetchSanityContent();
       if (mounted && remoteContent) {
         applyContent(remoteContent);
