@@ -36,7 +36,7 @@
     "visitorsOptions": ["Partnership Discussion", "Infrastructure Program", "Technology Initiative", "Supply Chain Enablement", "Other"],
     "messageLabel": "Message",
     "messagePlaceholder": "Share your institutional objective and the partnership or initiative scope.",
-    "submitText": "Submit Inquiry",
+    "submitText": "Initiate Institutional Partnership Discussion",
     "submittingText": "Submitting...",
     "successMessage": "Your inquiry has been submitted. Our team will follow up shortly.",
     "errorMessage": "Submission failed. Please try again or contact us directly by email."

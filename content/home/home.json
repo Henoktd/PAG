@@ -7,25 +7,25 @@
   "backgroundImage": "/images/hero-banner.jpg",
   "positioningTitle": "Positioning Statement",
   "positioningParagraphs": [
-    "Pan Africa Group operates as a cross-border institutional systems integrator connecting global technology capability with African infrastructure deployment.",
-    "The company coordinates international technology partners, institutional stakeholders, and regional execution platforms to deliver mission-critical systems in regulated environments.",
-    "PAG is built for long-term operational continuity, not short-term transactions, with emphasis on infrastructure deployment, system integration, and lifecycle support."
+    "Pan Africa Group operates as a cross-border institutional systems integrator and infrastructure platform enabler, connecting global technology providers with African sovereign and institutional infrastructure deployment.",
+    "The company orchestrates international technology partners, institutional stakeholders, and regional execution platforms to deliver and sustain mission-critical national systems in highly regulated environments.",
+    "PAG is deliberately structured for long-term institutional ownership and operational continuity, never short-term transactions, with emphasis on full-lifecycle infrastructure deployment, deep system integration, regulatory alignment, and enduring lifecycle support."
   ],
   "coreCapabilitiesTitle": "Strategic Role",
   "coreCapabilities": [
     {
       "title": "Institutional Systems Integration",
-      "description": "PAG integrates global identity, financial, mobility, and government technologies into institutional infrastructure programs across emerging markets.",
+      "description": "PAG serves as the integration layer for global identity, financial access, smart mobility, and government platform technologies, embedding them into large-scale institutional and national infrastructure programs across African emerging markets.",
       "image": "/images/international-partnership.jpg"
     },
     {
       "title": "Cross-Border Technology Execution",
-      "description": "The platform aligns international OEMs, Asian manufacturers, institutions, and local operators to execute complex deployments across borders.",
+      "description": "The platform strategically aligns global OEMs, including leading Asian manufacturers, African institutions, and regional execution partners to deliver and localize complex cross-border technology deployments in regulated institutional settings.",
       "image": "/images/tech-deployment.jpg"
     },
     {
       "title": "Lifecycle Support and Continuity",
-      "description": "Beyond deployment, PAG supports maintenance, upgrades, training, compliance, and operational continuity for long-term institutional systems.",
+      "description": "Beyond deployment, PAG supports maintenance, upgrades, training, compliance support, and operational continuity to sustain long-term institutional systems after go-live.",
       "image": "/images/supply-chain.jpg"
     }
   ],

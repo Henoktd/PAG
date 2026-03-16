@@ -8,8 +8,8 @@
       "name": "Financial Access & Digital Distribution",
       "subtitle": "",
       "image": "/images/digital-finance.webp",
-      "description": "Institutional infrastructure supporting digital financial access, regulated distribution, and secure service delivery.",
-      "detail": "PAG supports deployment of financial access systems that require institutional trust, secure distribution channels, and disciplined operating architecture.",
+      "description": "Regulated institutional infrastructure enabling inclusive digital financial access, secure distribution channels, and mission-critical service delivery platforms.",
+      "detail": "PAG supports deployment of financial access systems that require institutional trust, secure distribution channels, disciplined operating architecture, and reliable long-term service continuity.",
       "focusAreas": ["Digital financial access infrastructure", "Secure payment distribution systems", "Digital voucher and airtime ecosystems", "Financial service enablement platforms"]
     },
     {
@@ -17,8 +17,8 @@
       "name": "Security, Identity & Government Systems",
       "subtitle": "",
       "image": "/images/security-systems.webp",
-      "description": "Mission-critical identity, authentication, and government systems deployed in regulated institutional environments.",
-      "detail": "These deployments require integration discipline, compliance coordination, and continuity planning where reliability and trust are essential.",
+      "description": "Mission-critical national identity, authentication, secure verification, and government digital systems deployed within tightly regulated institutional and sovereign environments.",
+      "detail": "These deployments require integration discipline, compliance coordination, continuity planning, and trusted operating frameworks where reliability and institutional legitimacy are essential.",
       "focusAreas": ["Biometric identity platforms", "Authentication and verification systems", "Government digital infrastructure", "Regulatory and enforcement technologies"]
     },
     {
@@ -26,8 +26,8 @@
       "name": "Smart Mobility & Autonomous Platforms",
       "subtitle": "",
       "image": "/images/smart-mobility.png",
-      "description": "Advanced mobility and autonomous platforms delivered for institutional and regulated operating environments.",
-      "detail": "PAG supports mobility systems where technology deployment must align with regulation, infrastructure readiness, and long-term operational support.",
+      "description": "Advanced smart mobility systems and autonomous platforms engineered for institutional operators in regulated urban and national environments.",
+      "detail": "PAG supports mobility systems where technology deployment must align with regulation, infrastructure readiness, institutional operators, and long-term operational support.",
       "focusAreas": ["Institutional drone platforms", "Smart fleet systems", "Autonomous mobility infrastructure", "Regulated mobility programs"]
     },
     {
@@ -35,8 +35,8 @@
       "name": "Lifecycle Support & Operational Continuity",
       "subtitle": "",
       "image": "/images/procurement.jpg",
-      "description": "Operational support structures that sustain institutional systems after deployment through maintenance, upgrades, and continuity planning.",
-      "detail": "This area covers the support layer required to keep strategic systems functioning over time, including supply continuity, technical servicing, training, and compliance coordination.",
+      "description": "Long-term operational and institutional support frameworks that ensure sustained performance, regulatory compliance, technology upgrades, personnel training, and continuity of critical systems post-deployment.",
+      "detail": "This area covers the support layer required to keep strategic systems functioning over time, including technical servicing, upgrade planning, training, compliance coordination, and continuity support for regulated environments.",
       "focusAreas": ["Maintenance and support coordination", "System upgrades and technical refresh planning", "Training and operational handover support", "Compliance and continuity support for regulated systems"]
     }
   ],
