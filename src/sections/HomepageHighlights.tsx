@@ -24,12 +24,26 @@ export function HomepageHighlights() {
             </button>
           </div>
 
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
             {activityDomainsConfig.domains.slice(0, 4).map((domain) => (
-              <article key={domain.id} className="mq-card">
-                <img src={domain.image} alt={domain.name} className="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
-                <h3 className="font-sans text-base font-semibold text-slate-900 mb-2">{domain.name}</h3>
-                <p className="text-sm text-slate-600">{domain.description}</p>
+              <article
+                key={domain.id}
+                className="mq-card p-4 cursor-pointer group"
+                onClick={() => goTo(`/areas-of-operation/${domain.id}`)}
+              >
+                <img
+                  src={domain.image}
+                  alt={domain.name}
+                  className="w-full h-24 object-cover rounded-md mb-3 transition-transform duration-300 group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+                <h3 className="font-sans text-sm md:text-base font-semibold text-slate-900 mb-2 leading-snug">
+                  {domain.name}
+                </h3>
+                <p className="text-xs md:text-sm text-slate-600 line-clamp-3">{domain.description}</p>
+                <div className="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-[#38469D] group-hover:text-[#F39D4C] transition-colors">
+                  View Domain
+                </div>
               </article>
             ))}
           </div>
