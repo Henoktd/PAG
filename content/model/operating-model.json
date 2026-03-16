@@ -1,6 +1,6 @@
 {
   "scriptText": "Initiatives",
-  "subtitle": "PROGRAM PORTFOLIO",
+  "subtitle": "PROGRAM DELIVERY",
   "mainTitle": "Initiatives",
   "locationTag": "Infrastructure, technology, and operational platform development",
   "slides": [
@@ -10,7 +10,7 @@
       "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Programs enabling digital financial infrastructure, secure distribution systems, and institution-facing technology platforms."
+      "description": "Institutional programs enabling financial access infrastructure, secure distribution systems, and regulated digital service platforms."
     },
     {
       "image": "/images/smart-mobility.png",
@@ -18,7 +18,7 @@
       "subtitle": "",
       "area": "02",
       "unit": "",
-      "description": "Regulated mobility initiatives including smart fleet systems and autonomous platforms in controlled operating environments."
+      "description": "Mobility initiatives including smart fleet systems and autonomous platforms delivered in controlled regulatory environments."
     },
     {
       "image": "/images/gov-tech-initiatives.jpg",
@@ -26,15 +26,15 @@
       "subtitle": "",
       "area": "03",
       "unit": "",
-      "description": "Mission-critical government systems focused on identity, verification, enforcement technology, and secure operational architecture."
+      "description": "Mission-critical government systems spanning identity, verification, enforcement technology, and secure digital operating architecture."
     },
     {
       "image": "/images/international-partnership.jpg",
-      "title": "Industrial Infrastructure Development",
+      "title": "Infrastructure Deployment Programs",
       "subtitle": "",
       "area": "04",
       "unit": "",
-      "description": "Infrastructure programs requiring cross-border procurement, supplier coordination, and sustained institutional delivery capability."
+      "description": "Infrastructure deployments requiring cross-border coordination, technical integration, and sustained institutional execution capability."
     },
     {
       "image": "/images/partnership-restructuring.jpg",
@@ -42,7 +42,7 @@
       "subtitle": "",
       "area": "05",
       "unit": "",
-      "description": "Initiatives developed through partnerships between international technology providers, institutions, and regional operators."
+      "description": "Programs developed through structured partnerships between international technology providers, institutions, and regional execution platforms."
     }
   ]
 }

@@ -17,7 +17,7 @@
       "id": 2,
       "image": "/images/institutional-clients.jpg",
       "title": "Institutional Clients",
-      "excerpt": "Governments and institutions requiring complex cross-border coordination for program delivery.",
+      "excerpt": "Governments, national agencies, and regulated institutions requiring secure infrastructure and coordinated deployment capability.",
       "date": "",
       "category": "Institutional"
     },
@@ -25,7 +25,7 @@
       "id": 3,
       "image": "/images/infrastructure-developers.webp",
       "title": "Infrastructure Developers",
-      "excerpt": "Partners supporting deployment of systems and assets requiring multi-party execution models.",
+      "excerpt": "Partners supporting mission-critical deployment environments where multiple technical and operational parties must align.",
       "date": "",
       "category": "Infrastructure"
     },
@@ -33,7 +33,7 @@
       "id": 4,
       "image": "/images/regional-collaboration.webp",
       "title": "Regional Execution Partners",
-      "excerpt": "In-market operators with institutional relationships and implementation capacity, including Sino Africa in key African markets.",
+      "excerpt": "In-market operators with institutional relationships and implementation capacity, including Sino Africa in key African markets where local continuity matters.",
       "date": "",
       "category": "Regional"
     }

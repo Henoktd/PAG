@@ -1,40 +1,40 @@
 {
   "scriptText": "Pan Africa Group (PAG)",
-  "mainTitle": "Enabling Infrastructure, Technology, and Supply Platforms Across Emerging Markets.",
-  "subheading": "Pan Africa Group operates as an international platform connecting global technology providers, institutional partners, and regional operators to deliver infrastructure and technology initiatives.",
+  "mainTitle": "Deploying mission-critical infrastructure across Africa through global technology partnerships.",
+  "subheading": "Pan Africa Group enables governments, institutions, and technology partners to deploy secure, reliable systems that power modern infrastructure across regulated and institutional environments.",
   "ctaButtonText": "Explore Areas of Operation",
   "decorativeText": "",
   "backgroundImage": "/images/hero-banner.jpg",
   "positioningTitle": "Positioning Statement",
   "positioningParagraphs": [
-    "PAG connects international partners, regional institutions, and local execution operators to deliver structured infrastructure and technology programs across emerging markets.",
-    "As a cross-border platform, PAG structures partnerships, coordinates supply chains, and supports institutional deployment where multi-party coordination is essential.",
-    "PAG is platform-led and multi-sector, focused on building long-term operational capability rather than short-term transactions."
+    "Pan Africa Group operates as a cross-border institutional systems integrator connecting global technology capability with African infrastructure deployment.",
+    "The company coordinates international technology partners, institutional stakeholders, and regional execution platforms to deliver mission-critical systems in regulated environments.",
+    "PAG is built for long-term operational continuity, not short-term transactions, with emphasis on infrastructure deployment, system integration, and lifecycle support."
   ],
   "coreCapabilitiesTitle": "Strategic Role",
   "coreCapabilities": [
     {
-      "title": "International Partnership Structuring",
-      "description": "PAG structures international partnerships and cross-border programs linking global technology and infrastructure providers with regional execution platforms.",
+      "title": "Institutional Systems Integration",
+      "description": "PAG integrates global identity, financial, mobility, and government technologies into institutional infrastructure programs across emerging markets.",
       "image": "/images/international-partnership.jpg"
     },
     {
-      "title": "Infrastructure and Technology Deployment Support",
-      "description": "The platform coordinates institutional stakeholders to support deployment of mission-critical infrastructure and technology initiatives.",
+      "title": "Cross-Border Technology Execution",
+      "description": "The platform aligns international OEMs, Asian manufacturers, institutions, and local operators to execute complex deployments across borders.",
       "image": "/images/tech-deployment.jpg"
     },
     {
-      "title": "Procurement and Supply Chain Enablement",
-      "description": "PAG facilitates reliable procurement and coordinated supply chains for complex, regulated deployments.",
+      "title": "Lifecycle Support and Continuity",
+      "description": "Beyond deployment, PAG supports maintenance, upgrades, training, compliance, and operational continuity for long-term institutional systems.",
       "image": "/images/supply-chain.jpg"
     }
   ],
-  "institutionalOrientationTitle": "Regional Collaboration",
-  "institutionalOrientationText": "Across Africa, PAG collaborates with regional partners such as Sino Africa, which supports institutional engagement and operational implementation within local markets.",
+  "institutionalOrientationTitle": "Institutional Client Focus",
+  "institutionalOrientationText": "PAG works across institutional environments including governments, national agencies, financial institutions, infrastructure operators, and regulated technology programs, supported by regional partners such as Sino Africa where local execution capacity is required.",
   "stats": [
     { "value": 4, "suffix": "", "label": "Strategic Domains" },
-    { "value": 3, "suffix": "", "label": "Core Locations" },
-    { "value": 1, "suffix": "+", "label": "Regional Partners" }
+    { "value": 2, "suffix": "", "label": "Primary Corridors" },
+    { "value": 4, "suffix": "", "label": "Institutional Sectors" }
   ]
 }
 
