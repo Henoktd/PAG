@@ -16,6 +16,7 @@ import { LanguageContext, type LanguageCode } from './lib/i18n';
 import { getActiveLanguage, setActiveLanguage } from './lib/contentLoader';
 import { HomepageHighlights } from './sections/HomepageHighlights';
 import { AreaDomainDetail } from './sections/AreaDomainDetail';
+import { Insights } from './sections/Insights';
 
 const ENABLE_SANITY_RUNTIME = import.meta.env.VITE_ENABLE_SANITY === 'true';
 
@@ -116,23 +117,18 @@ function App() {
         );
       case '/about':
         return <Museum />;
+      case '/capabilities':
+      case '/partnerships':
+      case '/insights':
+        return <Insights />;
       case '/areas-of-operation':
       case '/activity-domains':
         return <WineShowcase />;
-      case '/partnerships':
-      case '/regional-presence':
-        return <News />;
       case '/initiatives':
       case '/operating-model':
         return <WineryCarousel />;
-      case '/insights':
-        return (
-          <>
-            <Hero isReady={!isLoading} />
-            <HomeOverview />
-            <HomepageHighlights />
-          </>
-        );
+      case '/regional-presence':
+        return <News />;
       case '/contact':
         return <ContactForm />;
       default:

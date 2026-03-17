@@ -59,8 +59,8 @@ export const navigationConfig: NavigationConfig = {
   navLinks: [
     { name: "Home", href: "/", icon: "Home" },
     { name: "About PAG", href: "/about", icon: "BookOpen" },
+    { name: "Capabilities", href: "/capabilities", icon: "Users" },
     { name: "Sector Focus", href: "/areas-of-operation", icon: "Grape" },
-    { name: "Partnerships", href: "/partnerships", icon: "Users" },
     { name: "Programs", href: "/initiatives", icon: "MapPin" },
     { name: "Contact", href: "/contact", icon: "Mail" },
   ],
@@ -112,6 +112,12 @@ export interface HeroConfig {
   coreCapabilities: HeroCapability[];
   institutionalOrientationTitle: string;
   institutionalOrientationText: string;
+  geographicPlatformTitle: string;
+  geographicPlatformText: string;
+  institutionalEngagementTitle: string;
+  institutionalEngagementItems: string[];
+  partnershipOpportunitiesTitle: string;
+  partnershipOpportunitiesText: string;
 }
 
 export const heroConfig: HeroConfig = {
@@ -129,6 +135,12 @@ export const heroConfig: HeroConfig = {
   coreCapabilities: content.hero.coreCapabilities,
   institutionalOrientationTitle: content.hero.institutionalOrientationTitle,
   institutionalOrientationText: content.hero.institutionalOrientationText,
+  geographicPlatformTitle: content.hero.geographicPlatformTitle,
+  geographicPlatformText: content.hero.geographicPlatformText,
+  institutionalEngagementTitle: content.hero.institutionalEngagementTitle,
+  institutionalEngagementItems: content.hero.institutionalEngagementItems,
+  partnershipOpportunitiesTitle: content.hero.partnershipOpportunitiesTitle,
+  partnershipOpportunitiesText: content.hero.partnershipOpportunitiesText,
 };
 
 // -----------------------------------------------------------------------------
@@ -530,6 +542,12 @@ function syncConfigsFromContent() {
   heroConfig.coreCapabilities = content.hero.coreCapabilities;
   heroConfig.institutionalOrientationTitle = content.hero.institutionalOrientationTitle;
   heroConfig.institutionalOrientationText = content.hero.institutionalOrientationText;
+  heroConfig.geographicPlatformTitle = content.hero.geographicPlatformTitle;
+  heroConfig.geographicPlatformText = content.hero.geographicPlatformText;
+  heroConfig.institutionalEngagementTitle = content.hero.institutionalEngagementTitle;
+  heroConfig.institutionalEngagementItems = content.hero.institutionalEngagementItems;
+  heroConfig.partnershipOpportunitiesTitle = content.hero.partnershipOpportunitiesTitle;
+  heroConfig.partnershipOpportunitiesText = content.hero.partnershipOpportunitiesText;
 
   activityDomainsConfig.scriptText = content.activities.scriptText;
   activityDomainsConfig.subtitle = content.activities.subtitle;

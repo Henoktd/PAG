@@ -1,36 +1,45 @@
 {
-  "scriptText": "الرؤى",
-  "subtitle": "وجهات نظر",
-  "mainTitle": "الرؤى",
-  "introText": "رؤى حول تطوير البنية التحتية والمنصات التقنية الناشئة وتطوير المشاريع العابرة للحدود والشراكات المؤسسية.",
-  "viewAllText": "عرض جميع الرؤى",
+  "scriptText": "القدرات",
+  "subtitle": "مجالات القدرة الأساسية",
+  "mainTitle": "القدرات",
+  "introText": "تعمل بان أفريكا جروب عبر أربع مجالات قدرة أساسية تدعم تطوير وتشغيل البنية التحتية المؤسسية طويلة الأمد عبر أفريقيا.",
+  "viewAllText": "",
   "posts": [
     {
-      "id": "insight-1",
-      "title": "تطوير البنية التحتية في الأسواق الناشئة",
-      "excerpt": "كيف تحسن نماذج التنسيق المؤسسي نتائج تسليم البنية التحتية على المدى الطويل عبر الأسواق الناشئة.",
-      "topic": "البنية التحتية",
-      "publishedAt": "2026-03-01",
-      "image": "/images/model-framework.jpg",
-      "slug": "infrastructure-development-emerging-markets"
+      "id": "capability-1",
+      "title": "تكامل الأنظمة المؤسسية",
+      "excerpt": "تدعم بان أفريكا جروب تكامل ونشر الأنظمة التقنية المصممة للبيئات المؤسسية وبيئات البنية التحتية. وغالباً ما تتطلب هذه الأنظمة تنسيقاً عبر مزودي تكنولوجيا متعددين ومجالات تنظيمية وتشغيلية وتقنية مختلفة.",
+      "topic": "القدرات",
+      "publishedAt": "",
+      "image": "/images/system-deployment.avif",
+      "slug": "institutional-systems-integration"
     },
     {
-      "id": "insight-2",
-      "title": "المنصات التقنية في البيئات المنظمة",
-      "excerpt": "مبادئ أساسية لنشر الأنظمة التقنية الحيوية ضمن متطلبات الامتثال والحوكمة الصارمة.",
-      "topic": "التكنولوجيا",
-      "publishedAt": "2026-02-20",
-      "image": "/images/model-governance.jpg",
-      "slug": "technology-platforms-regulated-environments"
+      "id": "capability-2",
+      "title": "الشراكات التكنولوجية العالمية",
+      "excerpt": "تتعاون PAG مع مزودي التكنولوجيا الدوليين لتقديم الأنظمة والحلول المتقدمة إلى الأسواق الأفريقية، وربط الابتكار العالمي بالمبادرات التنموية الإقليمية.",
+      "topic": "القدرات",
+      "publishedAt": "",
+      "image": "/images/global-tech.webp",
+      "slug": "global-technology-partnerships"
     },
     {
-      "id": "insight-3",
-      "title": "هيكلة المشاريع العابرة للحدود",
-      "excerpt": "أطر عملية لمواءمة الحكومات ومزودي التكنولوجيا والمشغلين الإقليميين حول مسؤوليات تنفيذ واضحة.",
-      "topic": "الشراكات",
-      "publishedAt": "2026-02-10",
-      "image": "/images/model-structuring.jpg",
-      "slug": "cross-border-project-structuring"
+      "id": "capability-3",
+      "title": "تنفيذ برامج البنية التحتية",
+      "excerpt": "تتطلب مبادرات البنية التحتية الكبيرة تنسيقاً بين الحكومات ومزودي التكنولوجيا والمؤسسات المالية ومشغلي البنية التحتية. تدعم PAG تنفيذ هذه البرامج من خلال تنسيق المشاريع والتخطيط والمواءمة التشغيلية.",
+      "topic": "القدرات",
+      "publishedAt": "",
+      "image": "/images/international-partnership.jpg",
+      "slug": "infrastructure-program-delivery"
+    },
+    {
+      "id": "capability-4",
+      "title": "الدعم التشغيلي ودورة الحياة",
+      "excerpt": "تتطلب أنظمة البنية التحتية المؤسسية دعماً تشغيلياً طويل الأمد بعد النشر الأولي. تساعد PAG في أنشطة الصيانة والترقيات والتدريب وبناء القدرات واستمرارية التشغيل.",
+      "topic": "القدرات",
+      "publishedAt": "",
+      "image": "/images/supply-chain.jpg",
+      "slug": "lifecycle-support-and-operations"
     }
   ]
 }

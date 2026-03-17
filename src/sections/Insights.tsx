@@ -12,13 +12,15 @@ export function Insights() {
           <p className="mq-copy max-w-2xl mx-auto">{insightsConfig.introText}</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {insightsConfig.posts.map((item) => (
             <article key={item.id || item.slug} className="mq-card">
               {item.image && (
                 <img src={item.image} alt={item.title} className="w-full h-40 object-cover rounded-md mb-3" loading="lazy" />
               )}
-              <p className="text-xs uppercase tracking-[0.14em] text-gold-700 mb-2">{item.topic}</p>
+              {item.topic && (
+                <p className="text-xs uppercase tracking-[0.14em] text-gold-700 mb-2">{item.topic}</p>
+              )}
               <h3 className="font-sans text-lg font-semibold text-slate-900 mb-3">{item.title}</h3>
               <p className="text-slate-600 text-sm leading-relaxed">{item.excerpt}</p>
             </article>

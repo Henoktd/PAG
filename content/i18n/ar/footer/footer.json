@@ -1,7 +1,7 @@
 {
   "brandName": "Pan Africa Group LLC",
   "tagline": "منصة عابرة للحدود للبنية التحتية والتكنولوجيا",
-  "description": "تربط بان أفريكا جروب القدرات العالمية بالتنفيذ الإقليمي عبر الأسواق الناشئة.",
+  "description": "تدعم بان أفريكا جروب نشر أنظمة البنية التحتية المؤسسية الآمنة والموثوقة عبر أفريقيا من خلال الشراكات التقنية العالمية والقدرة التنفيذية الإقليمية.",
   "socialLinks": [
     { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
   ],
@@ -11,28 +11,28 @@
       "links": [
         { "name": "الرئيسية", "href": "/" },
         { "name": "عن PAG", "href": "/about" },
-        { "name": "مجالات التشغيل", "href": "/areas-of-operation" },
-        { "name": "الشراكات", "href": "/partnerships" }
+        { "name": "القدرات", "href": "/capabilities" },
+        { "name": "التركيز القطاعي", "href": "/areas-of-operation" },
+        { "name": "البرامج", "href": "/initiatives" }
       ]
     },
     {
-      "title": "البرامج",
+      "title": "التواصل",
       "links": [
-        { "name": "المبادرات", "href": "/initiatives" },
         { "name": "اتصل بنا", "href": "/contact" }
       ]
     }
   ],
   "contactItems": [
-    { "icon": "Mail", "text": "info@pag-platform.com" },
-    { "icon": "MapPin", "text": "دبي - الإمارات العربية المتحدة | جيبوتي - شرق أفريقيا" }
+    { "icon": "Mail", "text": "info@pag-global.com" },
+    { "icon": "MapPin", "text": "دبي - الإمارات العربية المتحدة | شرق أفريقيا - بما في ذلك إثيوبيا وجيبوتي" }
   ],
   "newsletterLabel": "تحديثات مؤسسية",
   "newsletterPlaceholder": "البريد الإلكتروني للعمل",
   "newsletterButtonText": "اشتراك",
   "newsletterSuccessText": "تم استلام الاشتراك. شكراً لك.",
   "newsletterErrorText": "تعذر الاشتراك حالياً. يرجى المحاولة لاحقاً.",
-  "newsletterEndpoint": "mailto:info@pag-platform.com",
+  "newsletterEndpoint": "mailto:info@pag-global.com",
   "copyrightText": "Pan Africa Group LLC. جميع الحقوق محفوظة.",
   "legalLinks": ["سياسة الخصوصية", "شروط الاستخدام", "إشعار الامتثال"],
   "icpText": "Pan Africa Group LLC.",

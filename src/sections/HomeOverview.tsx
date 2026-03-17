@@ -87,6 +87,36 @@ export function HomeOverview() {
           </div>
         )}
 
+        {(heroConfig.geographicPlatformText || heroConfig.institutionalEngagementItems?.length || heroConfig.partnershipOpportunitiesText) && (
+          <div className="grid lg:grid-cols-3 gap-4 mt-8">
+            <article className="mq-card">
+              <h3 className="mq-title text-2xl mb-4">{heroConfig.geographicPlatformTitle}</h3>
+              <p className="mq-copy text-base mb-4">{heroConfig.geographicPlatformText}</p>
+              <div className="space-y-2 text-sm text-slate-700">
+                <p><span className="font-semibold text-slate-900">Headquarters:</span> Dubai, United Arab Emirates</p>
+                <p><span className="font-semibold text-slate-900">Regional Operations:</span> East Africa</p>
+                <p><span className="font-semibold text-slate-900">Coverage:</span> Including Ethiopia and Djibouti</p>
+              </div>
+            </article>
+
+            <article className="mq-card">
+              <h3 className="mq-title text-2xl mb-4">{heroConfig.institutionalEngagementTitle}</h3>
+              <ul className="space-y-3">
+                {heroConfig.institutionalEngagementItems?.map((item, idx) => (
+                  <li key={`${item}-${idx}`} className="text-slate-700 text-sm leading-relaxed">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </article>
+
+            <article className="mq-card">
+              <h3 className="mq-title text-2xl mb-4">{heroConfig.partnershipOpportunitiesTitle}</h3>
+              <p className="mq-copy text-base">{heroConfig.partnershipOpportunitiesText}</p>
+            </article>
+          </div>
+        )}
+
       </div>
     </section>
   );

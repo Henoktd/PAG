@@ -21,8 +21,9 @@ const navLabels: Record<LanguageCode, Record<string, string>> = {
   en: {
     '/': 'Home',
     '/about': 'About PAG',
+    '/capabilities': 'Capabilities',
     '/areas-of-operation': 'Sector Focus',
-    '/partnerships': 'Partnerships',
+    '/partnerships': 'Capabilities',
     '/initiatives': 'Programs',
     '/activity-domains': 'Sector Focus',
     '/operating-model': 'Programs',
@@ -32,8 +33,9 @@ const navLabels: Record<LanguageCode, Record<string, string>> = {
   ar: {
     '/': 'الرئيسية',
     '/about': 'عن PAG',
+    '/capabilities': 'القدرات',
     '/areas-of-operation': 'مجالات التشغيل',
-    '/partnerships': 'الشراكات',
+    '/partnerships': 'القدرات',
     '/initiatives': 'المبادرات',
     '/activity-domains': 'مجالات التشغيل',
     '/operating-model': 'المبادرات',

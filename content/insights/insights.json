@@ -1,36 +1,45 @@
 {
-  "scriptText": "Insights",
-  "subtitle": "PERSPECTIVES",
-  "mainTitle": "Insights",
-  "introText": "Perspectives on infrastructure development, emerging technology platforms, cross-border project development, and institutional partnerships.",
-  "viewAllText": "View all insights",
+  "scriptText": "Capabilities",
+  "subtitle": "CORE CAPABILITY AREAS",
+  "mainTitle": "Capabilities",
+  "introText": "Pan Africa Group operates across four core capability areas that support the delivery and long-term operation of institutional infrastructure systems across Africa.",
+  "viewAllText": "",
   "posts": [
     {
-      "id": "insight-1",
-      "title": "Infrastructure Development in Emerging Markets",
-      "excerpt": "How institutional coordination models improve long-term infrastructure delivery outcomes across emerging markets.",
-      "topic": "Infrastructure",
-      "publishedAt": "2026-03-01",
-      "image": "/images/model-framework.jpg",
-      "slug": "infrastructure-development-emerging-markets"
+      "id": "capability-1",
+      "title": "Institutional Systems Integration",
+      "excerpt": "Pan Africa Group supports the integration and deployment of technology systems designed for institutional and infrastructure environments. These systems often involve multiple technology providers and require coordination across regulatory, operational, and technical domains. PAG facilitates the integration of these components into coherent operational platforms.",
+      "topic": "Capabilities",
+      "publishedAt": "",
+      "image": "/images/system-deployment.avif",
+      "slug": "institutional-systems-integration"
     },
     {
-      "id": "insight-2",
-      "title": "Technology Platforms in Regulated Environments",
-      "excerpt": "Key design principles for deploying mission-critical technology systems under strict compliance and governance requirements.",
-      "topic": "Technology",
-      "publishedAt": "2026-02-20",
-      "image": "/images/model-governance.jpg",
-      "slug": "technology-platforms-regulated-environments"
+      "id": "capability-2",
+      "title": "Global Technology Partnerships",
+      "excerpt": "PAG collaborates with international technology providers to introduce advanced systems and solutions into African markets. Through these partnerships, the company connects global innovation with regional development initiatives and enables the deployment of modern infrastructure platforms.",
+      "topic": "Capabilities",
+      "publishedAt": "",
+      "image": "/images/global-tech.webp",
+      "slug": "global-technology-partnerships"
     },
     {
-      "id": "insight-3",
-      "title": "Cross-Border Project Structuring",
-      "excerpt": "Practical frameworks for aligning governments, technology providers, and regional operators around clear execution responsibilities.",
-      "topic": "Partnerships",
-      "publishedAt": "2026-02-10",
-      "image": "/images/model-structuring.jpg",
-      "slug": "cross-border-project-structuring"
+      "id": "capability-3",
+      "title": "Infrastructure Program Delivery",
+      "excerpt": "Large infrastructure initiatives require coordination between governments, technology providers, financial institutions, and infrastructure operators. PAG supports the delivery of such programs through project coordination, deployment planning, stakeholder alignment, and operational execution.",
+      "topic": "Capabilities",
+      "publishedAt": "",
+      "image": "/images/international-partnership.jpg",
+      "slug": "infrastructure-program-delivery"
+    },
+    {
+      "id": "capability-4",
+      "title": "Lifecycle Support & Operations",
+      "excerpt": "Institutional infrastructure systems require long-term operational support beyond initial deployment. PAG assists with lifecycle support activities including system maintenance, technology upgrades, training and capacity building, and operational continuity planning to ensure infrastructure systems continue to operate effectively over time.",
+      "topic": "Capabilities",
+      "publishedAt": "",
+      "image": "/images/supply-chain.jpg",
+      "slug": "lifecycle-support-and-operations"
     }
   ]
 }

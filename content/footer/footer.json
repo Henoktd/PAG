@@ -11,14 +11,14 @@
       "links": [
         { "name": "Home", "href": "/" },
         { "name": "About PAG", "href": "/about" },
+        { "name": "Capabilities", "href": "/capabilities" },
         { "name": "Sector Focus", "href": "/areas-of-operation" },
-        { "name": "Partnerships", "href": "/partnerships" }
+        { "name": "Programs", "href": "/initiatives" }
       ]
     },
     {
-      "title": "Programs",
+      "title": "Engage",
       "links": [
-        { "name": "Programs", "href": "/initiatives" },
         { "name": "Contact", "href": "/contact" }
       ]
     }
