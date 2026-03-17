@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
   language: "en",
   keywords: "Pan Africa Group, PAG, cross-border infrastructure, institutional systems integration, government digital infrastructure, financial access infrastructure, smart mobility systems, Africa",
   ogImage: "/images/og-image.jpg",
-  canonical: "https://panafricagroup.com",
+  canonical: "https://pag-global.com",
 };
 
 // -----------------------------------------------------------------------------

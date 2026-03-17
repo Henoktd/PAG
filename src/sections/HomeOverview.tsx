@@ -27,8 +27,26 @@ function withSinoAfricaLink(text: string) {
 }
 
 export function HomeOverview() {
-  useLanguage();
+  const { language } = useLanguage();
   const isConfigured = Boolean(heroConfig.subheading) || heroConfig.positioningParagraphs.length > 0;
+
+  const geoLabels = language === 'ar'
+    ? {
+        headquarters: 'المقر الرئيسي:',
+        headquartersValue: 'دبي، الإمارات العربية المتحدة',
+        regionalOperations: 'العمليات الإقليمية:',
+        regionalOperationsValue: 'شرق أفريقيا',
+        coverage: 'النطاق:',
+        coverageValue: 'بما في ذلك إثيوبيا وجيبوتي',
+      }
+    : {
+        headquarters: 'Headquarters:',
+        headquartersValue: 'Dubai, United Arab Emirates',
+        regionalOperations: 'Regional Operations:',
+        regionalOperationsValue: 'East Africa',
+        coverage: 'Coverage:',
+        coverageValue: 'Including Ethiopia and Djibouti',
+      };
 
   if (!isConfigured) return null;
 
@@ -93,9 +111,9 @@ export function HomeOverview() {
               <h3 className="mq-title text-2xl mb-4">{heroConfig.geographicPlatformTitle}</h3>
               <p className="mq-copy text-base mb-4">{heroConfig.geographicPlatformText}</p>
               <div className="space-y-2 text-sm text-slate-700">
-                <p><span className="font-semibold text-slate-900">Headquarters:</span> Dubai, United Arab Emirates</p>
-                <p><span className="font-semibold text-slate-900">Regional Operations:</span> East Africa</p>
-                <p><span className="font-semibold text-slate-900">Coverage:</span> Including Ethiopia and Djibouti</p>
+                <p><span className="font-semibold text-slate-900">{geoLabels.headquarters}</span> {geoLabels.headquartersValue}</p>
+                <p><span className="font-semibold text-slate-900">{geoLabels.regionalOperations}</span> {geoLabels.regionalOperationsValue}</p>
+                <p><span className="font-semibold text-slate-900">{geoLabels.coverage}</span> {geoLabels.coverageValue}</p>
               </div>
             </article>
 
