@@ -1,6 +1,6 @@
 {
   "scriptText": "Partnerships",
-  "subtitle": "INSTITUTIONAL ECOSYSTEM",
+  "subtitle": "INSTITUTIONAL ENGAGEMENT",
   "mainTitle": "Partnerships",
   "viewAllText": "",
   "readMoreText": "",
@@ -8,32 +8,32 @@
     {
       "id": 1,
       "image": "/images/global-tech.webp",
+      "title": "Government Institutions and National Agencies",
+      "excerpt": "Public sector institutions working with PAG on secure infrastructure systems, regulated deployment environments, and institutional modernization priorities.",
+      "date": "",
+      "category": "Government"
+    },
+    {
+      "id": 2,
+      "image": "/images/global-tech.webp",
       "title": "Global Technology Providers",
-      "excerpt": "Partners providing infrastructure and technology capability for institutional initiatives.",
+      "excerpt": "International technology companies collaborating with PAG to introduce advanced systems and infrastructure platforms into African markets.",
       "date": "",
       "category": "Technology"
     },
     {
-      "id": 2,
-      "image": "/images/institutional-clients.jpg",
-      "title": "Institutional Clients",
-      "excerpt": "Governments, national agencies, and regulated institutions requiring secure infrastructure and coordinated deployment capability.",
-      "date": "",
-      "category": "Institutional"
-    },
-    {
       "id": 3,
       "image": "/images/infrastructure-developers.webp",
-      "title": "Infrastructure Developers",
-      "excerpt": "Partners supporting mission-critical deployment environments where multiple technical and operational parties must align.",
+      "title": "Infrastructure Operators and Development Partners",
+      "excerpt": "Infrastructure operators, developers, and financial stakeholders requiring coordinated deployment capability across complex institutional environments.",
       "date": "",
       "category": "Infrastructure"
     },
     {
       "id": 4,
       "image": "/images/regional-collaboration.webp",
-      "title": "Regional Execution Partners",
-      "excerpt": "In-market operators with institutional relationships and implementation capacity, including Sino Africa in key African markets where local continuity matters.",
+      "title": "Regional Engineering and Implementation Partners",
+      "excerpt": "Regional partners supporting implementation capacity, engineering coordination, and operational continuity in local markets, including Sino Africa where relevant.",
       "date": "",
       "category": "Regional"
     }

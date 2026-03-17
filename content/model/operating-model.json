@@ -1,48 +1,32 @@
 {
-  "scriptText": "Initiatives",
-  "subtitle": "PROGRAM DELIVERY",
-  "mainTitle": "Initiatives",
-  "locationTag": "Infrastructure, technology, and operational platform development",
+  "scriptText": "Projects / Programs",
+  "subtitle": "INFRASTRUCTURE DEPLOYMENT INITIATIVES",
+  "mainTitle": "Programs",
+  "locationTag": "Pan Africa Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems.",
   "slides": [
     {
       "image": "/images/digital-infrastructure-programs.webp",
-      "title": "Digital Infrastructure Programs",
+      "title": "Infrastructure Deployment Initiatives",
       "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Institutional programs enabling financial access infrastructure, secure distribution systems, and regulated digital service platforms."
+      "description": "Pan Africa Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems. These programs typically involve collaboration between governments, technology partners, and infrastructure stakeholders."
     },
     {
-      "image": "/images/smart-mobility.png",
-      "title": "Mobility Platforms",
+      "image": "/images/system-deployment.avif",
+      "title": "Technology Integration Projects",
       "subtitle": "",
       "area": "02",
       "unit": "",
-      "description": "Mobility initiatives including smart fleet systems and autonomous platforms delivered in controlled regulatory environments."
-    },
-    {
-      "image": "/images/gov-tech-initiatives.jpg",
-      "title": "Government Technology Initiatives",
-      "subtitle": "",
-      "area": "03",
-      "unit": "",
-      "description": "Mission-critical government systems spanning identity, verification, enforcement technology, and secure digital operating architecture."
+      "description": "Many infrastructure systems require the integration of multiple technologies into a single operational environment. PAG supports these initiatives by coordinating system components and aligning operational requirements across stakeholders."
     },
     {
       "image": "/images/international-partnership.jpg",
-      "title": "Infrastructure Deployment Programs",
+      "title": "Cross-Border Infrastructure Programs",
       "subtitle": "",
-      "area": "04",
+      "area": "03",
       "unit": "",
-      "description": "Infrastructure deployments requiring cross-border coordination, technical integration, and sustained institutional execution capability."
-    },
-    {
-      "image": "/images/partnership-restructuring.jpg",
-      "title": "Cross-Border Program Structuring",
-      "subtitle": "",
-      "area": "05",
-      "unit": "",
-      "description": "Programs developed through structured partnerships between international technology providers, institutions, and regional execution platforms."
+      "description": "Operating across international markets requires coordination between global partners and local institutions. PAG supports cross-border infrastructure initiatives that bring international technology solutions into emerging markets while ensuring alignment with regional operational conditions."
     }
   ]
 }

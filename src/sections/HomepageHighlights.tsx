@@ -16,11 +16,11 @@ export function HomepageHighlights() {
         <div className="container-custom">
           <div className="flex items-end justify-between gap-4 mb-8">
             <div>
-              <span className="mq-kicker">AREAS OF OPERATION</span>
-              <h2 className="mq-title text-3xl">Strategic Domains</h2>
+              <span className="mq-kicker">INFRASTRUCTURE & TECHNOLOGY DOMAINS</span>
+              <h2 className="mq-title text-3xl">Sector Platforms</h2>
             </div>
             <button onClick={() => goTo('/areas-of-operation')} className="btn-primary rounded-sm">
-              View All
+              View Sector Focus
             </button>
           </div>
 
@@ -54,11 +54,11 @@ export function HomepageHighlights() {
         <div className="container-custom">
           <div className="flex items-end justify-between gap-4 mb-8">
             <div>
-              <span className="mq-kicker">STRATEGIC INITIATIVES</span>
-              <h2 className="mq-title text-3xl">Program Highlights</h2>
+              <span className="mq-kicker">PROJECTS / PROGRAMS</span>
+              <h2 className="mq-title text-3xl">Infrastructure Programs</h2>
             </div>
             <button onClick={() => goTo('/initiatives')} className="btn-primary rounded-sm">
-              View All
+              View Programs
             </button>
           </div>
 

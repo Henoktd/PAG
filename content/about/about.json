@@ -1,57 +1,57 @@
 {
   "scriptText": "About PAG",
-  "subtitle": "INSTITUTIONAL SYSTEMS INTEGRATOR",
+  "subtitle": "CROSS-BORDER INFRASTRUCTURE & TECHNOLOGY INTEGRATION PLATFORM",
   "mainTitle": "About Pan Africa Group",
-  "introText": "Pan Africa Group LLC is a cross-border institutional systems integrator focused on deploying mission-critical infrastructure across emerging markets. Operating between global technology providers and African institutional environments, the company structures partnerships, coordinates deployment, and supports long-term operational continuity for regulated and strategic systems.",
+  "introText": "Pan Africa Group (PAG) is a cross-border infrastructure and technology integration platform focused on enabling institutional systems across Africa. Headquartered in Dubai with operational presence in East Africa, PAG works with governments, international technology providers, and infrastructure partners to deploy secure and reliable systems that support national development and institutional capacity. The company’s activities focus on technology integration, infrastructure deployment, and long-term system support within regulated and institutional environments.",
   "timeline": [
-    { "year": "POSITIONING", "event": "Cross-border institutional systems integrator connecting global technologies to African infrastructure deployment." },
-    { "year": "FOCUS", "event": "Mission-critical systems across identity, financial access, mobility, and government digital infrastructure." },
-    { "year": "MODEL", "event": "Multi-party program delivery across OEMs, institutions, regional operators, and regulated environments." },
-    { "year": "ORIENTATION", "event": "Long-term infrastructure enabler rather than procurement intermediary or trading house." }
+    { "year": "MISSION", "event": "Support the development of modern institutional infrastructure across emerging markets through secure digital systems, financial access platforms, and advanced technology environments." },
+    { "year": "ROLE", "event": "Bridge global technology providers with institutional deployment opportunities across Africa in regulated and operationally demanding environments." },
+    { "year": "APPROACH", "event": "Combine global partnerships with regional execution capability to coordinate complex infrastructure initiatives across multiple stakeholders and jurisdictions." },
+    { "year": "PRINCIPLES", "event": "Reliability, compliance, partnership, and sustainability guide how PAG supports infrastructure programs over the long term." }
   ],
   "tabs": [
     {
       "id": "classification",
-      "name": "Integration Role",
+      "name": "Institutional Role",
       "icon": "History",
       "image": "/images/partnership-restructuring.jpg",
       "content": {
-        "title": "Institutional Systems Integration",
-        "description": "PAG acts as the integration layer between global technology providers and institutional deployment environments, aligning system capability with execution readiness in emerging markets.",
-        "highlight": "The company is positioned around infrastructure delivery, not transactional sourcing."
+        "title": "Integration Platform for Institutional Deployment",
+        "description": "Pan Africa Group functions as an integration platform bridging global technology providers with institutional deployment opportunities across Africa. Through its international partnerships and regional presence, PAG helps coordinate complex infrastructure initiatives requiring technology integration, regulatory alignment, multi-stakeholder coordination, and operational execution.",
+        "highlight": "The company focuses on programs where reliability, compliance, and long-term operational sustainability are essential."
       }
     },
     {
       "id": "multi-sector",
-      "name": "Technology Execution",
+      "name": "Operating Approach",
       "icon": "BookOpen",
       "image": "/images/system-deployment.avif",
       "content": {
-        "title": "Cross-Border Program Delivery",
-        "description": "Complex infrastructure programs require coordination between institutions, OEMs, solution providers, regulators, and operating partners. PAG is built to structure and manage that execution layer across borders.",
-        "highlight": "PAG translates global technology partnerships into deployable institutional programs."
+        "title": "Global Partnerships with Regional Execution",
+        "description": "PAG’s operating model combines global partnerships with regional execution capability. Key elements include technology sourcing from international providers, integration of multi-vendor systems, coordination of infrastructure deployment, and long-term operational support and continuity.",
+        "highlight": "This approach allows PAG to support complex infrastructure initiatives involving multiple stakeholders and jurisdictions."
       }
     },
     {
       "id": "governance",
-      "name": "Operational Continuity",
+      "name": "Institutional Principles",
       "icon": "Award",
       "image": "/images/regional-collaboration.webp",
       "content": {
-        "title": "Lifecycle Support Model",
-        "description": "PAG supports systems beyond initial deployment through partner-enabled maintenance, operational coordination, upgrades, compliance support, and field continuity in local markets.",
-        "highlight": "This model creates longer-term institutional partnerships rather than one-off projects."
+        "title": "Reliability, Compliance, Partnership, Sustainability",
+        "description": "Pan Africa Group operates according to core principles shaped by institutional environments. Infrastructure systems must operate consistently, deployments must align with regulatory frameworks, long-term collaboration remains central to PAG’s approach, and programs are designed to support durable operational continuity.",
+        "highlight": "These principles underpin how PAG supports national and institutional infrastructure over time."
       }
     }
   ],
-  "openingHours": "Institutional Engagement by Appointment",
-  "openingHoursLabel": "Engagement",
-  "ctaButtonText": "Explore Initiatives",
-  "yearBadge": "UAE",
-  "yearBadgeLabel": "Corporate Base",
+  "openingHours": "East Africa",
+  "openingHoursLabel": "Regional Operations",
+  "ctaButtonText": "Explore Programs",
+  "yearBadge": "Dubai",
+  "yearBadgeLabel": "Headquarters",
   "quote": {
-    "prefix": "Institutional Narrative",
-    "text": "PAG is designed to help institutions deploy and sustain mission-critical systems with the discipline, coordination, and long-term responsibility those environments require.",
+    "prefix": "Strategic Mission",
+    "text": "PAG’s mission is to support the development of modern institutional infrastructure across emerging markets through secure systems, coordinated deployment, and long-term operational continuity.",
     "attribution": "Pan Africa Group"
   },
   "founderPhotoAlt": "Infrastructure and institutional coordination",

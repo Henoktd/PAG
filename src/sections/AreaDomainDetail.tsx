@@ -11,69 +11,69 @@ const domainContext: Record<string, {
   'financial-access': {
     overviewTitle: 'Why this area matters',
     overview:
-      'Digital financial access programs succeed when distribution infrastructure, compliance controls, and partner coordination are designed together. PAG focuses on platforms that help institutions expand reach without compromising reliability or oversight.',
+      'Financial infrastructure enables economic participation and strengthens institutional financial systems. PAG focuses on platforms that expand access while preserving security, reliability, and institutional oversight.',
     implementationTitle: 'How PAG typically supports this area',
     implementationPoints: [
-      'Structures partner models between technology providers, distributors, and institutional stakeholders.',
-      'Aligns rollout requirements across payment workflows, channel operations, and control environments.',
-      'Supports supply and deployment coordination for secure field-ready infrastructure.',
+      'Structures collaboration between technology providers, distributors, and institutional stakeholders.',
+      'Aligns deployment requirements across payment workflows, distribution channels, and operating controls.',
+      'Supports rollout planning for secure and scalable financial access infrastructure.',
     ],
     outcomesTitle: 'Typical program outcomes',
     outcomes: [
-      'Broader and more resilient access channels',
-      'Better control over regulated product distribution',
-      'Operational readiness for multi-market scale',
+      'Expanded access to secure digital financial services',
+      'More resilient distribution and payment channels',
+      'Operational readiness for regulated financial platforms',
     ],
   },
   'security-identity': {
     overviewTitle: 'Why this area matters',
     overview:
-      'Security, identity, and government systems require trust, continuity, and strict operating discipline. PAG supports initiatives where technical capability must be matched by governance, procurement reliability, and implementation coordination.',
+      'Modern institutional systems rely on secure identity platforms that enable reliable verification and access control. PAG supports deployments where technical capability must align with governance, compliance, and operating continuity.',
     implementationTitle: 'How PAG typically supports this area',
     implementationPoints: [
       'Coordinates between public institutions, specialist vendors, and implementation partners.',
-      'Supports planning around compliance, authentication integrity, and deployment sequencing.',
-      'Helps align sourcing, delivery, and institutional operating requirements.',
+      'Supports planning around authentication integrity, secure verification, and deployment sequencing.',
+      'Helps align regulatory requirements with institutional operating conditions.',
     ],
     outcomesTitle: 'Typical program outcomes',
     outcomes: [
-      'Higher-confidence deployment environments',
+      'Stronger institutional trust and verification capability',
       'Clearer governance and accountability structures',
-      'Improved continuity for mission-critical systems',
+      'Improved continuity for sensitive digital systems',
     ],
   },
   'smart-mobility': {
     overviewTitle: 'Why this area matters',
     overview:
-      'Mobility and autonomous platforms only work when technology, regulation, field operations, and maintenance planning are considered as one system. PAG supports controlled deployments built for institutional use and long-term operating viability.',
+      'Urban development increasingly relies on intelligent mobility platforms that improve transportation efficiency and accessibility. PAG supports controlled deployments built for institutional use and long-term operating viability.',
     implementationTitle: 'How PAG typically supports this area',
     implementationPoints: [
       'Coordinates stakeholders across platform providers, regulators, operators, and deployment partners.',
-      'Supports sourcing and readiness planning for vehicles, drone systems, and fleet infrastructure.',
+      'Supports readiness planning for vehicles, drone systems, and supporting mobility infrastructure.',
       'Helps define deployment scope, operating controls, and scaling pathways.',
     ],
     outcomesTitle: 'Typical program outcomes',
     outcomes: [
       'More structured pilot-to-scale progression',
       'Reduced deployment friction across stakeholders',
-      'Stronger alignment between regulation and operations',
+      'Stronger alignment between mobility regulation and operations',
     ],
   },
   'procurement-supply': {
     overviewTitle: 'Why this area matters',
     overview:
-      'Complex programs often fail because the commercial and logistics backbone is weak. PAG approaches procurement and supply coordination as an operational discipline that supports regulated infrastructure and technology deployment at scale.',
+      'Governments across emerging markets are implementing digital platforms to improve public services and administrative efficiency. PAG supports government digital systems where security, continuity, and institutional performance are essential.',
     implementationTitle: 'How PAG typically supports this area',
     implementationPoints: [
-      'Coordinates supplier engagement, sourcing pathways, and delivery dependencies across borders.',
-      'Supports procurement planning for specialized or regulated equipment.',
-      'Helps align logistics, documentation, and implementation schedules with project requirements.',
+      'Coordinates system planning across public institutions, solution providers, and implementation partners.',
+      'Supports deployment readiness for secure platforms, institutional data systems, and digital public service environments.',
+      'Helps align operational requirements, compliance expectations, and continuity planning.',
     ],
     outcomesTitle: 'Typical program outcomes',
     outcomes: [
-      'Better supply reliability for critical deployments',
-      'Clearer coordination between commercial and field execution teams',
-      'Lower operational disruption from sourcing bottlenecks',
+      'Improved digital public service capability',
+      'Stronger institutional data and system environments',
+      'Better alignment between government operations and digital infrastructure',
     ],
   },
 };

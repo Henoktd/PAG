@@ -22,9 +22,9 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   title: "Pan Africa Group LLC | Cross-Border Infrastructure & Technology Platform",
-  description: "Pan Africa Group LLC (PAG) is an international infrastructure and technology platform connecting global capabilities with regional implementation in emerging markets.",
+  description: "Pan Africa Group LLC (PAG) is a cross-border infrastructure and technology integration platform enabling institutional systems across Africa.",
   language: "en",
-  keywords: "Pan Africa Group, PAG, cross-border infrastructure, technology platform, institutional partnerships, emerging markets, supply chain enablement",
+  keywords: "Pan Africa Group, PAG, cross-border infrastructure, institutional systems integration, government digital infrastructure, financial access infrastructure, smart mobility systems, Africa",
   ogImage: "/images/og-image.jpg",
   canonical: "https://panafricagroup.com",
 };
@@ -59,9 +59,9 @@ export const navigationConfig: NavigationConfig = {
   navLinks: [
     { name: "Home", href: "/", icon: "Home" },
     { name: "About PAG", href: "/about", icon: "BookOpen" },
-    { name: "Areas of Operation", href: "/areas-of-operation", icon: "Grape" },
+    { name: "Sector Focus", href: "/areas-of-operation", icon: "Grape" },
     { name: "Partnerships", href: "/partnerships", icon: "Users" },
-    { name: "Initiatives", href: "/initiatives", icon: "MapPin" },
+    { name: "Programs", href: "/initiatives", icon: "MapPin" },
     { name: "Contact", href: "/contact", icon: "Mail" },
   ],
   ctaButtonText: "",

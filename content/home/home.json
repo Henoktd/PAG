@@ -1,40 +1,45 @@
 {
   "scriptText": "Pan Africa Group (PAG)",
-  "mainTitle": "Deploying mission-critical infrastructure across Africa through global technology partnerships.",
-  "subheading": "Pan Africa Group enables governments, institutions, and technology partners to deploy secure, reliable systems that power modern infrastructure across regulated and institutional environments.",
-  "ctaButtonText": "Explore Areas of Operation",
+  "mainTitle": "Deploying Mission-Critical Infrastructure Across Africa",
+  "subheading": "Pan Africa Group (PAG) enables governments, institutions, and global technology partners to deploy secure and reliable infrastructure systems across emerging markets. Operating from Dubai with regional presence in East Africa, PAG integrates global technologies with regional execution capabilities to support the development of modern institutional systems. These systems enable digital government services, financial access infrastructure, mobility platforms, and secure technology environments that strengthen institutional capacity and economic development.",
+  "ctaButtonText": "Explore Sector Focus",
   "decorativeText": "",
   "backgroundImage": "/images/hero-banner.jpg",
-  "positioningTitle": "Positioning Statement",
+  "positioningTitle": "An Institutional Infrastructure Platform",
   "positioningParagraphs": [
-    "Pan Africa Group operates as a cross-border institutional systems integrator and infrastructure platform enabler, connecting global technology providers with African sovereign and institutional infrastructure deployment.",
-    "The company orchestrates international technology partners, institutional stakeholders, and regional execution platforms to deliver and sustain mission-critical national systems in highly regulated environments.",
-    "PAG is deliberately structured for long-term institutional ownership and operational continuity, never short-term transactions, with emphasis on full-lifecycle infrastructure deployment, deep system integration, regulatory alignment, and enduring lifecycle support."
+    "Pan Africa Group operates as a cross-border integration platform connecting international technology providers with African institutional markets.",
+    "Through strategic partnerships and regional execution capabilities, PAG supports the deployment of infrastructure systems that enable digital government platforms, financial access infrastructure, smart mobility systems, and secure technology environments.",
+    "PAG focuses on environments where reliability, compliance, and long-term operational continuity are essential."
   ],
-  "coreCapabilitiesTitle": "Strategic Role",
+  "coreCapabilitiesTitle": "Strategic Capabilities",
   "coreCapabilities": [
     {
       "title": "Institutional Systems Integration",
-      "description": "PAG serves as the integration layer for global identity, financial access, smart mobility, and government platform technologies, embedding them into large-scale institutional and national infrastructure programs across African emerging markets.",
+      "description": "Integration and deployment of technology systems designed for institutional and infrastructure environments.",
       "image": "/images/international-partnership.jpg"
     },
     {
-      "title": "Cross-Border Technology Execution",
-      "description": "The platform strategically aligns global OEMs, including leading Asian manufacturers, African institutions, and regional execution partners to deliver and localize complex cross-border technology deployments in regulated institutional settings.",
+      "title": "Global Technology Partnerships",
+      "description": "Collaboration with international technology providers to introduce advanced infrastructure systems into emerging markets.",
       "image": "/images/tech-deployment.jpg"
     },
     {
-      "title": "Lifecycle Support and Continuity",
-      "description": "Beyond deployment, PAG supports maintenance, upgrades, training, compliance support, and operational continuity to sustain long-term institutional systems after go-live.",
+      "title": "Infrastructure Program Delivery",
+      "description": "Coordination and execution of multi-stakeholder infrastructure initiatives involving governments, investors, and technology partners.",
+      "image": "/images/system-deployment.avif"
+    },
+    {
+      "title": "Lifecycle Support & Operations",
+      "description": "Ongoing system support including maintenance coordination, technology upgrades, training programs, and operational continuity.",
       "image": "/images/supply-chain.jpg"
     }
   ],
-  "institutionalOrientationTitle": "Institutional Client Focus",
-  "institutionalOrientationText": "PAG works across institutional environments including governments, national agencies, financial institutions, infrastructure operators, and regulated technology programs, supported by regional partners such as Sino Africa where local execution capacity is required.",
+  "institutionalOrientationTitle": "Institutional Experience",
+  "institutionalOrientationText": "Pan Africa Group participates in infrastructure initiatives that require coordination between international technology providers, regional delivery partners, and institutional stakeholders. Our work focuses on environments where system reliability, regulatory compliance, and long-term operational continuity are essential. Infrastructure initiatives supported by PAG typically involve infrastructure system deployment, multi-vendor technology integration, cross-border supply chain coordination, program delivery support for institutional infrastructure initiatives, and long-term operational continuity and lifecycle system support. Many infrastructure programs operate within confidential institutional environments involving public sector entities and strategic technology partners.",
   "stats": [
-    { "value": 4, "suffix": "", "label": "Strategic Domains" },
+    { "value": 4, "suffix": "", "label": "Strategic Sectors" },
     { "value": 2, "suffix": "", "label": "Primary Corridors" },
-    { "value": 4, "suffix": "", "label": "Institutional Sectors" }
+    { "value": 2, "suffix": "", "label": "Operating Hubs" }
   ]
 }
 

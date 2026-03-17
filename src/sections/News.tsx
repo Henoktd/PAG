@@ -67,30 +67,22 @@ export function News() {
           </div>
         </div>
 
-        <div className="mt-10 grid md:grid-cols-3 gap-6">
-          <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Global Technology Providers</h3>
-            <p className="text-slate-600 text-sm">Technology partners supporting secure, scalable, and mission-critical program architectures.</p>
-          </article>
-          <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Institutional Clients</h3>
-            <p className="text-slate-600 text-sm">Government and institutional stakeholders requiring coordinated deployment models across markets.</p>
-          </article>
-          <article className="bg-white border border-slate-200 rounded-lg p-6">
-            <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">Partner Category</p>
-            <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">Regional Execution Partners</h3>
-            <p className="text-slate-600 text-sm">In-market partners enabling local engagement, operational implementation, and program continuity.</p>
-          </article>
+        <div className="mt-10 grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+          {newsConfig.testimonials.map((item) => (
+            <article key={item.name} className="bg-white border border-slate-200 rounded-lg p-6">
+              <p className="text-xs text-gold-700 uppercase tracking-[0.15em] mb-2">{item.role}</p>
+              <h3 className="font-sans text-lg font-semibold text-slate-900 mb-2">{item.name}</h3>
+              <p className="text-slate-600 text-sm">{item.text}</p>
+            </article>
+          ))}
         </div>
 
         <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            { value: '3', label: 'Office Locations' },
-            { value: '2', label: 'Primary Corridors' },
-            { value: '4', label: 'Core Activities' },
-            { value: '5+', label: 'Sector Touchpoints' },
+            { value: '1', label: 'Headquarters' },
+            { value: '1', label: 'Regional Operations Platform' },
+            { value: '2', label: 'East Africa Markets' },
+            { value: '5', label: 'Stakeholder Categories' },
           ].map((item) => (
             <div key={item.label} className="bg-white border border-slate-200 rounded-lg p-5 text-center">
               <p className="text-2xl font-bold text-slate-900 mb-1">{item.value}</p>

@@ -2,20 +2,20 @@
   "scriptText": "Contact",
   "subtitle": "INSTITUTIONAL INQUIRIES",
   "mainTitle": "Contact",
-  "introText": "For institutional inquiries and partnership discussions, contact Pan Africa Group LLC.",
-  "contactInfoTitle": "Corporate Contact",
+  "introText": "Pan Africa Group welcomes contact regarding infrastructure initiatives, institutional collaboration, and technology partnerships across Africa.",
+  "contactInfoTitle": "Headquarters and Regional Operations",
   "contactInfo": [
     {
       "icon": "MapPin",
-      "label": "Location",
-      "value": "Dubai - United Arab Emirates",
-      "subtext": "Pan Africa Group LLC"
+      "label": "Headquarters",
+      "value": "Dubai",
+      "subtext": "United Arab Emirates"
     },
     {
       "icon": "MapPin",
-      "label": "Regional Presence",
-      "value": "Djibouti - East Africa",
-      "subtext": ""
+      "label": "Regional Operations",
+      "value": "East Africa",
+      "subtext": "Including Ethiopia and Djibouti"
     },
     {
       "icon": "Mail",
@@ -33,7 +33,7 @@
     "phonePlaceholder": "+country code",
     "visitDateLabel": "Preferred Meeting Date",
     "visitorsLabel": "Inquiry Category",
-    "visitorsOptions": ["Partnership Discussion", "Infrastructure Program", "Technology Initiative", "Supply Chain Enablement", "Other"],
+    "visitorsOptions": ["Partnership Discussion", "Infrastructure Program", "Technology Integration", "Lifecycle Support & Operations", "Other"],
     "messageLabel": "Message",
     "messagePlaceholder": "Share your institutional objective and the partnership or initiative scope.",
     "submitText": "Initiate Institutional Partnership Discussion",

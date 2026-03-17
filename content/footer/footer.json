@@ -1,7 +1,7 @@
 {
   "brandName": "Pan Africa Group LLC",
   "tagline": "Cross-Border Infrastructure & Technology Platform",
-  "description": "Pan Africa Group deploys mission-critical infrastructure across emerging markets through global technology partnerships and regional execution platforms.",
+  "description": "Pan Africa Group supports the deployment of secure and reliable institutional infrastructure systems across Africa through global technology partnerships and regional execution capability.",
   "socialLinks": [
     { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
   ],
@@ -11,28 +11,28 @@
       "links": [
         { "name": "Home", "href": "/" },
         { "name": "About PAG", "href": "/about" },
-        { "name": "Areas of Operation", "href": "/areas-of-operation" },
+        { "name": "Sector Focus", "href": "/areas-of-operation" },
         { "name": "Partnerships", "href": "/partnerships" }
       ]
     },
     {
       "title": "Programs",
       "links": [
-        { "name": "Initiatives", "href": "/initiatives" },
+        { "name": "Programs", "href": "/initiatives" },
         { "name": "Contact", "href": "/contact" }
       ]
     }
   ],
   "contactItems": [
-    { "icon": "Mail", "text": "info@pag-platform.com" },
-    { "icon": "MapPin", "text": "Dubai - United Arab Emirates | Djibouti - East Africa" }
+    { "icon": "Mail", "text": "info@pag-global.com" },
+    { "icon": "MapPin", "text": "Dubai - United Arab Emirates | East Africa - Including Ethiopia and Djibouti" }
   ],
   "newsletterLabel": "Institutional Updates",
   "newsletterPlaceholder": "Work email address",
   "newsletterButtonText": "Subscribe",
   "newsletterSuccessText": "Subscription received. Thank you.",
   "newsletterErrorText": "Unable to subscribe at this time. Please try again.",
-  "newsletterEndpoint": "mailto:info@pag-platform.com",
+  "newsletterEndpoint": "mailto:info@pag-global.com",
   "copyrightText": "Pan Africa Group LLC. All rights reserved.",
   "legalLinks": ["Privacy Policy", "Terms of Use", "Compliance Notice"],
   "icpText": "Pan Africa Group LLC.",

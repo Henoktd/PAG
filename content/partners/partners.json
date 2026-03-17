@@ -1,24 +1,30 @@
 {
-  "testimonialsScriptText": "Partner Ecosystem",
-  "testimonialsSubtitle": "INDEPENDENT OPERATING PARTNERS",
-  "testimonialsMainTitle": "Execution Partner Framework",
+  "testimonialsScriptText": "Partnership Opportunities",
+  "testimonialsSubtitle": "STRATEGIC COLLABORATION",
+  "testimonialsMainTitle": "Organizations Interested in Working with PAG",
   "testimonials": [
     {
-      "name": "Mandate-Specific Operators",
-      "role": "Independent Local Execution Partners",
-      "text": "Where local delivery is required, PAG engages independent operators under clear scope, regulatory, and lifecycle accountability definitions.",
+      "name": "Governments and Public Institutions",
+      "role": "Institutional Collaboration",
+      "text": "PAG welcomes collaboration with governments and public institutions seeking secure, reliable infrastructure systems across emerging markets.",
       "rating": 5
     },
     {
-      "name": "Institutional Counterparties",
-      "role": "Government and Capital Stakeholders",
-      "text": "PAG aligns multi-party obligations before execution begins.",
+      "name": "International Technology Companies",
+      "role": "Technology Partnership",
+      "text": "Global technology providers can engage with PAG to support deployment of advanced systems into African institutional and national environments.",
       "rating": 5
     },
     {
-      "name": "International Suppliers",
-      "role": "Global Commercial Counterparties",
-      "text": "Supplier participation is governed through enforceable architecture that protects mandate integrity across jurisdictions.",
+      "name": "Infrastructure Investors",
+      "role": "Capital and Delivery Alignment",
+      "text": "PAG works with infrastructure investors where institutional deployment requires structured coordination between capital, technology, and execution stakeholders.",
+      "rating": 5
+    },
+    {
+      "name": "Engineering and Implementation Partners",
+      "role": "Operational Execution",
+      "text": "Regional engineering and implementation partners are welcome where long-term operational continuity and field delivery capability are required.",
       "rating": 5
     }
   ]

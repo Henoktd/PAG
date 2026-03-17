@@ -36,8 +36,8 @@ export function HomeOverview() {
     <section className="mq-home-overview">
       <div className="container-custom">
         <div className="text-center mb-8">
-          <span className="mq-kicker">PLATFORM OVERVIEW</span>
-          <h2 className="mq-title text-3xl md:text-4xl">International Platform Coordination</h2>
+          <span className="mq-kicker">INSTITUTIONAL ROLE</span>
+          <h2 className="mq-title text-3xl md:text-4xl">{heroConfig.positioningTitle || 'Platform Overview'}</h2>
         </div>
 
         {heroConfig.subheading && (
@@ -48,9 +48,6 @@ export function HomeOverview() {
 
         {heroConfig.positioningParagraphs.length > 0 && (
           <div className="mq-panel p-6 mb-8">
-            {heroConfig.positioningTitle && (
-              <h3 className="mq-title text-2xl md:text-3xl mb-4">{heroConfig.positioningTitle}</h3>
-            )}
             <div className="space-y-2">
               {heroConfig.positioningParagraphs.map((line, idx) => (
                 <p key={idx} className="mq-copy text-base">{line}</p>
@@ -64,7 +61,7 @@ export function HomeOverview() {
             {heroConfig.coreCapabilitiesTitle && (
               <h3 className="mq-title text-2xl md:text-3xl mb-5">{heroConfig.coreCapabilitiesTitle}</h3>
             )}
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
               {heroConfig.coreCapabilities.map((item, idx) => (
                 <article key={idx} className="mq-card">
                   <img

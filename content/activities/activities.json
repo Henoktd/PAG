@@ -1,43 +1,43 @@
 {
-  "scriptText": "Areas of Operation",
-  "subtitle": "STRATEGIC DOMAINS",
-  "mainTitle": "Areas of Operation",
+  "scriptText": "Sector Focus",
+  "subtitle": "INFRASTRUCTURE & TECHNOLOGY DOMAINS",
+  "mainTitle": "Sector Focus",
   "domains": [
     {
       "id": "financial-access",
-      "name": "Financial Access & Digital Distribution",
+      "name": "Financial Access Infrastructure",
       "subtitle": "",
       "image": "/images/digital-finance.webp",
-      "description": "Regulated institutional infrastructure enabling inclusive digital financial access, secure distribution channels, and mission-critical service delivery platforms.",
-      "detail": "PAG supports deployment of financial access systems that require institutional trust, secure distribution channels, disciplined operating architecture, and reliable long-term service continuity.",
+      "description": "Financial infrastructure enables economic participation and strengthens institutional financial systems.",
+      "detail": "PAG supports initiatives that expand financial access through secure digital platforms, payment systems, and financial technology infrastructure.",
       "focusAreas": ["Digital financial access infrastructure", "Secure payment distribution systems", "Digital voucher and airtime ecosystems", "Financial service enablement platforms"]
     },
     {
       "id": "security-identity",
-      "name": "Security, Identity & Government Systems",
+      "name": "Digital Identity & Security Systems",
       "subtitle": "",
       "image": "/images/security-systems.webp",
-      "description": "Mission-critical national identity, authentication, secure verification, and government digital systems deployed within tightly regulated institutional and sovereign environments.",
-      "detail": "These deployments require integration discipline, compliance coordination, continuity planning, and trusted operating frameworks where reliability and institutional legitimacy are essential.",
+      "description": "Modern institutional systems rely on secure identity platforms that enable reliable verification and access control.",
+      "detail": "PAG supports the deployment of digital identity infrastructure and secure technology platforms designed to strengthen institutional capacity and protect sensitive data environments.",
       "focusAreas": ["Biometric identity platforms", "Authentication and verification systems", "Government digital infrastructure", "Regulatory and enforcement technologies"]
     },
     {
       "id": "smart-mobility",
-      "name": "Smart Mobility & Autonomous Platforms",
+      "name": "Smart Mobility Systems",
       "subtitle": "",
       "image": "/images/smart-mobility.png",
-      "description": "Advanced smart mobility systems and autonomous platforms engineered for institutional operators in regulated urban and national environments.",
-      "detail": "PAG supports mobility systems where technology deployment must align with regulation, infrastructure readiness, institutional operators, and long-term operational support.",
+      "description": "Urban development increasingly relies on intelligent mobility platforms that improve transportation efficiency and accessibility.",
+      "detail": "PAG works with technology partners and infrastructure stakeholders to support the deployment of modern mobility systems integrating monitoring, management, and operational technologies.",
       "focusAreas": ["Institutional drone platforms", "Smart fleet systems", "Autonomous mobility infrastructure", "Regulated mobility programs"]
     },
     {
       "id": "procurement-supply",
-      "name": "Lifecycle Support & Operational Continuity",
+      "name": "Government Digital Infrastructure",
       "subtitle": "",
-      "image": "/images/procurement.jpg",
-      "description": "Long-term operational and institutional support frameworks that ensure sustained performance, regulatory compliance, technology upgrades, personnel training, and continuity of critical systems post-deployment.",
-      "detail": "This area covers the support layer required to keep strategic systems functioning over time, including technical servicing, upgrade planning, training, compliance coordination, and continuity support for regulated environments.",
-      "focusAreas": ["Maintenance and support coordination", "System upgrades and technical refresh planning", "Training and operational handover support", "Compliance and continuity support for regulated systems"]
+      "image": "/images/gov-tech-initiatives.jpg",
+      "description": "Governments across emerging markets are implementing digital platforms to improve public services and administrative efficiency.",
+      "detail": "PAG supports the development and deployment of digital government infrastructure including secure platforms, data systems, and institutional technology environments.",
+      "focusAreas": ["Government digital service platforms", "Institutional data systems", "Secure administrative technology environments", "Digital public service infrastructure"]
     }
   ],
   "features": [
@@ -58,9 +58,9 @@
     }
   ],
   "quote": {
-    "text": "PAG connects global capabilities with regional implementation capacity.",
+    "text": "Each sector represents critical components of modern institutional and national systems.",
     "attribution": "Pan Africa Group",
-    "prefix": "Strategic Role"
+    "prefix": "Sector Platforms"
   }
 }
 
