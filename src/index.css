@@ -526,6 +526,19 @@
     animation: marquee 40s linear infinite;
   }
 
+  @keyframes marquee-forward {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .marquee-forward {
+    animation: marquee-forward 36s linear infinite;
+  }
+
   /* Carousel animation */
   .slide-active {
     opacity: 1;
@@ -571,6 +584,13 @@
 
     .mq-card {
       padding: 1.15rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mq-copy {
+      text-align: justify;
+      text-justify: inter-word;
     }
   }
 }

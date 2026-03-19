@@ -1,3 +1,4 @@
+import { ArrowRight, BusFront, Building2, Fingerprint, Landmark, Layers3, Shield, Wallet } from 'lucide-react';
 import { activityDomainsConfig, wineryCarouselConfig } from '../config';
 
 function goTo(href: string) {
@@ -10,6 +11,11 @@ function goTo(href: string) {
 }
 
 export function HomepageHighlights() {
+  const sectorIcons = [Wallet, Fingerprint, BusFront, Landmark];
+  const programIcons = [Building2, Layers3, Shield];
+  const marqueeDomains = [...activityDomainsConfig.domains.slice(0, 4), ...activityDomainsConfig.domains.slice(0, 4)];
+  const marqueePrograms = [...wineryCarouselConfig.slides.slice(0, 3), ...wineryCarouselConfig.slides.slice(0, 3)];
+
   return (
     <>
       <section className="mq-inner-section">
@@ -24,28 +30,32 @@ export function HomepageHighlights() {
             </button>
           </div>
 
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
-            {activityDomainsConfig.domains.slice(0, 4).map((domain) => (
+          <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50/70">
+            <div className="marquee flex w-max gap-4 p-4 will-change-transform">
+              {marqueeDomains.map((domain, index) => (
               <article
-                key={domain.id}
-                className="mq-card p-4 cursor-pointer group"
+                key={`${domain.id}-${index}`}
+                className="mq-card p-5 cursor-pointer group min-w-[260px] md:min-w-[290px] xl:min-w-[300px]"
                 onClick={() => goTo(`/areas-of-operation/${domain.id}`)}
               >
-                <img
-                  src={domain.image}
-                  alt={domain.name}
-                  className="w-full h-24 object-cover rounded-md mb-3 transition-transform duration-300 group-hover:scale-[1.02]"
-                  loading="lazy"
-                />
+                <div className="flex items-center justify-between mb-4">
+                  <div className="w-11 h-11 rounded-full bg-[#38469D]/8 border border-[#38469D]/15 flex items-center justify-center">
+                    {(() => {
+                      const Icon = sectorIcons[index % 4] || Layers3;
+                      return <Icon className="w-5 h-5 text-[#38469D]" />;
+                    })()}
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-slate-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-[#F39D4C]" />
+                </div>
                 <h3 className="font-sans text-sm md:text-base font-semibold text-slate-900 mb-2 leading-snug">
                   {domain.name}
                 </h3>
-                <p className="text-xs md:text-sm text-slate-600 line-clamp-3">{domain.description}</p>
                 <div className="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-[#38469D] group-hover:text-[#F39D4C] transition-colors">
                   View Domain
                 </div>
               </article>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -62,14 +72,30 @@ export function HomepageHighlights() {
             </button>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-5">
-            {wineryCarouselConfig.slides.slice(0, 3).map((slide, idx) => (
-              <article key={`${slide.title}-${idx}`} className="mq-card">
-                <img src={slide.image} alt={slide.title} className="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+          <div className="overflow-hidden rounded-xl border border-slate-200 bg-white/60">
+            <div className="marquee flex w-max gap-5 p-4 will-change-transform">
+              {marqueePrograms.map((slide, idx) => (
+              <article
+                key={`${slide.title}-${idx}`}
+                className="mq-card p-5 cursor-pointer group min-w-[280px] md:min-w-[340px]"
+                onClick={() => goTo('/initiatives')}
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <div className="w-11 h-11 rounded-full bg-[#38469D]/8 border border-[#38469D]/15 flex items-center justify-center">
+                    {(() => {
+                      const Icon = programIcons[idx] || Layers3;
+                      return <Icon className="w-5 h-5 text-[#38469D]" />;
+                    })()}
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-slate-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-[#F39D4C]" />
+                </div>
                 <h3 className="font-sans text-base font-semibold text-slate-900 mb-2">{slide.title}</h3>
-                <p className="text-sm text-slate-600">{slide.description}</p>
+                <div className="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-[#38469D] group-hover:text-[#F39D4C] transition-colors">
+                  View Program
+                </div>
               </article>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>

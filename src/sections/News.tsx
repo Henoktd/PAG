@@ -1,3 +1,4 @@
+import { Building2, BusFront, Globe2, Landmark, Shield, Wrench } from 'lucide-react';
 import { newsConfig } from '../config';
 import { t, useLanguage } from '../lib/i18n';
 
@@ -30,6 +31,17 @@ export function News() {
   const { language } = useLanguage();
   if (!newsConfig.mainTitle) return null;
 
+  const partnerSignals = [
+    { label: 'Government', Icon: Landmark },
+    { label: 'Infrastructure', Icon: Building2 },
+    { label: 'Mobility', Icon: BusFront },
+    { label: 'Technology', Icon: Globe2 },
+    { label: 'Security', Icon: Shield },
+    { label: 'Operations', Icon: Wrench },
+  ];
+
+  const marqueeItems = [...partnerSignals, ...partnerSignals];
+
   return (
     <section id="presence" className="mq-section mq-inner-section bg-slate-50 border-y border-slate-200">
       <div className="container-custom">
@@ -58,12 +70,25 @@ export function News() {
 
         <div className="mt-14 bg-white border border-slate-200 rounded-lg p-6 lg:p-8">
           <p className="text-sm text-gold-700 uppercase tracking-[0.2em] mb-5 text-center">{t(language, 'trustedNetworks')}</p>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-            {['Government', 'Infrastructure', 'Trade', 'Mobility', 'Industrial', 'Technology'].map((label) => (
-              <div key={label} className="h-12 rounded-md border border-slate-200 bg-slate-50 flex items-center justify-center text-xs font-semibold text-slate-700 uppercase tracking-[0.08em]">
-                {label}
-              </div>
-            ))}
+          <div className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50">
+            <div className="marquee-forward flex w-max gap-4 px-4 py-4 will-change-transform">
+              {marqueeItems.map((item, index) => {
+                const Icon = item.Icon;
+                return (
+                  <div
+                    key={`${item.label}-${index}`}
+                    className="flex min-w-[190px] items-center gap-3 rounded-md border border-slate-200 bg-white px-4 py-3 shadow-sm"
+                  >
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#38469D]/8 border border-[#38469D]/15">
+                      <Icon className="w-4 h-4 text-[#38469D]" />
+                    </div>
+                    <span className="text-xs font-semibold uppercase tracking-[0.08em] text-slate-700">
+                      {item.label}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
 
