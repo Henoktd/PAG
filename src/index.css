@@ -342,6 +342,46 @@
     @apply bg-white border border-slate-200 rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
   }
 
+  .capability-flip-card {
+    perspective: 1400px;
+    min-height: 360px;
+  }
+
+  .capability-flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    transform-style: preserve-3d;
+    transition: transform 650ms ease;
+  }
+
+  .capability-flip-card:hover .capability-flip-inner,
+  .capability-flip-card:focus-within .capability-flip-inner {
+    transform: rotateY(180deg);
+  }
+
+  .capability-face {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    backface-visibility: hidden;
+  }
+
+  .capability-face-front {
+    background: linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(246,248,251,0.98) 100%);
+  }
+
+  .capability-face-back {
+    background: linear-gradient(155deg, #38469d 0%, #25306f 100%);
+    transform: rotateY(180deg);
+    border-color: rgba(56, 70, 157, 0.2);
+  }
+
   .mq-card img,
   .mq-panel img {
     border-radius: 0.6rem;
@@ -584,6 +624,12 @@
 
     .mq-card {
       padding: 1.15rem;
+    }
+
+    .capability-flip-card,
+    .capability-flip-inner,
+    .capability-face {
+      min-height: 320px;
     }
   }
 

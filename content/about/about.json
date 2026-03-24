@@ -14,7 +14,7 @@
       "id": "classification",
       "name": "Institutional Role",
       "icon": "History",
-      "image": "/images/partnership-restructuring.jpg",
+      "image": "/images/about-identity.jpg",
       "content": {
         "title": "Integration Platform for Institutional Deployment",
         "description": "Pan Africa Group functions as an integration platform bridging global technology providers with institutional deployment opportunities across Africa. Through its international partnerships and regional presence, PAG helps coordinate complex infrastructure initiatives requiring technology integration, regulatory alignment, multi-stakeholder coordination, and operational execution.",
@@ -36,7 +36,7 @@
       "id": "governance",
       "name": "Institutional Principles",
       "icon": "Award",
-      "image": "/images/regional-collaboration.webp",
+      "image": "/images/gov-tech-initiatives.jpg",
       "content": {
         "title": "Reliability, Compliance, Partnership, Sustainability",
         "description": "Pan Africa Group operates according to core principles shaped by institutional environments. Infrastructure systems must operate consistently, deployments must align with regulatory frameworks, long-term collaboration remains central to PAG’s approach, and programs are designed to support durable operational continuity.",
@@ -54,7 +54,7 @@
     "text": "PAG’s mission is to support the development of modern institutional infrastructure across emerging markets through secure systems, coordinated deployment, and long-term operational continuity.",
     "attribution": "Pan Africa Group"
   },
-  "founderPhotoAlt": "Infrastructure and institutional coordination",
+  "founderPhotoAlt": "Institutional infrastructure systems and digital environments",
   "founderPhoto": "/images/about-hero.avif"
 }
 

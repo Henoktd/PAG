@@ -12,6 +12,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { applyContent } from './config';
 import { fetchSanityContent } from './lib/sanity';
 import { HomeOverview } from './sections/HomeOverview';
+import { HomeIntro } from './sections/HomeIntro';
 import { LanguageContext, type LanguageCode } from './lib/i18n';
 import { getActiveLanguage, setActiveLanguage } from './lib/contentLoader';
 import { HomepageHighlights } from './sections/HomepageHighlights';
@@ -111,8 +112,9 @@ function App() {
         return (
           <>
             <Hero isReady={!isLoading} />
-            <HomeOverview />
+            <HomeIntro />
             <HomepageHighlights />
+            <HomeOverview />
           </>
         );
       case '/about':

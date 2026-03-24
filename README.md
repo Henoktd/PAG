@@ -3,6 +3,7 @@
 ## PAG Handover Documentation
 
 - Handover: `docs/HANDOVER.md`
+- Deployment setup: `docs/DEPLOYMENT_SETUP.md`
 - CMS editing: `docs/CMS_EDITOR_GUIDE.md`
 - Contact email operations: `docs/EMAIL_DELIVERY_RUNBOOK.md`
 

@@ -56,8 +56,7 @@ export function WineShowcase() {
               <h3 className="font-sans text-xl font-semibold text-slate-900 mb-2">
                 {item.name} {item.subtitle}
               </h3>
-              <p className="text-slate-600 text-sm leading-relaxed mb-4">{item.description}</p>
-              {item.detail && <p className="text-slate-500 text-sm leading-relaxed mb-4">{item.detail}</p>}
+              <p className="mq-copy text-base mb-4">{item.description}</p>
               <button
                 onClick={() => goTo(`/areas-of-operation/${item.id}`)}
                 className="text-sm font-semibold text-[#38469D] hover:text-[#F39D4C] transition-colors"

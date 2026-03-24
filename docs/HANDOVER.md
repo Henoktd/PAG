@@ -20,6 +20,7 @@ This document is the operational handover for the Pan Africa Group website.
 - Content fallback JSON: `app/content/`
 - Deployment workflow: `app/.github/workflows/deploy-cpanel.yml`
 - Sanity setup notes: `app/SANITY_SETUP.md`
+- Deployment setup guide: `app/docs/DEPLOYMENT_SETUP.md`
 
 ## 3) Live URLs
 
@@ -108,4 +109,3 @@ Post-release:
 - If website keeps old placeholder, verify cPanel target directory and remove nested `public_html/public_html`.
 - If contact form appears successful but no mail logs, verify `/api/contact.php` is actually reachable on live server.
 - If mail goes to Junk, use authenticated provider sending (Resend) and verified domain alignment.
-
