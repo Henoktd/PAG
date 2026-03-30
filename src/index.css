@@ -345,6 +345,7 @@
   .capability-flip-card {
     perspective: 1400px;
     min-height: 360px;
+    outline: none;
   }
 
   .capability-flip-inner {
@@ -359,6 +360,15 @@
   .capability-flip-card:hover .capability-flip-inner,
   .capability-flip-card:focus-within .capability-flip-inner {
     transform: rotateY(180deg);
+  }
+
+  .capability-flip-card:focus-visible .capability-flip-inner {
+    transform: rotateY(180deg);
+  }
+
+  .capability-flip-card:focus-visible {
+    box-shadow: 0 0 0 3px rgba(56, 70, 157, 0.2);
+    border-radius: 1rem;
   }
 
   .capability-face {
@@ -380,6 +390,27 @@
     background: linear-gradient(155deg, #38469d 0%, #25306f 100%);
     transform: rotateY(180deg);
     border-color: rgba(56, 70, 157, 0.2);
+    gap: 0.85rem;
+    overflow-y: auto;
+  }
+
+  .capability-back-kicker {
+    @apply text-xs uppercase tracking-[0.14em] text-[#F6C27B];
+  }
+
+  .capability-back-title {
+    @apply font-sans text-xl font-semibold text-white;
+    color: #ffffff !important;
+    line-height: 1.25;
+    text-wrap: balance;
+    text-shadow: 0 1px 10px rgba(15, 23, 42, 0.22);
+  }
+
+  .capability-back-copy {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1rem;
+    line-height: 1.72;
+    text-wrap: pretty;
   }
 
   .mq-card img,

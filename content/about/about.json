@@ -14,7 +14,7 @@
       "id": "classification",
       "name": "Institutional Role",
       "icon": "History",
-      "image": "/images/about-identity.jpg",
+      "image": "/images/about-global-capability.jpg",
       "content": {
         "title": "A Platform for Complex Institutional Delivery",
         "description": "PAG is built for programs that sit between global capability and local execution. It brings together technology partners, infrastructure stakeholders, regulatory realities, and implementation sequencing so institutions can move from concept to dependable delivery.",
@@ -25,7 +25,7 @@
       "id": "multi-sector",
       "name": "Operating Approach",
       "icon": "BookOpen",
-      "image": "/images/system-deployment.avif",
+      "image": "/images/about-operating-approach.jpg",
       "content": {
         "title": "From Sourcing to Operational Continuity",
         "description": "PAG’s operating model spans partner origination, solution alignment, deployment planning, on-the-ground coordination, and post-launch support. Rather than treating delivery as a single transaction, PAG structures programs for stability across their full lifecycle.",

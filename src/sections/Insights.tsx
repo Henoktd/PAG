@@ -25,7 +25,12 @@ export function Insights() {
           {insightsConfig.posts.map((item, index) => {
             const Icon = capabilityIcons[index] || Layers3;
             return (
-              <article key={item.id || item.slug} className="capability-flip-card">
+              <article
+                key={item.id || item.slug}
+                className="capability-flip-card"
+                tabIndex={0}
+                aria-label={`${item.title} capability card. Hover, tap, or focus for full explanation.`}
+              >
                 <div className="capability-flip-inner">
                   <div className="capability-face capability-face-front mq-card">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#38469D]/12 to-[#F39D4C]/20 border border-[#38469D]/15 flex items-center justify-center mb-5">
@@ -40,9 +45,9 @@ export function Insights() {
                   </div>
 
                   <div className="capability-face capability-face-back mq-card">
-                    <p className="text-xs uppercase tracking-[0.14em] text-[#F39D4C] mb-3">Full Capability</p>
-                    <h3 className="font-sans text-xl font-semibold text-white mb-4">{item.title}</h3>
-                    <p className="text-white/90 text-base md:text-[1.02rem] leading-relaxed">{item.excerpt}</p>
+                    <p className="capability-back-kicker">Full Capability</p>
+                    <h3 className="capability-back-title">{item.title}</h3>
+                    <p className="capability-back-copy">{item.excerpt}</p>
                   </div>
                 </div>
               </article>
