@@ -2,11 +2,11 @@
   "scriptText": "About PAG",
   "subtitle": "",
   "mainTitle": "Pan Africa Group",
-  "introText": "Pan Africa Group (PAG) is an institutional infrastructure and technology platform that helps structure, coordinate, and support complex deployment programs across Africa. Headquartered in Dubai and operationally active in East Africa, PAG works with governments, international technology providers, and infrastructure partners to translate strategic requirements into dependable operating systems. Its role is not simply to connect parties, but to align sourcing, delivery, governance, and long-term continuity within regulated environments.",
+  "introText": "Pan Africa Group (PAG) is an institutional infrastructure and technology platform that helps structure, coordinate, and support complex deployment programs across Africa. Headquartered in the UAE and operationally active in Djibouti, PAG works with governments, international technology providers, and infrastructure partners to translate strategic requirements into dependable operating systems. Its role is not simply to connect parties, but to align sourcing, supply chain coordination, delivery, governance, and long-term continuity within regulated environments.",
   "timeline": [
     { "year": "POSITIONING", "event": "PAG operates where institutional programs require international coordination, regional execution discipline, and high delivery accountability." },
-    { "year": "MODEL", "event": "The platform integrates technology sourcing, partner alignment, deployment oversight, and continuity planning into one operating framework." },
-    { "year": "FOOTPRINT", "event": "Dubai anchors international coordination while East Africa supports regional execution, institutional engagement, and operational follow-through." },
+    { "year": "MODEL", "event": "The platform integrates technology sourcing, supply chain coordination, partner alignment, deployment oversight, and continuity planning into one operating framework." },
+    { "year": "FOOTPRINT", "event": "The UAE anchors international coordination while Djibouti supports regional execution, institutional engagement, and operational follow-through." },
     { "year": "STANDARD", "event": "Reliability, compliance, accountability, and durability shape how PAG approaches every long-horizon infrastructure program." }
   ],
   "tabs": [
@@ -28,7 +28,7 @@
       "image": "/images/about-operating-approach.jpg",
       "content": {
         "title": "From Sourcing to Operational Continuity",
-        "description": "PAG’s operating model spans partner origination, solution alignment, deployment planning, on-the-ground coordination, and post-launch support. Rather than treating delivery as a single transaction, PAG structures programs for stability across their full lifecycle.",
+        "description": "PAG’s operating model spans partner origination, solution alignment, supply chain coordination, deployment planning, on-the-ground coordination, and post-launch support. Rather than treating delivery as a single transaction, PAG structures programs for stability across their full lifecycle.",
         "highlight": "That end-to-end discipline matters when multiple vendors, agencies, and jurisdictions are involved."
       }
     },
@@ -44,10 +44,10 @@
       }
     }
   ],
-  "openingHours": "East Africa",
+  "openingHours": "Djibouti",
   "openingHoursLabel": "Regional Operations",
   "ctaButtonText": "Explore Programs",
-  "yearBadge": "Dubai",
+  "yearBadge": "UAE",
   "yearBadgeLabel": "Headquarters",
   "quote": {
     "prefix": "Mission Statement",

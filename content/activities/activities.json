@@ -38,6 +38,15 @@
       "description": "Governments across emerging markets are implementing digital platforms to improve public services and administrative efficiency.",
       "detail": "PAG supports the development and deployment of digital government infrastructure including secure platforms, data systems, and institutional technology environments.",
       "focusAreas": ["Government digital service platforms", "Institutional data systems", "Secure administrative technology environments", "Digital public service infrastructure"]
+    },
+    {
+      "id": "supply-chain",
+      "name": "Supply Chain Enablement",
+      "subtitle": "",
+      "image": "/images/supply-chain-port.jpg",
+      "description": "Complex infrastructure programs depend on resilient supply chain systems that can support procurement, logistics coordination, and sustained delivery.",
+      "detail": "PAG supports mission-critical supply chain enablement for institutional programs by aligning international suppliers, logistics pathways, and implementation requirements across regulated operating environments.",
+      "focusAreas": ["Strategic equipment sourcing", "Cross-border logistics coordination", "Supplier and vendor alignment", "Operational continuity for infrastructure delivery"]
     }
   ],
   "features": [

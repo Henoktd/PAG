@@ -76,6 +76,23 @@ const domainContext: Record<string, {
       'Better alignment between government operations and digital infrastructure',
     ],
   },
+  'supply-chain': {
+    overviewTitle: 'Why this area matters',
+    overview:
+      'Major institutional deployments depend on disciplined supply chain systems that can support sourcing, logistics coordination, and execution continuity across borders. PAG supports environments where delivery reliability matters as much as technical design.',
+    implementationTitle: 'How PAG typically supports this area',
+    implementationPoints: [
+      'Coordinates international suppliers, logistics partners, and local implementation stakeholders.',
+      'Supports planning for regulated equipment movement, delivery sequencing, and deployment readiness.',
+      'Helps align supply continuity with broader infrastructure program timelines and operational requirements.',
+    ],
+    outcomesTitle: 'Typical program outcomes',
+    outcomes: [
+      'More reliable infrastructure delivery timelines',
+      'Stronger coordination across suppliers and execution partners',
+      'Improved continuity for complex cross-border deployment programs',
+    ],
+  },
 };
 
 export function AreaDomainDetail({ slug }: { slug: string }) {

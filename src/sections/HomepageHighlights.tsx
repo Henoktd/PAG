@@ -11,9 +11,9 @@ function goTo(href: string) {
 }
 
 export function HomepageHighlights() {
-  const sectorIcons = [Wallet, Fingerprint, BusFront, Landmark];
+  const sectorIcons = [Wallet, Fingerprint, BusFront, Landmark, Shield];
   const programIcons = [Building2, Layers3, Shield];
-  const marqueeDomains = [...activityDomainsConfig.domains.slice(0, 4), ...activityDomainsConfig.domains.slice(0, 4)];
+  const marqueeDomains = [...activityDomainsConfig.domains, ...activityDomainsConfig.domains];
   const marqueePrograms = [...wineryCarouselConfig.slides.slice(0, 3), ...wineryCarouselConfig.slides.slice(0, 3)];
 
   return (
@@ -44,7 +44,7 @@ export function HomepageHighlights() {
                 <div className="flex items-center justify-between mb-4">
                   <div className="w-11 h-11 rounded-full bg-gradient-to-br from-[#38469D]/12 to-[#F39D4C]/18 border border-[#38469D]/15 flex items-center justify-center">
                     {(() => {
-                      const Icon = sectorIcons[index % 4] || Layers3;
+                      const Icon = sectorIcons[index % sectorIcons.length] || Layers3;
                       return <Icon className="w-5 h-5 text-[#38469D]" />;
                     })()}
                   </div>

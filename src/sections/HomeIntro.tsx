@@ -6,6 +6,7 @@ const quickThemes = [
   { label: 'Financial Access Infrastructure', href: '/areas-of-operation/financial-access' },
   { label: 'Smart Mobility Systems', href: '/areas-of-operation/smart-mobility' },
   { label: 'Secure Technology Environments', href: '/areas-of-operation/security-identity' },
+  { label: 'Supply Chain Enablement', href: '/areas-of-operation/supply-chain' },
 ];
 
 export function HomeIntro() {
