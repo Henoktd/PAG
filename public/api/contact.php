@@ -104,7 +104,7 @@ $body = "Name: {$name}\n"
 
 $headers = [];
 $headers[] = 'To: ' . $to;
-$headers[] = 'From: Pan Africa Group <info@pag-global.com>';
+$headers[] = 'From: Pan African Group <info@pag-global.com>';
 $headers[] = 'Reply-To: ' . $email;
 $headers[] = 'Content-Type: text/plain; charset=UTF-8';
 $headers[] = 'X-Mailer: PHP/' . phpversion();
@@ -117,7 +117,7 @@ $sent = false;
 
 if ($resendApiKey !== '' && function_exists('curl_init')) {
     $payload = [
-        'from' => "Pan Africa Group <{$fromAddress}>",
+        'from' => "Pan African Group <{$fromAddress}>",
         'to' => [$to],
         'reply_to' => $email,
         'subject' => $subject,
@@ -160,3 +160,4 @@ if (!$sent) {
 
 http_response_code(200);
 echo json_encode(['message' => 'Inquiry submitted successfully.']);
+

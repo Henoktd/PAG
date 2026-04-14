@@ -2,7 +2,7 @@
   "scriptText": "Contact",
   "subtitle": "INSTITUTIONAL INQUIRIES",
   "mainTitle": "Contact",
-  "introText": "Pan Africa Group welcomes contact regarding infrastructure initiatives, institutional collaboration, and technology partnerships across Africa.",
+  "introText": "Pan African Group welcomes contact regarding infrastructure initiatives, institutional collaboration, and technology partnerships across Africa.",
   "contactInfoTitle": "Headquarters and Regional Operations",
   "contactInfo": [
     {
@@ -44,3 +44,4 @@
   "privacyNotice": "By submitting this form, you consent to confidential handling of institutional information.",
   "formEndpoint": "/api/contact.php"
 }
+

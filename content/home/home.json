@@ -1,13 +1,13 @@
 {
-  "scriptText": "Pan Africa Group (PAG)",
+  "scriptText": "Pan African Group (PAG)",
   "mainTitle": "Deploying Mission-Critical Infrastructure Across Africa",
-  "subheading": "Pan Africa Group (PAG) enables governments, institutions, and global technology partners to deploy secure and reliable infrastructure systems across emerging markets. Operating from Dubai with regional presence in East Africa, PAG integrates global technologies with regional execution capabilities to support the development of modern institutional systems. These systems enable digital government services, financial access infrastructure, mobility platforms, secure technology environments, and supply chain operations that strengthen institutional capacity and economic development.",
+  "subheading": "Pan African Group (PAG) enables governments, institutions, and global technology partners to deploy secure and reliable infrastructure systems across emerging markets. Operating from Dubai with regional presence in East Africa, PAG integrates global technologies with regional execution capabilities to support the development of modern institutional systems. These systems enable digital government services, financial access infrastructure, mobility platforms, secure technology environments, and supply chain operations that strengthen institutional capacity and economic development.",
   "ctaButtonText": "Explore Sector Focus",
   "decorativeText": "",
   "backgroundImage": "/images/hero-banner.jpg",
   "positioningTitle": "An Institutional Infrastructure Platform",
   "positioningParagraphs": [
-    "Pan Africa Group operates as a cross-border integration platform connecting international technology providers with African institutional markets.",
+    "Pan African Group operates as a cross-border integration platform connecting international technology providers with African institutional markets.",
     "Through strategic partnerships and regional execution capabilities, PAG supports the deployment of infrastructure systems that enable digital government platforms, financial access infrastructure, smart mobility systems, secure technology environments, and supply chain enablement.",
     "PAG focuses on environments where reliability, compliance, and long-term operational continuity are essential."
   ],
@@ -35,9 +35,9 @@
     }
   ],
   "institutionalOrientationTitle": "Institutional Experience",
-  "institutionalOrientationText": "Pan Africa Group participates in infrastructure initiatives that require coordination between international technology providers, regional delivery partners, and institutional stakeholders. Our work focuses on environments where system reliability, regulatory compliance, and long-term operational continuity are essential. Infrastructure initiatives supported by PAG typically involve infrastructure system deployment, multi-vendor technology integration, cross-border supply chain coordination, program delivery support for institutional infrastructure initiatives, and long-term operational continuity and lifecycle system support. Many infrastructure programs operate within confidential institutional environments involving public sector entities and strategic technology partners.",
+  "institutionalOrientationText": "Pan African Group participates in infrastructure initiatives that require coordination between international technology providers, regional delivery partners, and institutional stakeholders. Our work focuses on environments where system reliability, regulatory compliance, and long-term operational continuity are essential. Infrastructure initiatives supported by PAG typically involve infrastructure system deployment, multi-vendor technology integration, cross-border supply chain coordination, program delivery support for institutional infrastructure initiatives, and long-term operational continuity and lifecycle system support. Many infrastructure programs operate within confidential institutional environments involving public sector entities and strategic technology partners.",
   "geographicPlatformTitle": "Geographic Platform",
-  "geographicPlatformText": "Pan Africa Group operates through a cross-border structure designed to support infrastructure deployment across Africa. This structure enables PAG to combine international partnerships with regional implementation capability.",
+  "geographicPlatformText": "Pan African Group operates through a cross-border structure designed to support infrastructure deployment across Africa. This structure enables PAG to combine international partnerships with regional implementation capability.",
   "institutionalEngagementTitle": "Institutional Engagement",
   "institutionalEngagementItems": [
     "Government institutions and national agencies",
@@ -47,11 +47,12 @@
     "Regional engineering and implementation partners"
   ],
   "partnershipOpportunitiesTitle": "Partnership Opportunities",
-  "partnershipOpportunitiesText": "Pan Africa Group welcomes collaboration with governments and public institutions, international technology companies, infrastructure investors, and engineering and implementation partners. Organizations interested in working with PAG on infrastructure initiatives across Africa are encouraged to contact the company directly.",
+  "partnershipOpportunitiesText": "Pan African Group welcomes collaboration with governments and public institutions, international technology companies, infrastructure investors, and engineering and implementation partners. Organizations interested in working with PAG on infrastructure initiatives across Africa are encouraged to contact the company directly.",
   "stats": [
     { "value": 5, "suffix": "", "label": "Strategic Sectors" },
     { "value": 2, "suffix": "", "label": "Primary Corridors" },
     { "value": 2, "suffix": "", "label": "Operating Hubs" }
   ]
 }
+
 

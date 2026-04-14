@@ -56,11 +56,11 @@ const labels: Record<LanguageCode, Record<string, string>> = {
     mandateFeed: 'Mandate Feed',
     structuringSignals: 'Current Structuring Signals',
     corridorVisualAlt: 'PAG corridor visual',
-    activityIntro: 'Pan Africa Group supports infrastructure systems across strategic sectors that represent critical components of modern institutional and national systems.',
+    activityIntro: 'Pan African Group supports infrastructure systems across strategic sectors that represent critical components of modern institutional and national systems.',
     corridorMapKicker: 'Corridor Coverage Map',
     operatingAreas: 'Gulf-East Africa Operating Areas',
     contactCta: 'Discuss Institutional Collaboration',
-    presenceIntro: 'Pan Africa Group collaborates with government institutions, financial and development stakeholders, infrastructure operators, global technology providers, and regional implementation partners.',
+    presenceIntro: 'Pan African Group collaborates with government institutions, financial and development stakeholders, infrastructure operators, global technology providers, and regional implementation partners.',
     trustedNetworks: 'Trusted Across Partner Networks',
     mandateType: 'Mandate Type',
     footerContact: 'Contact',
@@ -94,3 +94,4 @@ export function t(language: LanguageCode, key: string) {
 export function getNavLabel(language: LanguageCode, href: string, fallback: string) {
   return navLabels[language][href] ?? fallback;
 }
+

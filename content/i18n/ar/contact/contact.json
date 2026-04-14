@@ -9,7 +9,7 @@
       "icon": "MapPin",
       "label": "الموقع",
       "value": "دبي - الإمارات العربية المتحدة",
-      "subtext": "Pan Africa Group LLC"
+      "subtext": "Pan African Group LLC"
     },
     {
       "icon": "MapPin",
@@ -44,3 +44,4 @@
   "privacyNotice": "بإرسال هذا النموذج، فإنك توافق على التعامل السري مع المعلومات المؤسسية.",
   "formEndpoint": "/api/contact.php"
 }
+

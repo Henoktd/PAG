@@ -1,6 +1,6 @@
 # PAG Website Handover Guide
 
-This document is the operational handover for the Pan Africa Group website.
+This document is the operational handover for the Pan African Group website.
 
 ## 1) Stack and Ownership
 
@@ -109,3 +109,4 @@ Post-release:
 - If website keeps old placeholder, verify cPanel target directory and remove nested `public_html/public_html`.
 - If contact form appears successful but no mail logs, verify `/api/contact.php` is actually reachable on live server.
 - If mail goes to Junk, use authenticated provider sending (Resend) and verified domain alignment.
+

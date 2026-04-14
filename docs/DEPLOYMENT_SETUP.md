@@ -1,6 +1,6 @@
 # PAG Deployment Setup Guide
 
-This document explains the actual deployment setup used for the Pan Africa Group website.
+This document explains the actual deployment setup used for the Pan African Group website.
 
 ## 1. Stack Overview
 
@@ -201,3 +201,4 @@ The client/admin should know:
 - `docs/HANDOVER.md`
 - `docs/CMS_EDITOR_GUIDE.md`
 - `docs/EMAIL_DELIVERY_RUNBOOK.md`
+

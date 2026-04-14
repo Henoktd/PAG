@@ -1,5 +1,5 @@
 // =============================================================================
-// Pan Africa Group LLC - Website Configuration
+// Pan African Group LLC - Website Configuration
 // =============================================================================
 // This file now loads content from JSON files managed by Decap CMS
 // Content files are located in the /content folder
@@ -21,10 +21,10 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  title: "Pan Africa Group LLC | Cross-Border Infrastructure & Technology Platform",
-  description: "Pan Africa Group LLC (PAG) is a cross-border infrastructure and technology integration platform enabling institutional systems across Africa.",
+  title: "Pan African Group LLC | Cross-Border Infrastructure & Technology Platform",
+  description: "Pan African Group LLC (PAG) is a cross-border infrastructure and technology integration platform enabling institutional systems across Africa.",
   language: "en",
-  keywords: "Pan Africa Group, PAG, cross-border infrastructure, institutional systems integration, government digital infrastructure, financial access infrastructure, smart mobility systems, Africa",
+  keywords: "Pan African Group, PAG, cross-border infrastructure, institutional systems integration, government digital infrastructure, financial access infrastructure, smart mobility systems, Africa",
   ogImage: "/images/og-image.jpg",
   canonical: "https://pag-global.com",
 };
@@ -53,7 +53,7 @@ export interface NavigationConfig {
 }
 
 export const navigationConfig: NavigationConfig = {
-  brandName: "Pan Africa Group",
+  brandName: "Pan African Group",
   brandSubname: "LLC",
   tagline: "Infrastructure & Technology Platform",
   navLinks: [
@@ -77,7 +77,7 @@ export interface PreloaderConfig {
 }
 
 export const preloaderConfig: PreloaderConfig = {
-  brandName: "Pan Africa Group",
+  brandName: "Pan African Group",
   brandSubname: "Institutional Platform",
   yearText: "A Solstice Ventures Holding Company",
 };
@@ -636,3 +636,4 @@ export function applyContent(nextContent: Partial<SiteContent>) {
   setContent(nextContent);
   syncConfigsFromContent();
 }
+

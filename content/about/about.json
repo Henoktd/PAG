@@ -1,8 +1,8 @@
 {
   "scriptText": "About PAG",
   "subtitle": "",
-  "mainTitle": "Pan Africa Group",
-  "introText": "Pan Africa Group (PAG) is an institutional infrastructure and technology platform that helps structure, coordinate, and support complex deployment programs across Africa. Headquartered in the UAE and operationally active in Djibouti, PAG works with governments, international technology providers, and infrastructure partners to translate strategic requirements into dependable operating systems. Its role is not simply to connect parties, but to align sourcing, supply chain coordination, delivery, governance, and long-term continuity within regulated environments.",
+  "mainTitle": "Pan African Group",
+  "introText": "Pan African Group (PAG) is an institutional infrastructure and technology platform that helps structure, coordinate, and support complex deployment programs across Africa. Headquartered in the UAE and operationally active in Djibouti, PAG works with governments, international technology providers, and infrastructure partners to translate strategic requirements into dependable operating systems. Its role is not simply to connect parties, but to align sourcing, supply chain coordination, delivery, governance, and long-term continuity within regulated environments.",
   "timeline": [
     { "year": "POSITIONING", "event": "PAG operates where institutional programs require international coordination, regional execution discipline, and high delivery accountability." },
     { "year": "MODEL", "event": "The platform integrates technology sourcing, supply chain coordination, partner alignment, deployment oversight, and continuity planning into one operating framework." },
@@ -52,8 +52,9 @@
   "quote": {
     "prefix": "Mission Statement",
     "text": "PAG’s mission is to help institutions implement critical infrastructure and technology systems with the governance, coordination, and long-term continuity those programs require.",
-    "attribution": "Pan Africa Group"
+    "attribution": "Pan African Group"
   },
   "founderPhotoAlt": "Institutional infrastructure systems and digital environments",
   "founderPhoto": "/images/about-page-hero.jpg"
 }
+

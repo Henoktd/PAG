@@ -2,13 +2,13 @@
   "scriptText": "Capabilities",
   "subtitle": "CORE CAPABILITY AREAS",
   "mainTitle": "Capabilities",
-  "introText": "Pan Africa Group operates across four core capability areas that support the delivery and long-term operation of institutional infrastructure systems across Africa.",
+  "introText": "Pan African Group operates across four core capability areas that support the delivery and long-term operation of institutional infrastructure systems across Africa.",
   "viewAllText": "",
   "posts": [
     {
       "id": "capability-1",
       "title": "Institutional Systems Integration",
-      "excerpt": "Pan Africa Group supports the integration and deployment of technology systems designed for institutional and infrastructure environments. These systems often involve multiple technology providers and require coordination across regulatory, operational, and technical domains. PAG facilitates the integration of these components into coherent operational platforms.",
+      "excerpt": "Pan African Group supports the integration and deployment of technology systems designed for institutional and infrastructure environments. These systems often involve multiple technology providers and require coordination across regulatory, operational, and technical domains. PAG facilitates the integration of these components into coherent operational platforms.",
       "topic": "Capabilities",
       "publishedAt": "",
       "image": "/images/system-deployment.avif",
@@ -43,3 +43,4 @@
     }
   ]
 }
+

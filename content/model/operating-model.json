@@ -2,7 +2,7 @@
   "scriptText": "Projects / Programs",
   "subtitle": "INFRASTRUCTURE DEPLOYMENT INITIATIVES",
   "mainTitle": "Programs",
-  "locationTag": "Pan Africa Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems.",
+  "locationTag": "Pan African Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems.",
   "slides": [
     {
       "image": "/images/digital-infrastructure-programs.webp",
@@ -10,7 +10,7 @@
       "subtitle": "",
       "area": "01",
       "unit": "",
-      "description": "Pan Africa Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems. These programs typically involve collaboration between governments, technology partners, and infrastructure stakeholders."
+      "description": "Pan African Group participates in infrastructure initiatives involving the deployment of technology platforms and institutional systems. These programs typically involve collaboration between governments, technology partners, and infrastructure stakeholders."
     },
     {
       "image": "/images/system-deployment.avif",
@@ -30,4 +30,5 @@
     }
   ]
 }
+
 

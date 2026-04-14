@@ -71,11 +71,11 @@ export function Navigation() {
     >
       <div className="container-custom flex items-center justify-between">
         <button onClick={() => goTo('/')} className="flex items-center gap-3 group" aria-label={navigationConfig.brandName}>
-          <img src="/brand/pag-logo-symbol.png" alt="PAG logo" className="w-8 h-8 object-contain transition-transform duration-300 group-hover:scale-110" />
-          <div className="flex flex-col">
-            <span className="font-sans text-xl font-semibold text-[#38469D] tracking-wide">{navigationConfig.brandName}</span>
-            <span className="text-[10px] text-[#f39d4c] tracking-widest uppercase">{navigationConfig.tagline}</span>
-          </div>
+          <img
+            src="/brand/pag-logo-horizontal.png"
+            alt={`${navigationConfig.brandName} logo`}
+            className="h-10 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+          />
         </button>
 
         <div className="hidden lg:flex items-center gap-8" role="menubar">

@@ -1,5 +1,5 @@
 {
-  "brandName": "Pan Africa Group LLC",
+  "brandName": "Pan African Group LLC",
   "tagline": "منصة عابرة للحدود للبنية التحتية والتكنولوجيا",
   "description": "تدعم بان أفريكا جروب نشر أنظمة البنية التحتية المؤسسية الآمنة والموثوقة عبر أفريقيا من خلال الشراكات التقنية العالمية والقدرة التنفيذية الإقليمية.",
   "socialLinks": [
@@ -33,9 +33,10 @@
   "newsletterSuccessText": "تم استلام الاشتراك. شكراً لك.",
   "newsletterErrorText": "تعذر الاشتراك حالياً. يرجى المحاولة لاحقاً.",
   "newsletterEndpoint": "mailto:info@pag-global.com",
-  "copyrightText": "Pan Africa Group LLC. جميع الحقوق محفوظة.",
+  "copyrightText": "Pan African Group LLC. جميع الحقوق محفوظة.",
   "legalLinks": ["سياسة الخصوصية", "شروط الاستخدام", "إشعار الامتثال"],
-  "icpText": "Pan Africa Group LLC.",
+  "icpText": "Pan African Group LLC.",
   "backToTopText": "العودة للأعلى",
   "ageVerificationText": ""
 }
+

@@ -48,7 +48,7 @@ Example for `hero`:
 {
   "_type": "hero",
   "data": {
-    "scriptText": "Pan Africa Group LLC",
+    "scriptText": "Pan African Group LLC",
     "mainTitle": "Cross-Border Business Development Across Gulf & East Africa",
     "ctaButtonText": "Start a Conversation",
     "backgroundImage": "/images/hero/uae.jpg",
@@ -85,3 +85,4 @@ npm run build
 ```
 2. Upload files from `app/dist` to your cPanel public web root.
 3. Add the same `VITE_SANITY_*` variables during build time (locally/CI before deploying `dist`).
+

@@ -1,7 +1,7 @@
 {
-  "brandName": "Pan Africa Group LLC",
+  "brandName": "Pan African Group LLC",
   "tagline": "Cross-Border Infrastructure & Technology Platform",
-  "description": "Pan Africa Group supports the deployment of secure and reliable institutional infrastructure systems across Africa through global technology partnerships and regional execution capability.",
+  "description": "Pan African Group supports the deployment of secure and reliable institutional infrastructure systems across Africa through global technology partnerships and regional execution capability.",
   "socialLinks": [
     { "icon": "Linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pan-african-group/" }
   ],
@@ -33,9 +33,10 @@
   "newsletterSuccessText": "Subscription received. Thank you.",
   "newsletterErrorText": "Unable to subscribe at this time. Please try again.",
   "newsletterEndpoint": "mailto:info@pag-global.com",
-  "copyrightText": "Pan Africa Group LLC. All rights reserved.",
+  "copyrightText": "Pan African Group LLC. All rights reserved.",
   "legalLinks": ["Privacy Policy", "Terms of Use", "Compliance Notice"],
-  "icpText": "Pan Africa Group LLC.",
+  "icpText": "Pan African Group LLC.",
   "backToTopText": "Back to top",
   "ageVerificationText": ""
 }
+
